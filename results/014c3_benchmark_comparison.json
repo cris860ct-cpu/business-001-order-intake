@@ -1,0 +1,13 @@
+{
+  "order_accuracy": 0.25,
+  "exact_sku_accuracy": 0.6923,
+  "exception_detection_precision": 0.2941,
+  "exception_detection_recall": 1.0,
+  "false_confidence_rate": 0.0462,
+  "false_review_rate": 0.4462,
+  "missed_exception_rate": 0.0,
+  "percent_auto_ready": 0.2615,
+  "percent_requiring_review": 0.7385,
+  "processing_time_per_order": 0.003597,
+  "notes": "This is a structured replay against the preserved benchmark rows; the sandbox did not have direct /memories access to raw source documents."
+}

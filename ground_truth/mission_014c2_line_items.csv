@@ -1,0 +1,66 @@
+order_id,line_number,customer_item_number,distributor_sku,raw_customer_description,matched_catalog_description,quantity,unit,unit_price,expected_confidence_band,expected_status,expected_review_reason,notes
+O001,1,C-001,BV-205,"2in brass full-port valve","2in brass full-port ball valve",6,each,124.00,HIGH,READY,none,
+O001,2,C-002,GD-36,"4.5 grinding disc 36 grit","4.5in grinding disc 36 grit",24,each,2.10,HIGH,READY,none,
+O002,1,C-101,BV-150,"1.5 brass ball valve","1.5in brass ball valve",3,each,89.00,HIGH,READY,none,
+O002,2,C-102,UN-200,"2 brass union","2in brass union",3,each,14.20,HIGH,READY,none,
+O003,1,C-201,BR-6205,"6205 sealed bearing","6205 sealed ball bearing",8,each,7.80,HIGH,READY,none,
+O003,2,C-202,LS-01,"blue threadlocker 10 ml","blue threadlocker 10 ml",5,each,8.90,HIGH,READY,none,
+O004,1,C-301,HT-200,"2 layflat hose","2in layflat discharge hose",100,ft,4.25,HIGH,READY,none,
+O004,2,C-302,EL-200,"2 brass elbow","2in brass 90 degree elbow",10,each,11.50,HIGH,READY,none,
+O005,1,C-401,SC-102,"10-24 x 2 stainless screws","10-24 x 2in stainless screw",2,box,19.00,HIGH,READY,none,
+O005,2,C-402,NW-516,"5/16 flat washers","5/16in flat washer",4,box,6.20,HIGH,READY,none,
+O006,1,C-501,PM-1HP,"1 HP sump pump","1 HP sump pump",2,each,214.00,HIGH,READY,none,
+O006,2,C-502,GN-16,"gasket sealant 16 oz","gasket sealant 16 oz",3,each,14.60,HIGH,READY,none,
+O007,1,C-601,GV-200,"2 bronze gate valve","2in bronze gate valve",1,each,132.00,HIGH,READY,none,
+O007,2,C-602,CV-200,"2 bronze check valve","2in bronze check valve",1,each,109.00,HIGH,READY,none,
+O008,1,C-701,HO-112-250,"12 AWG red THHN 250ft spool","12 AWG red THHN wire spool 250 ft",1,spool,97.50,HIGH,READY,none,
+O008,2,C-702,LS-02,"red threadlocker 10 ml","red threadlocker 10 ml",6,each,9.40,HIGH,READY,none,
+O009,1,C-801,BV-205,"2in full port brass valve","2in brass full-port ball valve",4,each,124.00,MEDIUM,REVIEW REQUIRED,"alias with multiple 2in valve candidates","candidate_matches=BV-205;BV-210;GV-200;CV-200;SV-200"
+O010,1,C-901,BV-205,"BV-2050","2in brass full-port ball valve",2,each,124.00,MEDIUM,REVIEW REQUIRED,"near-SKU typo","candidate_matches=BV-205"
+O011,1,C-1001,CB-123,"12/3 SOOW cable","12/3 SOOW cable",50,ft,2.35,HIGH,READY,none,
+O011,2,C-1002,CB-143,"14/3 SOOW cable","14/3 SOOW cable",75,ft,1.95,HIGH,READY,none,
+O012,1,C-1101,PV-300,"3 PVC ball valve","3in PVC ball valve",2,each,95.00,HIGH,READY,none,
+O012,2,C-1102,BV-300,"3 brass ball valve","3in brass ball valve",2,each,164.00,HIGH,READY,none,
+O013,1,C-1201,TB-200,"2 tape roll","2in x 100 yd packaging tape",8,roll,5.30,HIGH,READY,none,
+O013,2,C-1202,LB-24,"2x4 label roll","2in x 4in label roll 500 labels",4,roll,18.00,HIGH,READY,none,
+O014,1,C-1301,GL-M,"nitrile gloves medium","nitrile gloves medium",6,box,11.80,HIGH,READY,none,
+O014,2,C-1302,GL-L,"nitrile gloves large","nitrile gloves large",6,box,11.80,HIGH,READY,none,
+O015,1,C-1401,AD-200,"2 x 1.5 brass reducer","2in x 1.5in brass reducer",5,each,9.60,HIGH,READY,none,
+O015,2,C-1402,FL-200,"2 brass flange","2in brass flange",5,each,18.75,HIGH,READY,none,
+O016,1,C-1501,BR-6206,"6206 sealed bearing","6206 sealed ball bearing",12,each,8.40,HIGH,READY,none,
+O016,2,C-1502,FD-80,"4.5 flap disc 80 grit","4.5in flap disc 80 grit",30,each,2.45,HIGH,READY,none,
+O017,1,C-1601,BV-205,"2 brass full port valve","2in brass full-port ball valve",4,each,124.00,LOW,REVIEW REQUIRED,"duplicate line block in source","duplicate_source_block"
+O017,2,C-1602,BV-205,"2 brass full port valve","2in brass full-port ball valve",4,each,124.00,LOW,REVIEW REQUIRED,"duplicate line block in source","duplicate_source_block"
+O018,1,C-1701,GD-36,"4.5 grinding discs 36 grit","4.5in grinding disc 36 grit",,,2.10,LOW,REVIEW REQUIRED,"quantity and unit conflict","source_quantity=12 cases;catalog_unit=each"
+O019,1,C-1801,FD-80,"4.5 flap discs 80 grit","4.5in flap disc 80 grit",20,each,2.45,HIGH,READY,none,
+O019,2,C-1802,GD-36,"4.5 grinding discs 36 grit","4.5in grinding disc 36 grit",10,each,2.10,HIGH,READY,none,
+O020,1,C-1901,BV-205,"2 brass ball valve","2in brass full-port ball valve",8,each,124.00,HIGH,READY,none,
+O020,2,C-1902,UN-200,"2 brass union","2in brass union",8,each,14.20,HIGH,READY,none,
+O021,1,C-2001,HT-100,"1 layflat hose","1in layflat discharge hose",120,ft,2.95,HIGH,READY,none,
+O021,2,C-2002,TE-200,"2 brass tee","2in brass tee",4,each,16.40,HIGH,READY,none,
+O022,1,C-2101,BC-516,"5/16 hex bolts","5/16in hex bolt",10,box,17.50,HIGH,READY,none,
+O022,2,C-2102,NW-516,"5/16 flat washers","5/16in flat washer",10,box,6.20,HIGH,READY,none,
+O023,1,C-2201,WF-20,"20 micron water filter","20 micron water filter cartridge",4,each,21.40,HIGH,READY,none,
+O023,2,C-2202,AF-10,"10 micron air filter","10 micron air filter element",6,each,16.20,HIGH,READY,none,
+O024,1,C-2301,EL-300,"3 brass elbow","3in brass 90 degree elbow",6,each,18.90,HIGH,READY,none,
+O024,2,C-2302,CV-300,"3 bronze check valve","3in bronze check valve",2,each,149.00,HIGH,READY,none,
+O025,1,C-2401,BV-205,"Need 2in full port brass valve for line 4 same style as job 18","2in brass full-port ball valve",2,each,124.00,MEDIUM,REVIEW REQUIRED,"alias plus unverifiable history reference","candidate_matches=BV-205;BV-210;GV-200;CV-200;SV-200"
+O026,1,C-2501,HO-112-250,"red 12 gauge spool","12 AWG red THHN wire spool 250 ft",2,spool,97.50,LOW,REVIEW REQUIRED,"ambiguous among multiple red 12 gauge spool SKUs","candidate_matches=HO-112;HO-112-250;WD-1000"
+O027,1,C-2601,PM-1HP,"1 HP sump pump","1 HP sump pump",2,each,214.00,HIGH,READY,none,
+O027,2,C-2602,GN-16,"gasket sealant 16 oz","gasket sealant 16 oz",2,each,14.60,HIGH,READY,none,
+O028,1,C-2701,GL-M,"nitrile gloves medium","nitrile gloves medium",4,box,11.80,HIGH,READY,none,
+O028,2,C-2702,TB-200,"2 tape rolls","2in x 100 yd packaging tape",6,roll,5.30,HIGH,READY,none,
+O029,1,C-2801,BV-205,"2 brass ball valve","2in brass full-port ball valve",,each,124.00,LOW,REVIEW REQUIRED,"conflicting source values","email_qty=4;attachment_qty=6"
+O030,1,C-2901,BV-210,"2 brass reduced-port valve","2in brass reduced-port ball valve",3,each,118.00,LOW,REVIEW REQUIRED,"duplicate line detected","duplicate_line"
+O030,2,C-2902,BV-210,"2 brass reduced-port valve","2in brass reduced-port ball valve",3,each,118.00,LOW,REVIEW REQUIRED,"duplicate line detected","duplicate_line"
+O031,1,C-3001,BV-205,"2 brass full port valve or if unavailable send stainless equivalent","2in brass full-port ball valve",3,each,124.00,MEDIUM,REVIEW REQUIRED,"substitution request not approved","alternative_candidate=SV-200"
+O032,1,C-3101,UN-200,"2 brass union","2in brass union",4,each,14.20,MEDIUM,REVIEW REQUIRED,"order-level requested delivery date conflict","date_values=2026-08-22;2026-08-24"
+O033,1,C-3201,BV-205,"2 in brss bal valve","2in brass full-port ball valve",5,each,124.00,LOW,REVIEW REQUIRED,"OCR noise but clear match after normalization","OCR_simulated"
+O033,2,C-3202,FD-80,"4.5 flp dsc 80","4.5in flap disc 80 grit",15,each,2.45,LOW,REVIEW REQUIRED,"OCR noise but clear match after normalization","OCR_simulated"
+O034,1,C-3301,HO-112-250,"12 AWG red THHN 250ft spool","12 AWG red THHN wire spool 250 ft",2,spool,97.50,MEDIUM,REVIEW REQUIRED,"rotated scan and OCR uncertainty","OCR_simulated"
+O034,2,C-3302,LS-01,"blue threadlocker 10 ml","blue threadlocker 10 ml",1,each,8.90,LOW,REVIEW REQUIRED,"scan noise and handwritten margin note","OCR_simulated"
+O035,1,C-3401,UN-200,"2 brass union","2in brass union",,,14.20,NONE,EXCEPTION,"missing quantity","missing_quantity"
+O036,1,C-3501,,"ZP-9999 2in valve",,4,each,,NONE,EXCEPTION,"nonexistent SKU","sku_not_found=ZP-9999"
+O037,1,C-3601,BV-205,"2 brass ball valve 1 skid","2in brass full-port ball valve",,,124.00,NONE,EXCEPTION,"unsupported unit","unit_skid"
+O039,1,C-3801,,"Part 7A-19",,10,each,,NONE,EXCEPTION,"customer part number not in catalog","customer_part_number_only"
+O040,1,C-3901,,"email BV-205 qty 2 attachment SV-200 qty 2",, ,each,,NONE,EXCEPTION,"conflicting source values plus missing PO number","email_sku=BV-205;attachment_sku=SV-200"

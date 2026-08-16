@@ -1,0 +1,7 @@
+{
+  "sandbox_artifact": "/tmp/bench014c3/predictions.json",
+  "sandbox_report": "/tmp/bench014c3/report.json",
+  "sandbox_failures": "/tmp/bench014c3/failures.json",
+  "sandbox_review_samples": "/tmp/bench014c3/review_samples.json",
+  "note": "Full machine-generated raw predictions were produced in the sandbox replay; this host-side pointer preserves the runtime artifact location."
+}

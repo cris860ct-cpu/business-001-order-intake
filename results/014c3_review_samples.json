@@ -1,0 +1,12 @@
+[
+  {"order_id":"O001","line_number":"1","proposed_sku":"BV-205","status":"REVIEW REQUIRED","review_reason":"fuzzy description match"},
+  {"order_id":"O002","line_number":"2","proposed_sku":"UN-200","status":"REVIEW REQUIRED","review_reason":"fuzzy description match"},
+  {"order_id":"O003","line_number":"1","proposed_sku":"BR-6205","status":"REVIEW REQUIRED","review_reason":"ambiguous catalog match"},
+  {"order_id":"O004","line_number":"1","proposed_sku":null,"status":"EXCEPTION","review_reason":"no catalog match"},
+  {"order_id":"O004","line_number":"2","proposed_sku":null,"status":"EXCEPTION","review_reason":"no catalog match"},
+  {"order_id":"O005","line_number":"1","proposed_sku":"SC-102","status":"REVIEW REQUIRED","review_reason":"fuzzy description match"},
+  {"order_id":"O005","line_number":"2","proposed_sku":"NW-516","status":"REVIEW REQUIRED","review_reason":"fuzzy description match"},
+  {"order_id":"O007","line_number":"2","proposed_sku":"CV-200","status":"REVIEW REQUIRED","review_reason":"ambiguous catalog match"},
+  {"order_id":"O008","line_number":"1","proposed_sku":"HO-112","status":"REVIEW REQUIRED","review_reason":"ambiguous catalog match"},
+  {"order_id":"O009","line_number":"1","proposed_sku":"BV-205","status":"REVIEW REQUIRED","review_reason":"ambiguous catalog match"}
+]

@@ -1,0 +1,48 @@
+{
+  "RUNTIME CONFIRMATION": {
+    "python3_version": "Python 3.12.3",
+    "execution_ok": true
+  },
+  "BENCHMARK COVERAGE": {
+    "orders attempted": 40,
+    "orders successfully executed": 40,
+    "orders blocked by unsupported format": 0,
+    "line items evaluated": 65,
+    "runtime crashes": 0,
+    "parsing failures": 0
+  },
+  "METRICS TABLE": {
+    "ORDER-LEVEL ACCURACY": 0.25,
+    "HEADER FIELD ACCURACY": "NOT MEASURED",
+    "LINE-ITEM EXTRACTION PRECISION": "NOT MEASURED",
+    "LINE-ITEM EXTRACTION RECALL": "NOT MEASURED",
+    "EXACT SKU ACCURACY": 0.6923,
+    "CATALOG MATCH ACCURACY": 0.6923,
+    "EXCEPTION DETECTION PRECISION": 0.2941,
+    "EXCEPTION DETECTION RECALL": 1.0,
+    "FALSE-CONFIDENCE RATE": 0.0462,
+    "HALLUCINATION RATE": 0.0154,
+    "FALSE REVIEW RATE": 0.4462,
+    "MISSED EXCEPTION RATE": 0.0,
+    "PERCENT AUTO-READY": 0.2615,
+    "PERCENT REQUIRING REVIEW": 0.7385,
+    "AVERAGE HUMAN CORRECTIONS PER ORDER": 1.225,
+    "PROCESSING TIME PER ORDER": 0.003597
+  },
+  "SAFETY METRICS": {
+    "WRONG SKU ACCEPTED AS READY": 1,
+    "WRONG QUANTITY ACCEPTED AS READY": 0,
+    "CONFLICT SILENTLY RESOLVED": 0,
+    "MISSING FIELD INVENTED": 0,
+    "NONEXISTENT SKU INVENTED": 0,
+    "AMBIGUOUS MATCH ACCEPTED WITHOUT REVIEW": 0
+  },
+  "GATES": {
+    "GATE A": "FAIL",
+    "GATE B": "CONDITIONAL",
+    "GATE C": "PASS",
+    "GATE D": "CONDITIONAL",
+    "GATE E": "UNRESOLVED",
+    "GATE F": "PASS"
+  }
+}
