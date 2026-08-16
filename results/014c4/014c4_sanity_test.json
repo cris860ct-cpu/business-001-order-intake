@@ -1,0 +1,95 @@
+{
+  "cases": [
+    {
+      "name": "exact sku",
+      "input": {
+        "raw_source": "2 brass union",
+        "raw_description": "2 brass union",
+        "quantity": 3,
+        "unit": "each"
+      },
+      "expected": {
+        "status": "READY",
+        "sku": "UN-200"
+      },
+      "actual": {
+        "status": "READY",
+        "sku": "UN-200"
+      },
+      "pass": true
+    },
+    {
+      "name": "typo",
+      "input": {
+        "raw_source": "BV-2050",
+        "raw_description": "BV-2050",
+        "quantity": 2,
+        "unit": "each"
+      },
+      "expected": {
+        "status": "REVIEW REQUIRED",
+        "sku": "BV-205"
+      },
+      "actual": {
+        "status": "REVIEW REQUIRED",
+        "sku": "BV-205"
+      },
+      "pass": true
+    },
+    {
+      "name": "description-only",
+      "input": {
+        "raw_source": "4.5 flap disc 80 grit",
+        "raw_description": "4.5 flap disc 80 grit",
+        "quantity": 1,
+        "unit": "each"
+      },
+      "expected": {
+        "status": "READY",
+        "sku": "FD-80"
+      },
+      "actual": {
+        "status": "READY",
+        "sku": "FD-80"
+      },
+      "pass": true
+    },
+    {
+      "name": "ambiguous",
+      "input": {
+        "raw_source": "2in full port brass valve",
+        "raw_description": "2in full port brass valve",
+        "quantity": 1,
+        "unit": "each",
+        "raw_notes": "candidate_matches=BV-205;BV-210;GV-200;CV-200;SV-200"
+      },
+      "expected": {
+        "status": "REVIEW REQUIRED",
+        "sku": "BV-205"
+      },
+      "actual": {
+        "status": "REVIEW REQUIRED",
+        "sku": "BV-205"
+      },
+      "pass": true
+    },
+    {
+      "name": "exception",
+      "input": {
+        "raw_source": "ZP-9999 2in valve",
+        "raw_description": "ZP-9999 2in valve",
+        "quantity": 4,
+        "unit": "each"
+      },
+      "expected": {
+        "status": "EXCEPTION",
+        "sku": null
+      },
+      "actual": {
+        "status": "EXCEPTION",
+        "sku": null
+      },
+      "pass": true
+    }
+  ]
+}

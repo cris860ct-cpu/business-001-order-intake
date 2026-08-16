@@ -1,0 +1,124 @@
+{
+  "metrics": [
+    {
+      "metric": "Order-level accuracy",
+      "V1": 0.375,
+      "V2": 0.8,
+      "delta": 0.425
+    },
+    {
+      "metric": "Catalog match accuracy",
+      "V1": 0.6923,
+      "V2": 0.9231,
+      "delta": 0.2308
+    },
+    {
+      "metric": "Exact SKU accuracy",
+      "V1": 0.6923,
+      "V2": 0.9231,
+      "delta": 0.2308
+    },
+    {
+      "metric": "Exception precision",
+      "V1": 0.2941,
+      "V2": 1.0,
+      "delta": 0.7059
+    },
+    {
+      "metric": "Exception recall",
+      "V1": 1.0,
+      "V2": 1.0,
+      "delta": 0.0
+    },
+    {
+      "metric": "False-confidence rate",
+      "V1": 0.0154,
+      "V2": 0.0,
+      "delta": -0.0154
+    },
+    {
+      "metric": "Hallucination rate",
+      "V1": 0.0,
+      "V2": 0.0,
+      "delta": 0.0
+    },
+    {
+      "metric": "False review rate",
+      "V1": 0.6591,
+      "V2": 0.2045,
+      "delta": -0.4546
+    },
+    {
+      "metric": "Missed exception rate",
+      "V1": 0.0,
+      "V2": 0.0,
+      "delta": 0.0
+    },
+    {
+      "metric": "Auto-ready %",
+      "V1": 0.2615,
+      "V2": 0.5385,
+      "delta": 0.277
+    },
+    {
+      "metric": "Review-required %",
+      "V1": 0.4769,
+      "V2": 0.3846,
+      "delta": -0.0923
+    },
+    {
+      "metric": "Wrong SKU READY",
+      "V1": 1,
+      "V2": 0,
+      "delta": -1
+    },
+    {
+      "metric": "Wrong quantity READY",
+      "V1": 0,
+      "V2": 0,
+      "delta": 0
+    }
+  ],
+  "summary": {
+    "baseline": {
+      "order_level_accuracy": 0.375,
+      "exact_sku_accuracy": 0.6923,
+      "catalog_match_accuracy": 0.6923,
+      "exception_detection_precision": 0.2941,
+      "exception_detection_recall": 1.0,
+      "false_confidence_rate": 0.0154,
+      "hallucination_rate": 0.0,
+      "false_review_rate": 0.6591,
+      "missed_exception_rate": 0.0,
+      "percent_auto_ready": 0.2615,
+      "percent_requiring_review": 0.4769,
+      "wrong_sku_ready": 1,
+      "wrong_quantity_ready": 0,
+      "pred_ready": 17,
+      "pred_review": 31,
+      "pred_exception": 17,
+      "actual_ready": 44,
+      "actual_exception": 5
+    },
+    "v2": {
+      "order_level_accuracy": 0.8,
+      "exact_sku_accuracy": 0.9231,
+      "catalog_match_accuracy": 0.9231,
+      "exception_detection_precision": 1.0,
+      "exception_detection_recall": 1.0,
+      "false_confidence_rate": 0.0,
+      "hallucination_rate": 0.0,
+      "false_review_rate": 0.2045,
+      "missed_exception_rate": 0.0,
+      "percent_auto_ready": 0.5385,
+      "percent_requiring_review": 0.3846,
+      "wrong_sku_ready": 0,
+      "wrong_quantity_ready": 0,
+      "pred_ready": 35,
+      "pred_review": 25,
+      "pred_exception": 5,
+      "actual_ready": 44,
+      "actual_exception": 5
+    }
+  }
+}

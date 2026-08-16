@@ -1,0 +1,156 @@
+[
+  {
+    "order_id": "O004",
+    "line_number": "2",
+    "input_type": "replay",
+    "expected_result": "READY / EL-200",
+    "actual_result": "REVIEW REQUIRED / EL-200",
+    "failure_type": "status",
+    "severity": "medium",
+    "root_cause": "none",
+    "possible_fix": "Improve family disambiguation or use additional source annotations when present."
+  },
+  {
+    "order_id": "O005",
+    "line_number": "2",
+    "input_type": "replay",
+    "expected_result": "READY / NW-516",
+    "actual_result": "REVIEW REQUIRED / NW-516",
+    "failure_type": "status",
+    "severity": "medium",
+    "root_cause": "none",
+    "possible_fix": "Improve family disambiguation or use additional source annotations when present."
+  },
+  {
+    "order_id": "O013",
+    "line_number": "1",
+    "input_type": "replay",
+    "expected_result": "READY / TB-200",
+    "actual_result": "REVIEW REQUIRED / TB-200",
+    "failure_type": "status",
+    "severity": "medium",
+    "root_cause": "none",
+    "possible_fix": "Improve family disambiguation or use additional source annotations when present."
+  },
+  {
+    "order_id": "O013",
+    "line_number": "2",
+    "input_type": "replay",
+    "expected_result": "READY / LB-24",
+    "actual_result": "REVIEW REQUIRED / LB-24",
+    "failure_type": "status",
+    "severity": "medium",
+    "root_cause": "none",
+    "possible_fix": "Improve family disambiguation or use additional source annotations when present."
+  },
+  {
+    "order_id": "O015",
+    "line_number": "1",
+    "input_type": "replay",
+    "expected_result": "READY / AD-200",
+    "actual_result": "REVIEW REQUIRED / AD-200",
+    "failure_type": "status",
+    "severity": "medium",
+    "root_cause": "none",
+    "possible_fix": "Improve family disambiguation or use additional source annotations when present."
+  },
+  {
+    "order_id": "O022",
+    "line_number": "1",
+    "input_type": "replay",
+    "expected_result": "READY / BC-516",
+    "actual_result": "REVIEW REQUIRED / BC-516",
+    "failure_type": "status",
+    "severity": "medium",
+    "root_cause": "none",
+    "possible_fix": "Improve family disambiguation or use additional source annotations when present."
+  },
+  {
+    "order_id": "O022",
+    "line_number": "2",
+    "input_type": "replay",
+    "expected_result": "READY / NW-516",
+    "actual_result": "REVIEW REQUIRED / NW-516",
+    "failure_type": "status",
+    "severity": "medium",
+    "root_cause": "none",
+    "possible_fix": "Improve family disambiguation or use additional source annotations when present."
+  },
+  {
+    "order_id": "O024",
+    "line_number": "1",
+    "input_type": "replay",
+    "expected_result": "READY / EL-300",
+    "actual_result": "REVIEW REQUIRED / EL-300",
+    "failure_type": "status",
+    "severity": "medium",
+    "root_cause": "none",
+    "possible_fix": "Improve family disambiguation or use additional source annotations when present."
+  },
+  {
+    "order_id": "O026",
+    "line_number": "1",
+    "input_type": "annotated_replay",
+    "expected_result": "REVIEW REQUIRED / HO-112-250",
+    "actual_result": "REVIEW REQUIRED / HO-112",
+    "failure_type": "sku",
+    "severity": "medium",
+    "root_cause": "ambiguous among multiple red 12 gauge spool SKUs",
+    "possible_fix": "Improve family disambiguation or use additional source annotations when present."
+  },
+  {
+    "order_id": "O028",
+    "line_number": "2",
+    "input_type": "replay",
+    "expected_result": "READY / TB-200",
+    "actual_result": "REVIEW REQUIRED / TB-200",
+    "failure_type": "status",
+    "severity": "medium",
+    "root_cause": "none",
+    "possible_fix": "Improve family disambiguation or use additional source annotations when present."
+  },
+  {
+    "order_id": "O036",
+    "line_number": "1",
+    "input_type": "annotated_replay",
+    "expected_result": "EXCEPTION / None",
+    "actual_result": "EXCEPTION / None",
+    "failure_type": "sku",
+    "severity": "medium",
+    "root_cause": "nonexistent SKU",
+    "possible_fix": "Improve family disambiguation or use additional source annotations when present."
+  },
+  {
+    "order_id": "O037",
+    "line_number": "1",
+    "input_type": "annotated_replay",
+    "expected_result": "EXCEPTION / BV-205",
+    "actual_result": "EXCEPTION / BV-100",
+    "failure_type": "sku",
+    "severity": "medium",
+    "root_cause": "unsupported unit",
+    "possible_fix": "Improve family disambiguation or use additional source annotations when present."
+  },
+  {
+    "order_id": "O039",
+    "line_number": "1",
+    "input_type": "annotated_replay",
+    "expected_result": "EXCEPTION / None",
+    "actual_result": "EXCEPTION / None",
+    "failure_type": "sku",
+    "severity": "medium",
+    "root_cause": "customer part number not in catalog",
+    "possible_fix": "Improve family disambiguation or use additional source annotations when present."
+  },
+  {
+    "order_id": "O040",
+    "line_number": "1",
+    "input_type": "annotated_replay",
+    "expected_result": "EXCEPTION / None",
+    "actual_result": "EXCEPTION / BV-205",
+    "failure_type": "sku",
+    "severity": "medium",
+    "root_cause": "conflicting source values plus missing PO number",
+    "possible_fix": "Improve family disambiguation or use additional source annotations when present."
+  }
+]

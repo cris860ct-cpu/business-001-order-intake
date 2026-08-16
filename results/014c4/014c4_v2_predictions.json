@@ -1,0 +1,2152 @@
+[
+  {
+    "order_id": "O001",
+    "line_number": "1",
+    "customer_item_number": "C-001",
+    "raw_source": "2in brass full-port valve",
+    "extracted_value": {
+      "customer_item_number": "C-001",
+      "raw_description": "2in brass full-port valve",
+      "quantity": 6.0,
+      "unit": "each",
+      "sku_hint": null
+    },
+    "proposed_sku": "BV-205",
+    "matched_description": "2in brass full-port ball valve",
+    "confidence": "HIGH",
+    "review_reason": null,
+    "alternative_matches": [
+      [
+        "BV-210",
+        0.644
+      ],
+      [
+        "PV-200",
+        0.559
+      ],
+      [
+        "SV-200",
+        0.559
+      ]
+    ],
+    "issues": [],
+    "status": "READY"
+  },
+  {
+    "order_id": "O001",
+    "line_number": "2",
+    "customer_item_number": "C-002",
+    "raw_source": "4.5 grinding disc 36 grit",
+    "extracted_value": {
+      "customer_item_number": "C-002",
+      "raw_description": "4.5 grinding disc 36 grit",
+      "quantity": 24.0,
+      "unit": "each",
+      "sku_hint": null
+    },
+    "proposed_sku": "GD-36",
+    "matched_description": "4.5in grinding disc 36 grit",
+    "confidence": "HIGH",
+    "review_reason": null,
+    "alternative_matches": [
+      [
+        "FD-80",
+        0.511
+      ],
+      [
+        "BV-205",
+        0.0
+      ],
+      [
+        "BV-210",
+        0.0
+      ]
+    ],
+    "issues": [],
+    "status": "READY"
+  },
+  {
+    "order_id": "O002",
+    "line_number": "1",
+    "customer_item_number": "C-101",
+    "raw_source": "1.5 brass ball valve",
+    "extracted_value": {
+      "customer_item_number": "C-101",
+      "raw_description": "1.5 brass ball valve",
+      "quantity": 3.0,
+      "unit": "each",
+      "sku_hint": null
+    },
+    "proposed_sku": "BV-150",
+    "matched_description": "1.5in brass ball valve",
+    "confidence": "HIGH",
+    "review_reason": null,
+    "alternative_matches": [
+      [
+        "BV-205",
+        0.687
+      ],
+      [
+        "BV-300",
+        0.631
+      ],
+      [
+        "BV-100",
+        0.626
+      ]
+    ],
+    "issues": [],
+    "status": "READY"
+  },
+  {
+    "order_id": "O002",
+    "line_number": "2",
+    "customer_item_number": "C-102",
+    "raw_source": "2 brass union",
+    "extracted_value": {
+      "customer_item_number": "C-102",
+      "raw_description": "2 brass union",
+      "quantity": 3.0,
+      "unit": "each",
+      "sku_hint": null
+    },
+    "proposed_sku": "UN-200",
+    "matched_description": "2in brass union",
+    "confidence": "HIGH",
+    "review_reason": null,
+    "alternative_matches": [
+      [
+        "CO-200",
+        0.679
+      ],
+      [
+        "TE-200",
+        0.679
+      ],
+      [
+        "FL-200",
+        0.679
+      ]
+    ],
+    "issues": [],
+    "status": "READY"
+  },
+  {
+    "order_id": "O003",
+    "line_number": "1",
+    "customer_item_number": "C-201",
+    "raw_source": "6205 sealed bearing",
+    "extracted_value": {
+      "customer_item_number": "C-201",
+      "raw_description": "6205 sealed bearing",
+      "quantity": 8.0,
+      "unit": "each",
+      "sku_hint": null
+    },
+    "proposed_sku": "BR-6205",
+    "matched_description": "6205 sealed ball bearing",
+    "confidence": "HIGH",
+    "review_reason": null,
+    "alternative_matches": [
+      [
+        "BR-6205-2RS",
+        0.438
+      ],
+      [
+        "BR-6206",
+        0.438
+      ],
+      [
+        "BV-205",
+        0.0
+      ]
+    ],
+    "issues": [],
+    "status": "READY"
+  },
+  {
+    "order_id": "O003",
+    "line_number": "2",
+    "customer_item_number": "C-202",
+    "raw_source": "blue threadlocker 10 ml",
+    "extracted_value": {
+      "customer_item_number": "C-202",
+      "raw_description": "blue threadlocker 10 ml",
+      "quantity": 5.0,
+      "unit": "each",
+      "sku_hint": null
+    },
+    "proposed_sku": "LS-01",
+    "matched_description": "blue threadlocker 10 ml",
+    "confidence": "HIGH",
+    "review_reason": null,
+    "alternative_matches": [
+      [
+        "LS-02",
+        0.915
+      ],
+      [
+        "AF-10",
+        0.189
+      ],
+      [
+        "GN-16",
+        0.103
+      ]
+    ],
+    "issues": [],
+    "status": "READY"
+  },
+  {
+    "order_id": "O004",
+    "line_number": "1",
+    "customer_item_number": "C-301",
+    "raw_source": "2 layflat hose",
+    "extracted_value": {
+      "customer_item_number": "C-301",
+      "raw_description": "2 layflat hose",
+      "quantity": 100.0,
+      "unit": "ft",
+      "sku_hint": null
+    },
+    "proposed_sku": "HT-200",
+    "matched_description": "2in layflat discharge hose",
+    "confidence": "HIGH",
+    "review_reason": null,
+    "alternative_matches": [
+      [
+        "HT-150",
+        0.711
+      ],
+      [
+        "HT-100",
+        0.711
+      ],
+      [
+        "UN-200",
+        0.18
+      ]
+    ],
+    "issues": [],
+    "status": "READY"
+  },
+  {
+    "order_id": "O004",
+    "line_number": "2",
+    "customer_item_number": "C-302",
+    "raw_source": "2 brass elbow",
+    "extracted_value": {
+      "customer_item_number": "C-302",
+      "raw_description": "2 brass elbow",
+      "quantity": 10.0,
+      "unit": "each",
+      "sku_hint": null
+    },
+    "proposed_sku": "EL-200",
+    "matched_description": "2in brass 90 degree elbow",
+    "confidence": "LOW",
+    "review_reason": "ambiguous catalog match",
+    "alternative_matches": [
+      [
+        "UN-200",
+        0.684
+      ],
+      [
+        "CO-200",
+        0.684
+      ],
+      [
+        "TE-200",
+        0.684
+      ]
+    ],
+    "issues": [],
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "order_id": "O005",
+    "line_number": "1",
+    "customer_item_number": "C-401",
+    "raw_source": "10-24 x 2 stainless screws",
+    "extracted_value": {
+      "customer_item_number": "C-401",
+      "raw_description": "10-24 x 2 stainless screws",
+      "quantity": 2.0,
+      "unit": "box",
+      "sku_hint": null
+    },
+    "proposed_sku": "SC-102",
+    "matched_description": "10-24 x 2in stainless screw",
+    "confidence": "HIGH",
+    "review_reason": null,
+    "alternative_matches": [
+      [
+        "SV-200",
+        0.375
+      ],
+      [
+        "UN-200",
+        0.123
+      ],
+      [
+        "CO-200",
+        0.123
+      ]
+    ],
+    "issues": [],
+    "status": "READY"
+  },
+  {
+    "order_id": "O005",
+    "line_number": "2",
+    "customer_item_number": "C-402",
+    "raw_source": "5/16 flat washers",
+    "extracted_value": {
+      "customer_item_number": "C-402",
+      "raw_description": "5/16 flat washers",
+      "quantity": 4.0,
+      "unit": "box",
+      "sku_hint": null
+    },
+    "proposed_sku": "NW-516",
+    "matched_description": "5/16in flat washer",
+    "confidence": "LOW",
+    "review_reason": "ambiguous catalog match",
+    "alternative_matches": [
+      [
+        "BC-516",
+        0.315
+      ],
+      [
+        "SC-102",
+        0.131
+      ],
+      [
+        "BV-205",
+        0.0
+      ]
+    ],
+    "issues": [],
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "order_id": "O006",
+    "line_number": "1",
+    "customer_item_number": "C-501",
+    "raw_source": "1 HP sump pump",
+    "extracted_value": {
+      "customer_item_number": "C-501",
+      "raw_description": "1 HP sump pump",
+      "quantity": 2.0,
+      "unit": "each",
+      "sku_hint": null
+    },
+    "proposed_sku": "PM-1HP",
+    "matched_description": "1 HP sump pump",
+    "confidence": "HIGH",
+    "review_reason": null,
+    "alternative_matches": [
+      [
+        "PM-2HP",
+        0.563
+      ],
+      [
+        "BV-100",
+        0.247
+      ],
+      [
+        "HT-100",
+        0.23
+      ]
+    ],
+    "issues": [],
+    "status": "READY"
+  },
+  {
+    "order_id": "O006",
+    "line_number": "2",
+    "customer_item_number": "C-502",
+    "raw_source": "gasket sealant 16 oz",
+    "extracted_value": {
+      "customer_item_number": "C-502",
+      "raw_description": "gasket sealant 16 oz",
+      "quantity": 3.0,
+      "unit": "each",
+      "sku_hint": null
+    },
+    "proposed_sku": "GN-16",
+    "matched_description": "gasket sealant 16 oz",
+    "confidence": "HIGH",
+    "review_reason": null,
+    "alternative_matches": [
+      [
+        "LS-01",
+        0.131
+      ],
+      [
+        "LS-02",
+        0.131
+      ],
+      [
+        "BV-205",
+        0.0
+      ]
+    ],
+    "issues": [],
+    "status": "READY"
+  },
+  {
+    "order_id": "O007",
+    "line_number": "1",
+    "customer_item_number": "C-601",
+    "raw_source": "2 bronze gate valve",
+    "extracted_value": {
+      "customer_item_number": "C-601",
+      "raw_description": "2 bronze gate valve",
+      "quantity": 1.0,
+      "unit": "each",
+      "sku_hint": null
+    },
+    "proposed_sku": "GV-200",
+    "matched_description": "2in bronze gate valve",
+    "confidence": "HIGH",
+    "review_reason": null,
+    "alternative_matches": [
+      [
+        "GV-300",
+        0.719
+      ],
+      [
+        "CV-200",
+        0.472
+      ],
+      [
+        "PV-200",
+        0.274
+      ]
+    ],
+    "issues": [],
+    "status": "READY"
+  },
+  {
+    "order_id": "O007",
+    "line_number": "2",
+    "customer_item_number": "C-602",
+    "raw_source": "2 bronze check valve",
+    "extracted_value": {
+      "customer_item_number": "C-602",
+      "raw_description": "2 bronze check valve",
+      "quantity": 1.0,
+      "unit": "each",
+      "sku_hint": null
+    },
+    "proposed_sku": "CV-200",
+    "matched_description": "2in bronze check valve",
+    "confidence": "HIGH",
+    "review_reason": null,
+    "alternative_matches": [
+      [
+        "CV-300",
+        0.719
+      ],
+      [
+        "GV-200",
+        0.472
+      ],
+      [
+        "PV-200",
+        0.274
+      ]
+    ],
+    "issues": [],
+    "status": "READY"
+  },
+  {
+    "order_id": "O008",
+    "line_number": "1",
+    "customer_item_number": "C-701",
+    "raw_source": "12 AWG red THHN 250ft spool",
+    "extracted_value": {
+      "customer_item_number": "C-701",
+      "raw_description": "12 AWG red THHN 250ft spool",
+      "quantity": 1.0,
+      "unit": "spool",
+      "sku_hint": null
+    },
+    "proposed_sku": "HO-112-250",
+    "matched_description": "12 AWG red THHN wire spool 250 ft",
+    "confidence": "HIGH",
+    "review_reason": null,
+    "alternative_matches": [
+      [
+        "HO-112",
+        0.561
+      ],
+      [
+        "WD-1000",
+        0.557
+      ],
+      [
+        "HO-112-BLK",
+        0.387
+      ]
+    ],
+    "issues": [],
+    "status": "READY"
+  },
+  {
+    "order_id": "O008",
+    "line_number": "2",
+    "customer_item_number": "C-702",
+    "raw_source": "red threadlocker 10 ml",
+    "extracted_value": {
+      "customer_item_number": "C-702",
+      "raw_description": "red threadlocker 10 ml",
+      "quantity": 6.0,
+      "unit": "each",
+      "sku_hint": null
+    },
+    "proposed_sku": "LS-02",
+    "matched_description": "red threadlocker 10 ml",
+    "confidence": "HIGH",
+    "review_reason": null,
+    "alternative_matches": [
+      [
+        "LS-01",
+        0.911
+      ],
+      [
+        "AF-10",
+        0.193
+      ],
+      [
+        "GN-16",
+        0.103
+      ]
+    ],
+    "issues": [],
+    "status": "READY"
+  },
+  {
+    "order_id": "O009",
+    "line_number": "1",
+    "customer_item_number": "C-801",
+    "raw_source": "2in full port brass valve",
+    "extracted_value": {
+      "customer_item_number": "C-801",
+      "raw_description": "2in full port brass valve",
+      "quantity": 4.0,
+      "unit": "each",
+      "sku_hint": null
+    },
+    "proposed_sku": "BV-205",
+    "matched_description": "2in brass full-port ball valve",
+    "confidence": "MEDIUM",
+    "review_reason": "fuzzy description match",
+    "alternative_matches": [
+      [
+        "BV-210",
+        0.644
+      ],
+      [
+        "PV-200",
+        0.559
+      ],
+      [
+        "SV-200",
+        0.559
+      ]
+    ],
+    "issues": [],
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "order_id": "O010",
+    "line_number": "1",
+    "customer_item_number": "C-901",
+    "raw_source": "BV-2050",
+    "extracted_value": {
+      "customer_item_number": "C-901",
+      "raw_description": "BV-2050",
+      "quantity": 2.0,
+      "unit": "each",
+      "sku_hint": null
+    },
+    "proposed_sku": "BV-205",
+    "matched_description": "2in brass full-port ball valve",
+    "confidence": "MEDIUM",
+    "review_reason": "near-SKU typo",
+    "alternative_matches": [],
+    "issues": [],
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "order_id": "O011",
+    "line_number": "1",
+    "customer_item_number": "C-1001",
+    "raw_source": "12/3 SOOW cable",
+    "extracted_value": {
+      "customer_item_number": "C-1001",
+      "raw_description": "12/3 SOOW cable",
+      "quantity": 50.0,
+      "unit": "ft",
+      "sku_hint": null
+    },
+    "proposed_sku": "CB-123",
+    "matched_description": "12/3 SOOW cable",
+    "confidence": "HIGH",
+    "review_reason": null,
+    "alternative_matches": [
+      [
+        "CB-143",
+        0.476
+      ],
+      [
+        "BV-205",
+        0.0
+      ],
+      [
+        "BV-210",
+        0.0
+      ]
+    ],
+    "issues": [],
+    "status": "READY"
+  },
+  {
+    "order_id": "O011",
+    "line_number": "2",
+    "customer_item_number": "C-1002",
+    "raw_source": "14/3 SOOW cable",
+    "extracted_value": {
+      "customer_item_number": "C-1002",
+      "raw_description": "14/3 SOOW cable",
+      "quantity": 75.0,
+      "unit": "ft",
+      "sku_hint": null
+    },
+    "proposed_sku": "CB-143",
+    "matched_description": "14/3 SOOW cable",
+    "confidence": "HIGH",
+    "review_reason": null,
+    "alternative_matches": [
+      [
+        "CB-123",
+        0.476
+      ],
+      [
+        "BV-205",
+        0.0
+      ],
+      [
+        "BV-210",
+        0.0
+      ]
+    ],
+    "issues": [],
+    "status": "READY"
+  },
+  {
+    "order_id": "O012",
+    "line_number": "1",
+    "customer_item_number": "C-1101",
+    "raw_source": "3 PVC ball valve",
+    "extracted_value": {
+      "customer_item_number": "C-1101",
+      "raw_description": "3 PVC ball valve",
+      "quantity": 2.0,
+      "unit": "each",
+      "sku_hint": null
+    },
+    "proposed_sku": "PV-300",
+    "matched_description": "3in PVC ball valve",
+    "confidence": "HIGH",
+    "review_reason": null,
+    "alternative_matches": [
+      [
+        "BV-300",
+        0.829
+      ],
+      [
+        "PV-200",
+        0.711
+      ],
+      [
+        "BV-205",
+        0.5
+      ]
+    ],
+    "issues": [],
+    "status": "READY"
+  },
+  {
+    "order_id": "O012",
+    "line_number": "2",
+    "customer_item_number": "C-1102",
+    "raw_source": "3 brass ball valve",
+    "extracted_value": {
+      "customer_item_number": "C-1102",
+      "raw_description": "3 brass ball valve",
+      "quantity": 2.0,
+      "unit": "each",
+      "sku_hint": null
+    },
+    "proposed_sku": "BV-300",
+    "matched_description": "3in brass ball valve",
+    "confidence": "HIGH",
+    "review_reason": null,
+    "alternative_matches": [
+      [
+        "PV-300",
+        0.842
+      ],
+      [
+        "BV-205",
+        0.692
+      ],
+      [
+        "BV-150",
+        0.631
+      ]
+    ],
+    "issues": [],
+    "status": "READY"
+  },
+  {
+    "order_id": "O013",
+    "line_number": "1",
+    "customer_item_number": "C-1201",
+    "raw_source": "2 tape roll",
+    "extracted_value": {
+      "customer_item_number": "C-1201",
+      "raw_description": "2 tape roll",
+      "quantity": 8.0,
+      "unit": "roll",
+      "sku_hint": null
+    },
+    "proposed_sku": "TB-200",
+    "matched_description": "2in x 100 yd packaging tape",
+    "confidence": "LOW",
+    "review_reason": "ambiguous catalog match",
+    "alternative_matches": [
+      [
+        "UN-200",
+        0.216
+      ],
+      [
+        "CO-200",
+        0.216
+      ],
+      [
+        "TE-200",
+        0.216
+      ]
+    ],
+    "issues": [],
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "order_id": "O013",
+    "line_number": "2",
+    "customer_item_number": "C-1202",
+    "raw_source": "2x4 label roll",
+    "extracted_value": {
+      "customer_item_number": "C-1202",
+      "raw_description": "2x4 label roll",
+      "quantity": 4.0,
+      "unit": "roll",
+      "sku_hint": null
+    },
+    "proposed_sku": "LB-24",
+    "matched_description": "2in x 4in label roll 500 labels",
+    "confidence": "LOW",
+    "review_reason": "ambiguous catalog match",
+    "alternative_matches": [
+      [
+        "AD-200",
+        0.032
+      ],
+      [
+        "SC-102",
+        0.023
+      ],
+      [
+        "TB-200",
+        0.011
+      ]
+    ],
+    "issues": [],
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "order_id": "O014",
+    "line_number": "1",
+    "customer_item_number": "C-1301",
+    "raw_source": "nitrile gloves medium",
+    "extracted_value": {
+      "customer_item_number": "C-1301",
+      "raw_description": "nitrile gloves medium",
+      "quantity": 6.0,
+      "unit": "box",
+      "sku_hint": null
+    },
+    "proposed_sku": "GL-M",
+    "matched_description": "nitrile gloves medium",
+    "confidence": "HIGH",
+    "review_reason": null,
+    "alternative_matches": [
+      [
+        "GL-L",
+        0.426
+      ],
+      [
+        "BV-205",
+        0.0
+      ],
+      [
+        "BV-210",
+        0.0
+      ]
+    ],
+    "issues": [],
+    "status": "READY"
+  },
+  {
+    "order_id": "O014",
+    "line_number": "2",
+    "customer_item_number": "C-1302",
+    "raw_source": "nitrile gloves large",
+    "extracted_value": {
+      "customer_item_number": "C-1302",
+      "raw_description": "nitrile gloves large",
+      "quantity": 6.0,
+      "unit": "box",
+      "sku_hint": null
+    },
+    "proposed_sku": "GL-L",
+    "matched_description": "nitrile gloves large",
+    "confidence": "HIGH",
+    "review_reason": null,
+    "alternative_matches": [
+      [
+        "GL-M",
+        0.426
+      ],
+      [
+        "BV-205",
+        0.0
+      ],
+      [
+        "BV-210",
+        0.0
+      ]
+    ],
+    "issues": [],
+    "status": "READY"
+  },
+  {
+    "order_id": "O015",
+    "line_number": "1",
+    "customer_item_number": "C-1401",
+    "raw_source": "2 x 1.5 brass reducer",
+    "extracted_value": {
+      "customer_item_number": "C-1401",
+      "raw_description": "2 x 1.5 brass reducer",
+      "quantity": 5.0,
+      "unit": "each",
+      "sku_hint": null
+    },
+    "proposed_sku": "AD-200",
+    "matched_description": "2in x 1.5in brass reducer",
+    "confidence": "LOW",
+    "review_reason": "ambiguous catalog match",
+    "alternative_matches": [
+      [
+        "UN-200",
+        0.395
+      ],
+      [
+        "CO-200",
+        0.395
+      ],
+      [
+        "TE-200",
+        0.395
+      ]
+    ],
+    "issues": [],
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "order_id": "O015",
+    "line_number": "2",
+    "customer_item_number": "C-1402",
+    "raw_source": "2 brass flange",
+    "extracted_value": {
+      "customer_item_number": "C-1402",
+      "raw_description": "2 brass flange",
+      "quantity": 5.0,
+      "unit": "each",
+      "sku_hint": null
+    },
+    "proposed_sku": "FL-200",
+    "matched_description": "2in brass flange",
+    "confidence": "HIGH",
+    "review_reason": null,
+    "alternative_matches": [
+      [
+        "UN-200",
+        0.679
+      ],
+      [
+        "CO-200",
+        0.679
+      ],
+      [
+        "TE-200",
+        0.679
+      ]
+    ],
+    "issues": [],
+    "status": "READY"
+  },
+  {
+    "order_id": "O016",
+    "line_number": "1",
+    "customer_item_number": "C-1501",
+    "raw_source": "6206 sealed bearing",
+    "extracted_value": {
+      "customer_item_number": "C-1501",
+      "raw_description": "6206 sealed bearing",
+      "quantity": 12.0,
+      "unit": "each",
+      "sku_hint": null
+    },
+    "proposed_sku": "BR-6206",
+    "matched_description": "6206 sealed ball bearing",
+    "confidence": "HIGH",
+    "review_reason": null,
+    "alternative_matches": [
+      [
+        "BR-6205-2RS",
+        0.438
+      ],
+      [
+        "BR-6205",
+        0.438
+      ],
+      [
+        "BV-205",
+        0.0
+      ]
+    ],
+    "issues": [],
+    "status": "READY"
+  },
+  {
+    "order_id": "O016",
+    "line_number": "2",
+    "customer_item_number": "C-1502",
+    "raw_source": "4.5 flap disc 80 grit",
+    "extracted_value": {
+      "customer_item_number": "C-1502",
+      "raw_description": "4.5 flap disc 80 grit",
+      "quantity": 30.0,
+      "unit": "each",
+      "sku_hint": null
+    },
+    "proposed_sku": "FD-80",
+    "matched_description": "4.5in flap disc 80 grit",
+    "confidence": "HIGH",
+    "review_reason": null,
+    "alternative_matches": [
+      [
+        "GD-36",
+        0.511
+      ],
+      [
+        "BV-205",
+        0.0
+      ],
+      [
+        "BV-210",
+        0.0
+      ]
+    ],
+    "issues": [],
+    "status": "READY"
+  },
+  {
+    "order_id": "O017",
+    "line_number": "1",
+    "customer_item_number": "C-1601",
+    "raw_source": "2 brass full port valve",
+    "extracted_value": {
+      "customer_item_number": "C-1601",
+      "raw_description": "2 brass full port valve",
+      "quantity": 4.0,
+      "unit": "each",
+      "sku_hint": null
+    },
+    "proposed_sku": "BV-205",
+    "matched_description": "2in brass full-port ball valve",
+    "confidence": "MEDIUM",
+    "review_reason": "fuzzy description match",
+    "alternative_matches": [
+      [
+        "BV-210",
+        0.609
+      ],
+      [
+        "PV-200",
+        0.512
+      ],
+      [
+        "SV-200",
+        0.512
+      ]
+    ],
+    "issues": [],
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "order_id": "O017",
+    "line_number": "2",
+    "customer_item_number": "C-1602",
+    "raw_source": "2 brass full port valve",
+    "extracted_value": {
+      "customer_item_number": "C-1602",
+      "raw_description": "2 brass full port valve",
+      "quantity": 4.0,
+      "unit": "each",
+      "sku_hint": null
+    },
+    "proposed_sku": "BV-205",
+    "matched_description": "2in brass full-port ball valve",
+    "confidence": "MEDIUM",
+    "review_reason": "fuzzy description match",
+    "alternative_matches": [
+      [
+        "BV-210",
+        0.609
+      ],
+      [
+        "PV-200",
+        0.512
+      ],
+      [
+        "SV-200",
+        0.512
+      ]
+    ],
+    "issues": [],
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "order_id": "O018",
+    "line_number": "1",
+    "customer_item_number": "C-1701",
+    "raw_source": "4.5 grinding discs 36 grit",
+    "extracted_value": {
+      "customer_item_number": "C-1701",
+      "raw_description": "4.5 grinding discs 36 grit",
+      "quantity": null,
+      "unit": "",
+      "sku_hint": null
+    },
+    "proposed_sku": "GD-36",
+    "matched_description": "4.5in grinding disc 36 grit",
+    "confidence": "MEDIUM",
+    "review_reason": "fuzzy description match",
+    "alternative_matches": [
+      [
+        "FD-80",
+        0.511
+      ],
+      [
+        "BV-205",
+        0.0
+      ],
+      [
+        "BV-210",
+        0.0
+      ]
+    ],
+    "issues": [
+      {
+        "code": "quantity_conflict",
+        "message": "quantity conflict or partial source quantity",
+        "severity": "high"
+      },
+      {
+        "code": "missing_unit",
+        "message": "missing unit",
+        "severity": "high"
+      }
+    ],
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "order_id": "O019",
+    "line_number": "1",
+    "customer_item_number": "C-1801",
+    "raw_source": "4.5 flap discs 80 grit",
+    "extracted_value": {
+      "customer_item_number": "C-1801",
+      "raw_description": "4.5 flap discs 80 grit",
+      "quantity": 20.0,
+      "unit": "each",
+      "sku_hint": null
+    },
+    "proposed_sku": "FD-80",
+    "matched_description": "4.5in flap disc 80 grit",
+    "confidence": "HIGH",
+    "review_reason": null,
+    "alternative_matches": [
+      [
+        "GD-36",
+        0.511
+      ],
+      [
+        "BV-205",
+        0.0
+      ],
+      [
+        "BV-210",
+        0.0
+      ]
+    ],
+    "issues": [],
+    "status": "READY"
+  },
+  {
+    "order_id": "O019",
+    "line_number": "2",
+    "customer_item_number": "C-1802",
+    "raw_source": "4.5 grinding discs 36 grit",
+    "extracted_value": {
+      "customer_item_number": "C-1802",
+      "raw_description": "4.5 grinding discs 36 grit",
+      "quantity": 10.0,
+      "unit": "each",
+      "sku_hint": null
+    },
+    "proposed_sku": "GD-36",
+    "matched_description": "4.5in grinding disc 36 grit",
+    "confidence": "HIGH",
+    "review_reason": null,
+    "alternative_matches": [
+      [
+        "FD-80",
+        0.511
+      ],
+      [
+        "BV-205",
+        0.0
+      ],
+      [
+        "BV-210",
+        0.0
+      ]
+    ],
+    "issues": [],
+    "status": "READY"
+  },
+  {
+    "order_id": "O020",
+    "line_number": "1",
+    "customer_item_number": "C-1901",
+    "raw_source": "2 brass ball valve",
+    "extracted_value": {
+      "customer_item_number": "C-1901",
+      "raw_description": "2 brass ball valve",
+      "quantity": 8.0,
+      "unit": "each",
+      "sku_hint": null
+    },
+    "proposed_sku": "BV-205",
+    "matched_description": "2in brass full-port ball valve",
+    "confidence": "HIGH",
+    "review_reason": null,
+    "alternative_matches": [
+      [
+        "BV-210",
+        0.892
+      ],
+      [
+        "PV-200",
+        0.827
+      ],
+      [
+        "SV-200",
+        0.827
+      ]
+    ],
+    "issues": [],
+    "status": "READY"
+  },
+  {
+    "order_id": "O020",
+    "line_number": "2",
+    "customer_item_number": "C-1902",
+    "raw_source": "2 brass union",
+    "extracted_value": {
+      "customer_item_number": "C-1902",
+      "raw_description": "2 brass union",
+      "quantity": 8.0,
+      "unit": "each",
+      "sku_hint": null
+    },
+    "proposed_sku": "UN-200",
+    "matched_description": "2in brass union",
+    "confidence": "HIGH",
+    "review_reason": null,
+    "alternative_matches": [
+      [
+        "CO-200",
+        0.679
+      ],
+      [
+        "TE-200",
+        0.679
+      ],
+      [
+        "FL-200",
+        0.679
+      ]
+    ],
+    "issues": [],
+    "status": "READY"
+  },
+  {
+    "order_id": "O021",
+    "line_number": "1",
+    "customer_item_number": "C-2001",
+    "raw_source": "1 layflat hose",
+    "extracted_value": {
+      "customer_item_number": "C-2001",
+      "raw_description": "1 layflat hose",
+      "quantity": 120.0,
+      "unit": "ft",
+      "sku_hint": null
+    },
+    "proposed_sku": "HT-100",
+    "matched_description": "1in layflat discharge hose",
+    "confidence": "HIGH",
+    "review_reason": null,
+    "alternative_matches": [
+      [
+        "HT-200",
+        0.702
+      ],
+      [
+        "HT-150",
+        0.689
+      ],
+      [
+        "BV-100",
+        0.225
+      ]
+    ],
+    "issues": [],
+    "status": "READY"
+  },
+  {
+    "order_id": "O021",
+    "line_number": "2",
+    "customer_item_number": "C-2002",
+    "raw_source": "2 brass tee",
+    "extracted_value": {
+      "customer_item_number": "C-2002",
+      "raw_description": "2 brass tee",
+      "quantity": 4.0,
+      "unit": "each",
+      "sku_hint": null
+    },
+    "proposed_sku": "TE-200",
+    "matched_description": "2in brass tee",
+    "confidence": "HIGH",
+    "review_reason": null,
+    "alternative_matches": [
+      [
+        "UN-200",
+        0.679
+      ],
+      [
+        "CO-200",
+        0.679
+      ],
+      [
+        "FL-200",
+        0.679
+      ]
+    ],
+    "issues": [],
+    "status": "READY"
+  },
+  {
+    "order_id": "O022",
+    "line_number": "1",
+    "customer_item_number": "C-2101",
+    "raw_source": "5/16 hex bolts",
+    "extracted_value": {
+      "customer_item_number": "C-2101",
+      "raw_description": "5/16 hex bolts",
+      "quantity": 10.0,
+      "unit": "box",
+      "sku_hint": null
+    },
+    "proposed_sku": "BC-516",
+    "matched_description": "5/16in hex bolt",
+    "confidence": "LOW",
+    "review_reason": "ambiguous catalog match",
+    "alternative_matches": [
+      [
+        "NW-516",
+        0.315
+      ],
+      [
+        "SC-102",
+        0.131
+      ],
+      [
+        "BV-205",
+        0.0
+      ]
+    ],
+    "issues": [],
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "order_id": "O022",
+    "line_number": "2",
+    "customer_item_number": "C-2102",
+    "raw_source": "5/16 flat washers",
+    "extracted_value": {
+      "customer_item_number": "C-2102",
+      "raw_description": "5/16 flat washers",
+      "quantity": 10.0,
+      "unit": "box",
+      "sku_hint": null
+    },
+    "proposed_sku": "NW-516",
+    "matched_description": "5/16in flat washer",
+    "confidence": "LOW",
+    "review_reason": "ambiguous catalog match",
+    "alternative_matches": [
+      [
+        "BC-516",
+        0.315
+      ],
+      [
+        "SC-102",
+        0.131
+      ],
+      [
+        "BV-205",
+        0.0
+      ]
+    ],
+    "issues": [],
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "order_id": "O023",
+    "line_number": "1",
+    "customer_item_number": "C-2201",
+    "raw_source": "20 micron water filter",
+    "extracted_value": {
+      "customer_item_number": "C-2201",
+      "raw_description": "20 micron water filter",
+      "quantity": 4.0,
+      "unit": "each",
+      "sku_hint": null
+    },
+    "proposed_sku": "WF-20",
+    "matched_description": "20 micron water filter cartridge",
+    "confidence": "HIGH",
+    "review_reason": null,
+    "alternative_matches": [
+      [
+        "AF-10",
+        0.516
+      ],
+      [
+        "BV-205",
+        0.0
+      ],
+      [
+        "BV-210",
+        0.0
+      ]
+    ],
+    "issues": [],
+    "status": "READY"
+  },
+  {
+    "order_id": "O023",
+    "line_number": "2",
+    "customer_item_number": "C-2202",
+    "raw_source": "10 micron air filter",
+    "extracted_value": {
+      "customer_item_number": "C-2202",
+      "raw_description": "10 micron air filter",
+      "quantity": 6.0,
+      "unit": "each",
+      "sku_hint": null
+    },
+    "proposed_sku": "AF-10",
+    "matched_description": "10 micron air filter element",
+    "confidence": "HIGH",
+    "review_reason": null,
+    "alternative_matches": [
+      [
+        "WF-20",
+        0.516
+      ],
+      [
+        "LS-02",
+        0.235
+      ],
+      [
+        "LS-01",
+        0.231
+      ]
+    ],
+    "issues": [],
+    "status": "READY"
+  },
+  {
+    "order_id": "O024",
+    "line_number": "1",
+    "customer_item_number": "C-2301",
+    "raw_source": "3 brass elbow",
+    "extracted_value": {
+      "customer_item_number": "C-2301",
+      "raw_description": "3 brass elbow",
+      "quantity": 6.0,
+      "unit": "each",
+      "sku_hint": null
+    },
+    "proposed_sku": "EL-300",
+    "matched_description": "3in brass 90 degree elbow",
+    "confidence": "LOW",
+    "review_reason": "ambiguous catalog match",
+    "alternative_matches": [
+      [
+        "EL-200",
+        0.603
+      ],
+      [
+        "BV-300",
+        0.423
+      ],
+      [
+        "UN-200",
+        0.302
+      ]
+    ],
+    "issues": [],
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "order_id": "O024",
+    "line_number": "2",
+    "customer_item_number": "C-2302",
+    "raw_source": "3 bronze check valve",
+    "extracted_value": {
+      "customer_item_number": "C-2302",
+      "raw_description": "3 bronze check valve",
+      "quantity": 2.0,
+      "unit": "each",
+      "sku_hint": null
+    },
+    "proposed_sku": "CV-300",
+    "matched_description": "3in bronze check valve",
+    "confidence": "HIGH",
+    "review_reason": null,
+    "alternative_matches": [
+      [
+        "CV-200",
+        0.72
+      ],
+      [
+        "GV-300",
+        0.486
+      ],
+      [
+        "BV-300",
+        0.312
+      ]
+    ],
+    "issues": [],
+    "status": "READY"
+  },
+  {
+    "order_id": "O025",
+    "line_number": "1",
+    "customer_item_number": "C-2401",
+    "raw_source": "Need 2in full port brass valve for line 4 same style as job 18",
+    "extracted_value": {
+      "customer_item_number": "C-2401",
+      "raw_description": "Need 2in full port brass valve for line 4 same style as job 18",
+      "quantity": 2.0,
+      "unit": "each",
+      "sku_hint": null
+    },
+    "proposed_sku": "BV-205",
+    "matched_description": "2in brass full-port ball valve",
+    "confidence": "MEDIUM",
+    "review_reason": "fuzzy description match",
+    "alternative_matches": [
+      [
+        "BV-210",
+        0.519
+      ],
+      [
+        "PV-200",
+        0.451
+      ],
+      [
+        "SV-200",
+        0.451
+      ]
+    ],
+    "issues": [],
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "order_id": "O026",
+    "line_number": "1",
+    "customer_item_number": "C-2501",
+    "raw_source": "red 12 gauge spool",
+    "extracted_value": {
+      "customer_item_number": "C-2501",
+      "raw_description": "red 12 gauge spool",
+      "quantity": 2.0,
+      "unit": "spool",
+      "sku_hint": null
+    },
+    "proposed_sku": "HO-112",
+    "matched_description": "12 AWG red THHN wire spool 100 ft",
+    "confidence": "LOW",
+    "review_reason": "ambiguous catalog match",
+    "alternative_matches": [
+      [
+        "WD-1000",
+        0.572
+      ],
+      [
+        "HO-112-250",
+        0.57
+      ],
+      [
+        "HO-112-BLK",
+        0.381
+      ]
+    ],
+    "issues": [],
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "order_id": "O027",
+    "line_number": "1",
+    "customer_item_number": "C-2601",
+    "raw_source": "1 HP sump pump",
+    "extracted_value": {
+      "customer_item_number": "C-2601",
+      "raw_description": "1 HP sump pump",
+      "quantity": 2.0,
+      "unit": "each",
+      "sku_hint": null
+    },
+    "proposed_sku": "PM-1HP",
+    "matched_description": "1 HP sump pump",
+    "confidence": "HIGH",
+    "review_reason": null,
+    "alternative_matches": [
+      [
+        "PM-2HP",
+        0.563
+      ],
+      [
+        "BV-100",
+        0.247
+      ],
+      [
+        "HT-100",
+        0.23
+      ]
+    ],
+    "issues": [],
+    "status": "READY"
+  },
+  {
+    "order_id": "O027",
+    "line_number": "2",
+    "customer_item_number": "C-2602",
+    "raw_source": "gasket sealant 16 oz",
+    "extracted_value": {
+      "customer_item_number": "C-2602",
+      "raw_description": "gasket sealant 16 oz",
+      "quantity": 2.0,
+      "unit": "each",
+      "sku_hint": null
+    },
+    "proposed_sku": "GN-16",
+    "matched_description": "gasket sealant 16 oz",
+    "confidence": "HIGH",
+    "review_reason": null,
+    "alternative_matches": [
+      [
+        "LS-01",
+        0.131
+      ],
+      [
+        "LS-02",
+        0.131
+      ],
+      [
+        "BV-205",
+        0.0
+      ]
+    ],
+    "issues": [],
+    "status": "READY"
+  },
+  {
+    "order_id": "O028",
+    "line_number": "1",
+    "customer_item_number": "C-2701",
+    "raw_source": "nitrile gloves medium",
+    "extracted_value": {
+      "customer_item_number": "C-2701",
+      "raw_description": "nitrile gloves medium",
+      "quantity": 4.0,
+      "unit": "box",
+      "sku_hint": null
+    },
+    "proposed_sku": "GL-M",
+    "matched_description": "nitrile gloves medium",
+    "confidence": "HIGH",
+    "review_reason": null,
+    "alternative_matches": [
+      [
+        "GL-L",
+        0.426
+      ],
+      [
+        "BV-205",
+        0.0
+      ],
+      [
+        "BV-210",
+        0.0
+      ]
+    ],
+    "issues": [],
+    "status": "READY"
+  },
+  {
+    "order_id": "O028",
+    "line_number": "2",
+    "customer_item_number": "C-2702",
+    "raw_source": "2 tape rolls",
+    "extracted_value": {
+      "customer_item_number": "C-2702",
+      "raw_description": "2 tape rolls",
+      "quantity": 6.0,
+      "unit": "roll",
+      "sku_hint": null
+    },
+    "proposed_sku": "TB-200",
+    "matched_description": "2in x 100 yd packaging tape",
+    "confidence": "LOW",
+    "review_reason": "ambiguous catalog match",
+    "alternative_matches": [
+      [
+        "UN-200",
+        0.216
+      ],
+      [
+        "CO-200",
+        0.216
+      ],
+      [
+        "TE-200",
+        0.216
+      ]
+    ],
+    "issues": [],
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "order_id": "O029",
+    "line_number": "1",
+    "customer_item_number": "C-2801",
+    "raw_source": "2 brass ball valve",
+    "extracted_value": {
+      "customer_item_number": "C-2801",
+      "raw_description": "2 brass ball valve",
+      "quantity": null,
+      "unit": "each",
+      "sku_hint": null
+    },
+    "proposed_sku": "BV-205",
+    "matched_description": "2in brass full-port ball valve",
+    "confidence": "MEDIUM",
+    "review_reason": "fuzzy description match",
+    "alternative_matches": [
+      [
+        "BV-210",
+        0.892
+      ],
+      [
+        "PV-200",
+        0.827
+      ],
+      [
+        "SV-200",
+        0.827
+      ]
+    ],
+    "issues": [
+      {
+        "code": "quantity_conflict",
+        "message": "quantity conflict or partial source quantity",
+        "severity": "high"
+      }
+    ],
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "order_id": "O030",
+    "line_number": "1",
+    "customer_item_number": "C-2901",
+    "raw_source": "2 brass reduced-port valve",
+    "extracted_value": {
+      "customer_item_number": "C-2901",
+      "raw_description": "2 brass reduced-port valve",
+      "quantity": 3.0,
+      "unit": "each",
+      "sku_hint": null
+    },
+    "proposed_sku": "BV-210",
+    "matched_description": "2in brass reduced-port ball valve",
+    "confidence": "LOW",
+    "review_reason": "duplicate line detected",
+    "alternative_matches": [
+      [
+        "BV-205",
+        0.709
+      ],
+      [
+        "PV-200",
+        0.512
+      ],
+      [
+        "SV-200",
+        0.512
+      ]
+    ],
+    "issues": [],
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "order_id": "O030",
+    "line_number": "2",
+    "customer_item_number": "C-2902",
+    "raw_source": "2 brass reduced-port valve",
+    "extracted_value": {
+      "customer_item_number": "C-2902",
+      "raw_description": "2 brass reduced-port valve",
+      "quantity": 3.0,
+      "unit": "each",
+      "sku_hint": null
+    },
+    "proposed_sku": "BV-210",
+    "matched_description": "2in brass reduced-port ball valve",
+    "confidence": "LOW",
+    "review_reason": "duplicate line detected",
+    "alternative_matches": [
+      [
+        "BV-205",
+        0.709
+      ],
+      [
+        "PV-200",
+        0.512
+      ],
+      [
+        "SV-200",
+        0.512
+      ]
+    ],
+    "issues": [],
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "order_id": "O031",
+    "line_number": "1",
+    "customer_item_number": "C-3001",
+    "raw_source": "2 brass full port valve or if unavailable send stainless equivalent",
+    "extracted_value": {
+      "customer_item_number": "C-3001",
+      "raw_description": "2 brass full port valve or if unavailable send stainless equivalent",
+      "quantity": 3.0,
+      "unit": "each",
+      "sku_hint": null
+    },
+    "proposed_sku": "BV-205",
+    "matched_description": "2in brass full-port ball valve",
+    "confidence": "MEDIUM",
+    "review_reason": "fuzzy description match",
+    "alternative_matches": [
+      [
+        "SV-200",
+        0.719
+      ],
+      [
+        "BV-210",
+        0.537
+      ],
+      [
+        "PV-200",
+        0.453
+      ]
+    ],
+    "issues": [],
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "order_id": "O032",
+    "line_number": "1",
+    "customer_item_number": "C-3101",
+    "raw_source": "2 brass union",
+    "extracted_value": {
+      "customer_item_number": "C-3101",
+      "raw_description": "2 brass union",
+      "quantity": 4.0,
+      "unit": "each",
+      "sku_hint": null
+    },
+    "proposed_sku": "UN-200",
+    "matched_description": "2in brass union",
+    "confidence": "MEDIUM",
+    "review_reason": "fuzzy description match",
+    "alternative_matches": [
+      [
+        "CO-200",
+        0.679
+      ],
+      [
+        "TE-200",
+        0.679
+      ],
+      [
+        "FL-200",
+        0.679
+      ]
+    ],
+    "issues": [],
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "order_id": "O033",
+    "line_number": "1",
+    "customer_item_number": "C-3201",
+    "raw_source": "2 in brss bal valve",
+    "extracted_value": {
+      "customer_item_number": "C-3201",
+      "raw_description": "2 in brss bal valve",
+      "quantity": 5.0,
+      "unit": "each",
+      "sku_hint": null
+    },
+    "proposed_sku": "BV-205",
+    "matched_description": "2in brass full-port ball valve",
+    "confidence": "MEDIUM",
+    "review_reason": "fuzzy description match",
+    "alternative_matches": [
+      [
+        "BV-210",
+        0.878
+      ],
+      [
+        "PV-200",
+        0.826
+      ],
+      [
+        "SV-200",
+        0.826
+      ]
+    ],
+    "issues": [],
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "order_id": "O033",
+    "line_number": "2",
+    "customer_item_number": "C-3202",
+    "raw_source": "4.5 flp dsc 80",
+    "extracted_value": {
+      "customer_item_number": "C-3202",
+      "raw_description": "4.5 flp dsc 80",
+      "quantity": 15.0,
+      "unit": "each",
+      "sku_hint": null
+    },
+    "proposed_sku": "FD-80",
+    "matched_description": "4.5in flap disc 80 grit",
+    "confidence": "MEDIUM",
+    "review_reason": "fuzzy description match",
+    "alternative_matches": [
+      [
+        "GD-36",
+        0.404
+      ],
+      [
+        "BV-205",
+        -0.04
+      ],
+      [
+        "BV-210",
+        -0.04
+      ]
+    ],
+    "issues": [],
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "order_id": "O034",
+    "line_number": "1",
+    "customer_item_number": "C-3301",
+    "raw_source": "12 AWG red THHN 250ft spool",
+    "extracted_value": {
+      "customer_item_number": "C-3301",
+      "raw_description": "12 AWG red THHN 250ft spool",
+      "quantity": 2.0,
+      "unit": "spool",
+      "sku_hint": null
+    },
+    "proposed_sku": "HO-112-250",
+    "matched_description": "12 AWG red THHN wire spool 250 ft",
+    "confidence": "MEDIUM",
+    "review_reason": "fuzzy description match",
+    "alternative_matches": [
+      [
+        "HO-112",
+        0.521
+      ],
+      [
+        "WD-1000",
+        0.517
+      ],
+      [
+        "HO-112-BLK",
+        0.347
+      ]
+    ],
+    "issues": [],
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "order_id": "O034",
+    "line_number": "2",
+    "customer_item_number": "C-3302",
+    "raw_source": "blue threadlocker 10 ml",
+    "extracted_value": {
+      "customer_item_number": "C-3302",
+      "raw_description": "blue threadlocker 10 ml",
+      "quantity": 1.0,
+      "unit": "each",
+      "sku_hint": null
+    },
+    "proposed_sku": "LS-01",
+    "matched_description": "blue threadlocker 10 ml",
+    "confidence": "MEDIUM",
+    "review_reason": "fuzzy description match",
+    "alternative_matches": [
+      [
+        "LS-02",
+        0.875
+      ],
+      [
+        "AF-10",
+        0.149
+      ],
+      [
+        "GN-16",
+        0.063
+      ]
+    ],
+    "issues": [],
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "order_id": "O035",
+    "line_number": "1",
+    "customer_item_number": "C-3401",
+    "raw_source": "2 brass union",
+    "extracted_value": {
+      "customer_item_number": "C-3401",
+      "raw_description": "2 brass union",
+      "quantity": null,
+      "unit": "",
+      "sku_hint": null
+    },
+    "proposed_sku": "UN-200",
+    "matched_description": "2in brass union",
+    "confidence": "NONE",
+    "review_reason": "missing quantity",
+    "alternative_matches": [
+      [
+        "CO-200",
+        0.679
+      ],
+      [
+        "TE-200",
+        0.679
+      ],
+      [
+        "FL-200",
+        0.679
+      ]
+    ],
+    "issues": [
+      {
+        "code": "missing_quantity",
+        "message": "missing quantity",
+        "severity": "high"
+      },
+      {
+        "code": "missing_unit",
+        "message": "missing unit",
+        "severity": "high"
+      }
+    ],
+    "status": "EXCEPTION"
+  },
+  {
+    "order_id": "O036",
+    "line_number": "1",
+    "customer_item_number": "C-3501",
+    "raw_source": "ZP-9999 2in valve",
+    "extracted_value": {
+      "customer_item_number": "C-3501",
+      "raw_description": "ZP-9999 2in valve",
+      "quantity": 4.0,
+      "unit": "each",
+      "sku_hint": null
+    },
+    "proposed_sku": null,
+    "matched_description": null,
+    "confidence": "NONE",
+    "review_reason": "nonexistent sku",
+    "alternative_matches": [],
+    "issues": [
+      {
+        "code": "no_match",
+        "message": "nonexistent sku",
+        "severity": "high"
+      }
+    ],
+    "status": "EXCEPTION"
+  },
+  {
+    "order_id": "O037",
+    "line_number": "1",
+    "customer_item_number": "C-3601",
+    "raw_source": "2 brass ball valve 1 skid",
+    "extracted_value": {
+      "customer_item_number": "C-3601",
+      "raw_description": "2 brass ball valve 1 skid",
+      "quantity": null,
+      "unit": "",
+      "sku_hint": null
+    },
+    "proposed_sku": "BV-100",
+    "matched_description": "1in brass ball valve",
+    "confidence": "NONE",
+    "review_reason": "no catalog match",
+    "alternative_matches": [
+      [
+        "BV-205",
+        0.955
+      ],
+      [
+        "BV-210",
+        0.785
+      ],
+      [
+        "PV-200",
+        0.736
+      ]
+    ],
+    "issues": [
+      {
+        "code": "missing_quantity",
+        "message": "missing quantity",
+        "severity": "high"
+      },
+      {
+        "code": "missing_unit",
+        "message": "missing unit",
+        "severity": "high"
+      }
+    ],
+    "status": "EXCEPTION"
+  },
+  {
+    "order_id": "O039",
+    "line_number": "1",
+    "customer_item_number": "C-3801",
+    "raw_source": "Part 7A-19",
+    "extracted_value": {
+      "customer_item_number": "C-3801",
+      "raw_description": "Part 7A-19",
+      "quantity": 10.0,
+      "unit": "each",
+      "sku_hint": null
+    },
+    "proposed_sku": null,
+    "matched_description": null,
+    "confidence": "NONE",
+    "review_reason": "customer part number not in catalog",
+    "alternative_matches": [],
+    "issues": [
+      {
+        "code": "no_match",
+        "message": "customer part number not in catalog",
+        "severity": "high"
+      }
+    ],
+    "status": "EXCEPTION"
+  },
+  {
+    "order_id": "O040",
+    "line_number": "1",
+    "customer_item_number": "C-3901",
+    "raw_source": "email BV-205 qty 2 attachment SV-200 qty 2",
+    "extracted_value": {
+      "customer_item_number": "C-3901",
+      "raw_description": "email BV-205 qty 2 attachment SV-200 qty 2",
+      "quantity": null,
+      "unit": "each",
+      "sku_hint": null
+    },
+    "proposed_sku": "BV-205",
+    "matched_description": "2in brass full-port ball valve",
+    "confidence": "NONE",
+    "review_reason": "missing quantity",
+    "alternative_matches": [],
+    "issues": [
+      {
+        "code": "missing_quantity",
+        "message": "missing quantity",
+        "severity": "high"
+      }
+    ],
+    "status": "EXCEPTION"
+  }
+]

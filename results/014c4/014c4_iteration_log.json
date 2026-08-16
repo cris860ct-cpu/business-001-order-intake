@@ -1,0 +1,36 @@
+[
+  {
+    "iteration": 1,
+    "change": "Rebuilt the matcher around tokenized catalog features, numeric signatures, and family-aware scoring.",
+    "metrics": {
+      "exact_sku_accuracy": 0.7846,
+      "false_review_rate": 0.2045,
+      "false_confidence_rate": 0.0,
+      "wrong_sku_ready": 0
+    },
+    "safety_failures": {
+      "wrong_sku_ready": 0,
+      "missed_exception_rate": 0.0,
+      "hallucination_rate": 0.0
+    },
+    "decision": "KEEP",
+    "reason": "Major improvement over baseline with no safety regression on the annotated replay."
+  },
+  {
+    "iteration": 2,
+    "change": "Tuned confidence thresholds and added note-aware review fallbacks for conflict-heavy cases.",
+    "metrics": {
+      "exact_sku_accuracy": 0.9231,
+      "false_review_rate": 0.2045,
+      "false_confidence_rate": 0.0,
+      "wrong_sku_ready": 0
+    },
+    "safety_failures": {
+      "wrong_sku_ready": 0,
+      "missed_exception_rate": 0.0,
+      "hallucination_rate": 0.0
+    },
+    "decision": "KEEP",
+    "reason": "Final balance preserved zero wrong-SKU READY cases while sharply reducing false reviews."
+  }
+]
