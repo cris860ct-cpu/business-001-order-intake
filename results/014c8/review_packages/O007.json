@@ -1,0 +1,242 @@
+{
+  "order_id": "O007",
+  "original_source": {
+    "source_type": "email",
+    "source_path": "/workspace/business-001-order-intake/raw_sources/014c5/O007.eml",
+    "text": "Customer: WeldPro\nPO #: WP-2045\nOrder Date: 2026-08-04\nRequested Delivery: 2026-08-08\n\n1 | C-601 | 2 bronze gate valve | 1 | each | 132.00\n2 | C-602 | 2 bronze check valve | 1 | each | 109.00\n\nThanks,\nShipping Desk\n",
+    "integrity_check": true
+  },
+  "ai_prepared_order": {
+    "order_information": {
+      "customer": {
+        "value": "WeldPro",
+        "source_ref": "O007.eml:body",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "Customer: WeldPro"
+      },
+      "customer_account_id": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "bill_to": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "ship_to": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "po_number": {
+        "value": ": WP-2045",
+        "source_ref": "O007.eml:body",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "PO #: WP-2045"
+      },
+      "order_date": {
+        "value": "2026-08-04",
+        "source_ref": "O007.eml:body",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "Order Date: 2026-08-04"
+      },
+      "requested_delivery_date": {
+        "value": "2026-08-08",
+        "source_ref": "O007.eml:body",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "Requested Delivery: 2026-08-08"
+      }
+    },
+    "line_items": [
+      {
+        "customer_item_number": "C-601",
+        "raw_description": "2 bronze gate valve",
+        "matched_sku": "GV-200",
+        "matched_catalog_description": "2in bronze gate valve",
+        "quantity": 1.0,
+        "unit": "each",
+        "source_price": 132.0,
+        "catalog_price": 132.0,
+        "price_difference": 0.0,
+        "price_validation": "PRICE MATCH",
+        "confidence": "HIGH",
+        "review_reason": null,
+        "alternative_matches": [],
+        "status": "READY"
+      },
+      {
+        "customer_item_number": "C-602",
+        "raw_description": "2 bronze check valve",
+        "matched_sku": "CV-200",
+        "matched_catalog_description": "2in bronze check valve",
+        "quantity": 1.0,
+        "unit": "each",
+        "source_price": 109.0,
+        "catalog_price": 109.0,
+        "price_difference": 0.0,
+        "price_validation": "PRICE MATCH",
+        "confidence": "HIGH",
+        "review_reason": null,
+        "alternative_matches": [],
+        "status": "READY"
+      }
+    ],
+    "order_validation": {
+      "completeness_status": "COMPLETE",
+      "unresolved_fields": [],
+      "conflicts": [],
+      "review_flags": [
+        "FULFILLMENT_NOT_PROVIDED"
+      ],
+      "final_ai_status": "READY",
+      "fulfillment_status": "NOT_PROVIDED"
+    }
+  },
+  "order_status": "READY",
+  "completeness_status": "COMPLETE",
+  "review_flags": [
+    "FULFILLMENT_NOT_PROVIDED"
+  ],
+  "line_rows": [
+    {
+      "order_id": ": WP-2045",
+      "line_number": "1",
+      "customer_item_number": "C-601",
+      "raw_source": "1 | C-601 | 2 bronze gate valve | 1 | each | 132.00",
+      "extracted_value": {
+        "customer_item_number": "C-601",
+        "raw_description": "2 bronze gate valve",
+        "quantity": 1.0,
+        "unit": "each",
+        "sku_hint": null
+      },
+      "proposed_sku": "GV-200",
+      "matched_description": "2in bronze gate valve",
+      "confidence": "HIGH",
+      "review_reason": null,
+      "alternative_matches": [
+        [
+          "GV-300",
+          0.719
+        ],
+        [
+          "CV-200",
+          0.472
+        ],
+        [
+          "PV-200",
+          0.274
+        ]
+      ],
+      "issues": [],
+      "status": "READY",
+      "source_unit_price": 132.0,
+      "catalog_unit_price": 132.0,
+      "price_difference": 0.0,
+      "price_validation": "PRICE MATCH",
+      "review_flags": []
+    },
+    {
+      "order_id": ": WP-2045",
+      "line_number": "2",
+      "customer_item_number": "C-602",
+      "raw_source": "2 | C-602 | 2 bronze check valve | 1 | each | 109.00",
+      "extracted_value": {
+        "customer_item_number": "C-602",
+        "raw_description": "2 bronze check valve",
+        "quantity": 1.0,
+        "unit": "each",
+        "sku_hint": null
+      },
+      "proposed_sku": "CV-200",
+      "matched_description": "2in bronze check valve",
+      "confidence": "HIGH",
+      "review_reason": null,
+      "alternative_matches": [
+        [
+          "CV-300",
+          0.719
+        ],
+        [
+          "GV-200",
+          0.472
+        ],
+        [
+          "PV-200",
+          0.274
+        ]
+      ],
+      "issues": [],
+      "status": "READY",
+      "source_unit_price": 109.0,
+      "catalog_unit_price": 109.0,
+      "price_difference": 0.0,
+      "price_validation": "PRICE MATCH",
+      "review_flags": []
+    }
+  ],
+  "envelope": {
+    "customer": {
+      "value": "WeldPro",
+      "source_ref": "O007.eml:body",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "Customer: WeldPro"
+    },
+    "customer_account_id": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "bill_to": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "ship_to": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "po_number": {
+      "value": ": WP-2045",
+      "source_ref": "O007.eml:body",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "PO #: WP-2045"
+    },
+    "order_date": {
+      "value": "2026-08-04",
+      "source_ref": "O007.eml:body",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "Order Date: 2026-08-04"
+    },
+    "requested_delivery_date": {
+      "value": "2026-08-08",
+      "source_ref": "O007.eml:body",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "Requested Delivery: 2026-08-08"
+    },
+    "unresolved_fields": [],
+    "fulfillment_status": "NOT_PROVIDED"
+  }
+}

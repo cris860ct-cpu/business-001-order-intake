@@ -1,0 +1,152 @@
+{
+  "order_id": "O039",
+  "original_source": {
+    "source_type": "image",
+    "source_path": "/workspace/business-001-order-intake/raw_sources/014c5/O039.png",
+    "text": "",
+    "integrity_check": true
+  },
+  "ai_prepared_order": {
+    "order_information": {
+      "customer": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "customer_account_id": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "bill_to": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "ship_to": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "po_number": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "order_date": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "requested_delivery_date": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      }
+    },
+    "line_items": [],
+    "order_validation": {
+      "completeness_status": "INCOMPLETE",
+      "unresolved_fields": [
+        "customer",
+        "po_number",
+        "order_date",
+        "requested_delivery_date"
+      ],
+      "conflicts": [],
+      "review_flags": [
+        "MISSING_CUSTOMER",
+        "MISSING_PO_NUMBER",
+        "MISSING_ORDER_DATE",
+        "MISSING_REQUESTED_DELIVERY_DATE",
+        "FULFILLMENT_NOT_PROVIDED",
+        "OCR_BLOCKED"
+      ],
+      "final_ai_status": "EXCEPTION",
+      "fulfillment_status": "NOT_PROVIDED"
+    }
+  },
+  "order_status": "EXCEPTION",
+  "completeness_status": "INCOMPLETE",
+  "review_flags": [
+    "MISSING_CUSTOMER",
+    "MISSING_PO_NUMBER",
+    "MISSING_ORDER_DATE",
+    "MISSING_REQUESTED_DELIVERY_DATE",
+    "FULFILLMENT_NOT_PROVIDED",
+    "OCR_BLOCKED"
+  ],
+  "line_rows": [],
+  "envelope": {
+    "customer": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "customer_account_id": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "bill_to": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "ship_to": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "po_number": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "order_date": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "requested_delivery_date": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "unresolved_fields": [
+      "customer",
+      "po_number",
+      "order_date",
+      "requested_delivery_date"
+    ],
+    "fulfillment_status": "NOT_PROVIDED"
+  }
+}

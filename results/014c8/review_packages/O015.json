@@ -1,0 +1,242 @@
+{
+  "order_id": "O015",
+  "original_source": {
+    "source_type": "xlsx",
+    "source_path": "/workspace/business-001-order-intake/raw_sources/014c5/O015.xlsx",
+    "text": "Customer: Keystone Maintenance\nPO #: KM-6621\nOrder Date: 2026-08-08\nRequested Delivery: 2026-08-13\nline_number | customer_item_number | description | quantity | unit | unit_price\n1 | C-1401 | 2in x 1.5in brass reducer | 5 | each | 9.60\n2 | C-1402 | 2 brass flange | 5 | each | 18.75\nTotal |  |  | 10 | each | ",
+    "integrity_check": true
+  },
+  "ai_prepared_order": {
+    "order_information": {
+      "customer": {
+        "value": "Keystone Maintenance",
+        "source_ref": "Order:row1",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "Customer: Keystone Maintenance"
+      },
+      "customer_account_id": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "bill_to": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "ship_to": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "po_number": {
+        "value": ": KM-6621",
+        "source_ref": "Order:row1",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "PO #: KM-6621"
+      },
+      "order_date": {
+        "value": "2026-08-08",
+        "source_ref": "Order:row2",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "Order Date: 2026-08-08"
+      },
+      "requested_delivery_date": {
+        "value": "2026-08-13",
+        "source_ref": "Order:row2",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "Requested Delivery: 2026-08-13"
+      }
+    },
+    "line_items": [
+      {
+        "customer_item_number": "C-1401",
+        "raw_description": "2in x 1.5in brass reducer",
+        "matched_sku": "AD-200",
+        "matched_catalog_description": "2in x 1.5in brass reducer",
+        "quantity": 5.0,
+        "unit": "each",
+        "source_price": 9.6,
+        "catalog_price": 9.6,
+        "price_difference": 0.0,
+        "price_validation": "PRICE MATCH",
+        "confidence": "HIGH",
+        "review_reason": null,
+        "alternative_matches": [],
+        "status": "READY"
+      },
+      {
+        "customer_item_number": "C-1402",
+        "raw_description": "2 brass flange",
+        "matched_sku": "FL-200",
+        "matched_catalog_description": "2in brass flange",
+        "quantity": 5.0,
+        "unit": "each",
+        "source_price": 18.75,
+        "catalog_price": 18.75,
+        "price_difference": 0.0,
+        "price_validation": "PRICE MATCH",
+        "confidence": "HIGH",
+        "review_reason": null,
+        "alternative_matches": [],
+        "status": "READY"
+      }
+    ],
+    "order_validation": {
+      "completeness_status": "COMPLETE",
+      "unresolved_fields": [],
+      "conflicts": [],
+      "review_flags": [
+        "FULFILLMENT_NOT_PROVIDED"
+      ],
+      "final_ai_status": "READY",
+      "fulfillment_status": "NOT_PROVIDED"
+    }
+  },
+  "order_status": "READY",
+  "completeness_status": "COMPLETE",
+  "review_flags": [
+    "FULFILLMENT_NOT_PROVIDED"
+  ],
+  "line_rows": [
+    {
+      "order_id": ": KM-6621",
+      "line_number": "1",
+      "customer_item_number": "C-1401",
+      "raw_source": "1 | C-1401 | 2in x 1.5in brass reducer | 5 | each | 9.60",
+      "extracted_value": {
+        "customer_item_number": "C-1401",
+        "raw_description": "2in x 1.5in brass reducer",
+        "quantity": 5.0,
+        "unit": "each",
+        "sku_hint": null
+      },
+      "proposed_sku": "AD-200",
+      "matched_description": "2in x 1.5in brass reducer",
+      "confidence": "HIGH",
+      "review_reason": null,
+      "alternative_matches": [
+        [
+          "UN-200",
+          0.637
+        ],
+        [
+          "CO-200",
+          0.637
+        ],
+        [
+          "TE-200",
+          0.637
+        ]
+      ],
+      "issues": [],
+      "status": "READY",
+      "source_unit_price": 9.6,
+      "catalog_unit_price": 9.6,
+      "price_difference": 0.0,
+      "price_validation": "PRICE MATCH",
+      "review_flags": []
+    },
+    {
+      "order_id": ": KM-6621",
+      "line_number": "2",
+      "customer_item_number": "C-1402",
+      "raw_source": "2 | C-1402 | 2 brass flange | 5 | each | 18.75",
+      "extracted_value": {
+        "customer_item_number": "C-1402",
+        "raw_description": "2 brass flange",
+        "quantity": 5.0,
+        "unit": "each",
+        "sku_hint": null
+      },
+      "proposed_sku": "FL-200",
+      "matched_description": "2in brass flange",
+      "confidence": "HIGH",
+      "review_reason": null,
+      "alternative_matches": [
+        [
+          "UN-200",
+          0.679
+        ],
+        [
+          "CO-200",
+          0.679
+        ],
+        [
+          "TE-200",
+          0.679
+        ]
+      ],
+      "issues": [],
+      "status": "READY",
+      "source_unit_price": 18.75,
+      "catalog_unit_price": 18.75,
+      "price_difference": 0.0,
+      "price_validation": "PRICE MATCH",
+      "review_flags": []
+    }
+  ],
+  "envelope": {
+    "customer": {
+      "value": "Keystone Maintenance",
+      "source_ref": "Order:row1",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "Customer: Keystone Maintenance"
+    },
+    "customer_account_id": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "bill_to": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "ship_to": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "po_number": {
+      "value": ": KM-6621",
+      "source_ref": "Order:row1",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "PO #: KM-6621"
+    },
+    "order_date": {
+      "value": "2026-08-08",
+      "source_ref": "Order:row2",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "Order Date: 2026-08-08"
+    },
+    "requested_delivery_date": {
+      "value": "2026-08-13",
+      "source_ref": "Order:row2",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "Requested Delivery: 2026-08-13"
+    },
+    "unresolved_fields": [],
+    "fulfillment_status": "NOT_PROVIDED"
+  }
+}

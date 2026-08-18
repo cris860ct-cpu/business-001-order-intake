@@ -1,0 +1,203 @@
+{
+  "order_id": "O025",
+  "original_source": {
+    "source_type": "email",
+    "source_path": "/workspace/business-001-order-intake/raw_sources/014c5/O025.eml",
+    "text": "Customer: Cascade Metal\nPO #: CM-9011\nOrder Date: 2026-08-13\nRequested Delivery: 2026-08-19\n\nNeed 2in full port brass valve for line 4 same style as job 18\n\nSource note: candidate_matches=BV-205;BV-210;GV-200;CV-200;SV-200\n\nline_number | customer_item_number | description | quantity | unit | unit_price\n1 | C-2401 | Need 2in full port brass valve for line 4 same style as job 18 | 2 | each | 124.00",
+    "integrity_check": true
+  },
+  "ai_prepared_order": {
+    "order_information": {
+      "customer": {
+        "value": "Cascade Metal",
+        "source_ref": "O025.eml:body",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "Customer: Cascade Metal"
+      },
+      "customer_account_id": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "bill_to": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "ship_to": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "po_number": {
+        "value": ": CM-9011",
+        "source_ref": "O025.eml:body",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "PO #: CM-9011"
+      },
+      "order_date": {
+        "value": "2026-08-13",
+        "source_ref": "O025.eml:body",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "Order Date: 2026-08-13"
+      },
+      "requested_delivery_date": {
+        "value": "2026-08-19",
+        "source_ref": "O025.eml:body",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "Requested Delivery: 2026-08-19"
+      }
+    },
+    "line_items": [
+      {
+        "customer_item_number": "C-2401",
+        "raw_description": "Need 2in full port brass valve for line 4 same style as job 18",
+        "matched_sku": "BV-205",
+        "matched_catalog_description": "2in brass full-port ball valve",
+        "quantity": 2.0,
+        "unit": "each",
+        "source_price": 124.0,
+        "catalog_price": 124.0,
+        "price_difference": 0.0,
+        "price_validation": "PRICE MATCH",
+        "confidence": "MEDIUM",
+        "review_reason": "fuzzy description match",
+        "alternative_matches": [
+          [
+            "BV-210",
+            0.519
+          ],
+          [
+            "PV-200",
+            0.451
+          ],
+          [
+            "SV-200",
+            0.451
+          ]
+        ],
+        "status": "REVIEW REQUIRED"
+      }
+    ],
+    "order_validation": {
+      "completeness_status": "INCOMPLETE",
+      "unresolved_fields": [],
+      "conflicts": [
+        "fuzzy description match"
+      ],
+      "review_flags": [
+        "FULFILLMENT_NOT_PROVIDED"
+      ],
+      "final_ai_status": "REVIEW REQUIRED",
+      "fulfillment_status": "NOT_PROVIDED"
+    }
+  },
+  "order_status": "REVIEW REQUIRED",
+  "completeness_status": "INCOMPLETE",
+  "review_flags": [
+    "FULFILLMENT_NOT_PROVIDED"
+  ],
+  "line_rows": [
+    {
+      "order_id": ": CM-9011",
+      "line_number": "1",
+      "customer_item_number": "C-2401",
+      "raw_source": "1 | C-2401 | Need 2in full port brass valve for line 4 same style as job 18 | 2 | each | 124.00",
+      "extracted_value": {
+        "customer_item_number": "C-2401",
+        "raw_description": "Need 2in full port brass valve for line 4 same style as job 18",
+        "quantity": 2.0,
+        "unit": "each",
+        "sku_hint": null
+      },
+      "proposed_sku": "BV-205",
+      "matched_description": "2in brass full-port ball valve",
+      "confidence": "MEDIUM",
+      "review_reason": "fuzzy description match",
+      "alternative_matches": [
+        [
+          "BV-210",
+          0.519
+        ],
+        [
+          "PV-200",
+          0.451
+        ],
+        [
+          "SV-200",
+          0.451
+        ]
+      ],
+      "issues": [],
+      "status": "REVIEW REQUIRED",
+      "source_unit_price": 124.0,
+      "catalog_unit_price": 124.0,
+      "price_difference": 0.0,
+      "price_validation": "PRICE MATCH",
+      "review_flags": []
+    }
+  ],
+  "envelope": {
+    "customer": {
+      "value": "Cascade Metal",
+      "source_ref": "O025.eml:body",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "Customer: Cascade Metal"
+    },
+    "customer_account_id": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "bill_to": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "ship_to": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "po_number": {
+      "value": ": CM-9011",
+      "source_ref": "O025.eml:body",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "PO #: CM-9011"
+    },
+    "order_date": {
+      "value": "2026-08-13",
+      "source_ref": "O025.eml:body",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "Order Date: 2026-08-13"
+    },
+    "requested_delivery_date": {
+      "value": "2026-08-19",
+      "source_ref": "O025.eml:body",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "Requested Delivery: 2026-08-19"
+    },
+    "unresolved_fields": [],
+    "fulfillment_status": "NOT_PROVIDED"
+  }
+}

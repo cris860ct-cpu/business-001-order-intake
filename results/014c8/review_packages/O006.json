@@ -1,0 +1,242 @@
+{
+  "order_id": "O006",
+  "original_source": {
+    "source_type": "email",
+    "source_path": "/workspace/business-001-order-intake/raw_sources/014c5/O006.eml",
+    "text": "Customer: Cedar Ridge\nPO #: CR-4477\nOrder Date: 2026-08-03\nRequested Delivery: 2026-08-08\n\nForwarded message follows:\n> previous order request and approval\n> please ship as soon as possible\n1 | C-501 | 1 HP sump pump | 2 | each | 214.00\n2 | C-502 | gasket sealant 16 oz | 3 | each | 14.60\n",
+    "integrity_check": true
+  },
+  "ai_prepared_order": {
+    "order_information": {
+      "customer": {
+        "value": "Cedar Ridge",
+        "source_ref": "O006.eml:body",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "Customer: Cedar Ridge"
+      },
+      "customer_account_id": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "bill_to": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "ship_to": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "po_number": {
+        "value": ": CR-4477",
+        "source_ref": "O006.eml:body",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "PO #: CR-4477"
+      },
+      "order_date": {
+        "value": "2026-08-03",
+        "source_ref": "O006.eml:body",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "Order Date: 2026-08-03"
+      },
+      "requested_delivery_date": {
+        "value": "2026-08-08",
+        "source_ref": "O006.eml:body",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "Requested Delivery: 2026-08-08"
+      }
+    },
+    "line_items": [
+      {
+        "customer_item_number": "C-501",
+        "raw_description": "1 HP sump pump",
+        "matched_sku": "PM-1HP",
+        "matched_catalog_description": "1 HP sump pump",
+        "quantity": 2.0,
+        "unit": "each",
+        "source_price": 214.0,
+        "catalog_price": 214.0,
+        "price_difference": 0.0,
+        "price_validation": "PRICE MATCH",
+        "confidence": "HIGH",
+        "review_reason": null,
+        "alternative_matches": [],
+        "status": "READY"
+      },
+      {
+        "customer_item_number": "C-502",
+        "raw_description": "gasket sealant 16 oz",
+        "matched_sku": "GN-16",
+        "matched_catalog_description": "gasket sealant 16 oz",
+        "quantity": 3.0,
+        "unit": "each",
+        "source_price": 14.6,
+        "catalog_price": 14.6,
+        "price_difference": 0.0,
+        "price_validation": "PRICE MATCH",
+        "confidence": "HIGH",
+        "review_reason": null,
+        "alternative_matches": [],
+        "status": "READY"
+      }
+    ],
+    "order_validation": {
+      "completeness_status": "COMPLETE",
+      "unresolved_fields": [],
+      "conflicts": [],
+      "review_flags": [
+        "FULFILLMENT_NOT_PROVIDED"
+      ],
+      "final_ai_status": "READY",
+      "fulfillment_status": "NOT_PROVIDED"
+    }
+  },
+  "order_status": "READY",
+  "completeness_status": "COMPLETE",
+  "review_flags": [
+    "FULFILLMENT_NOT_PROVIDED"
+  ],
+  "line_rows": [
+    {
+      "order_id": ": CR-4477",
+      "line_number": "1",
+      "customer_item_number": "C-501",
+      "raw_source": "1 | C-501 | 1 HP sump pump | 2 | each | 214.00",
+      "extracted_value": {
+        "customer_item_number": "C-501",
+        "raw_description": "1 HP sump pump",
+        "quantity": 2.0,
+        "unit": "each",
+        "sku_hint": null
+      },
+      "proposed_sku": "PM-1HP",
+      "matched_description": "1 HP sump pump",
+      "confidence": "HIGH",
+      "review_reason": null,
+      "alternative_matches": [
+        [
+          "PM-2HP",
+          0.563
+        ],
+        [
+          "BV-100",
+          0.247
+        ],
+        [
+          "HT-100",
+          0.23
+        ]
+      ],
+      "issues": [],
+      "status": "READY",
+      "source_unit_price": 214.0,
+      "catalog_unit_price": 214.0,
+      "price_difference": 0.0,
+      "price_validation": "PRICE MATCH",
+      "review_flags": []
+    },
+    {
+      "order_id": ": CR-4477",
+      "line_number": "2",
+      "customer_item_number": "C-502",
+      "raw_source": "2 | C-502 | gasket sealant 16 oz | 3 | each | 14.60",
+      "extracted_value": {
+        "customer_item_number": "C-502",
+        "raw_description": "gasket sealant 16 oz",
+        "quantity": 3.0,
+        "unit": "each",
+        "sku_hint": null
+      },
+      "proposed_sku": "GN-16",
+      "matched_description": "gasket sealant 16 oz",
+      "confidence": "HIGH",
+      "review_reason": null,
+      "alternative_matches": [
+        [
+          "LS-01",
+          0.131
+        ],
+        [
+          "LS-02",
+          0.131
+        ],
+        [
+          "BV-205",
+          0.0
+        ]
+      ],
+      "issues": [],
+      "status": "READY",
+      "source_unit_price": 14.6,
+      "catalog_unit_price": 14.6,
+      "price_difference": 0.0,
+      "price_validation": "PRICE MATCH",
+      "review_flags": []
+    }
+  ],
+  "envelope": {
+    "customer": {
+      "value": "Cedar Ridge",
+      "source_ref": "O006.eml:body",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "Customer: Cedar Ridge"
+    },
+    "customer_account_id": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "bill_to": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "ship_to": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "po_number": {
+      "value": ": CR-4477",
+      "source_ref": "O006.eml:body",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "PO #: CR-4477"
+    },
+    "order_date": {
+      "value": "2026-08-03",
+      "source_ref": "O006.eml:body",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "Order Date: 2026-08-03"
+    },
+    "requested_delivery_date": {
+      "value": "2026-08-08",
+      "source_ref": "O006.eml:body",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "Requested Delivery: 2026-08-08"
+    },
+    "unresolved_fields": [],
+    "fulfillment_status": "NOT_PROVIDED"
+  }
+}

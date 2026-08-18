@@ -1,0 +1,142 @@
+[
+  {
+    "order_id": "O001",
+    "source_path": "/workspace/business-001-order-intake/raw_sources/014c5/O001.pdf",
+    "display_matches_source_parse": true,
+    "source_integrity_check": true,
+    "source_type": "pdf"
+  },
+  {
+    "order_id": "O002",
+    "source_path": "/workspace/business-001-order-intake/raw_sources/014c5/O002.pdf",
+    "display_matches_source_parse": true,
+    "source_integrity_check": true,
+    "source_type": "pdf"
+  },
+  {
+    "order_id": "O003",
+    "source_path": "/workspace/business-001-order-intake/raw_sources/014c5/O003.pdf",
+    "display_matches_source_parse": true,
+    "source_integrity_check": true,
+    "source_type": "pdf"
+  },
+  {
+    "order_id": "O004",
+    "source_path": "/workspace/business-001-order-intake/raw_sources/014c5/O004.eml",
+    "display_matches_source_parse": true,
+    "source_integrity_check": true,
+    "source_type": "email"
+  },
+  {
+    "order_id": "O005",
+    "source_path": "/workspace/business-001-order-intake/raw_sources/014c5/O005.eml",
+    "display_matches_source_parse": true,
+    "source_integrity_check": true,
+    "source_type": "email"
+  },
+  {
+    "order_id": "O006",
+    "source_path": "/workspace/business-001-order-intake/raw_sources/014c5/O006.eml",
+    "display_matches_source_parse": true,
+    "source_integrity_check": true,
+    "source_type": "email"
+  },
+  {
+    "order_id": "O007",
+    "source_path": "/workspace/business-001-order-intake/raw_sources/014c5/O007.eml",
+    "display_matches_source_parse": true,
+    "source_integrity_check": true,
+    "source_type": "email"
+  },
+  {
+    "order_id": "O009",
+    "source_path": "/workspace/business-001-order-intake/raw_sources/014c5/O009.pdf",
+    "display_matches_source_parse": true,
+    "source_integrity_check": true,
+    "source_type": "pdf"
+  },
+  {
+    "order_id": "O010",
+    "source_path": "/workspace/business-001-order-intake/raw_sources/014c5/O010.pdf",
+    "display_matches_source_parse": true,
+    "source_integrity_check": true,
+    "source_type": "pdf"
+  },
+  {
+    "order_id": "O011",
+    "source_path": "/workspace/business-001-order-intake/raw_sources/014c5/O011.xlsx",
+    "display_matches_source_parse": true,
+    "source_integrity_check": true,
+    "source_type": "xlsx"
+  },
+  {
+    "order_id": "O012",
+    "source_path": "/workspace/business-001-order-intake/raw_sources/014c5/O012.xlsx",
+    "display_matches_source_parse": true,
+    "source_integrity_check": true,
+    "source_type": "xlsx"
+  },
+  {
+    "order_id": "O013",
+    "source_path": "/workspace/business-001-order-intake/raw_sources/014c5/O013.xlsx",
+    "display_matches_source_parse": true,
+    "source_integrity_check": true,
+    "source_type": "xlsx"
+  },
+  {
+    "order_id": "O014",
+    "source_path": "/workspace/business-001-order-intake/raw_sources/014c5/O014.xlsx",
+    "display_matches_source_parse": true,
+    "source_integrity_check": true,
+    "source_type": "xlsx"
+  },
+  {
+    "order_id": "O015",
+    "source_path": "/workspace/business-001-order-intake/raw_sources/014c5/O015.xlsx",
+    "display_matches_source_parse": true,
+    "source_integrity_check": true,
+    "source_type": "xlsx"
+  },
+  {
+    "order_id": "O017",
+    "source_path": "/workspace/business-001-order-intake/raw_sources/014c5/O017.eml",
+    "display_matches_source_parse": true,
+    "source_integrity_check": true,
+    "source_type": "email"
+  },
+  {
+    "order_id": "O025",
+    "source_path": "/workspace/business-001-order-intake/raw_sources/014c5/O025.eml",
+    "display_matches_source_parse": true,
+    "source_integrity_check": true,
+    "source_type": "email"
+  },
+  {
+    "order_id": "O029",
+    "source_path": "/workspace/business-001-order-intake/raw_sources/014c5/O029.eml",
+    "display_matches_source_parse": true,
+    "source_integrity_check": true,
+    "source_type": "email"
+  },
+  {
+    "order_id": "O035",
+    "source_path": "/workspace/business-001-order-intake/raw_sources/014c5/O035.png",
+    "display_matches_source_parse": true,
+    "source_integrity_check": true,
+    "source_type": "image"
+  },
+  {
+    "order_id": "O036",
+    "source_path": "/workspace/business-001-order-intake/raw_sources/014c5/O036.png",
+    "display_matches_source_parse": true,
+    "source_integrity_check": true,
+    "source_type": "image"
+  },
+  {
+    "order_id": "O039",
+    "source_path": "/workspace/business-001-order-intake/raw_sources/014c5/O039.png",
+    "display_matches_source_parse": true,
+    "source_integrity_check": true,
+    "source_type": "image"
+  }
+]

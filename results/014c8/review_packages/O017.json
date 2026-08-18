@@ -1,0 +1,271 @@
+{
+  "order_id": "O017",
+  "original_source": {
+    "source_type": "email",
+    "source_path": "/workspace/business-001-order-intake/raw_sources/014c5/O017.eml",
+    "text": "Customer: Ironwood Controls\nPO #: IW-4433\nOrder Date: 2026-08-09\nRequested Delivery: 2026-08-14\n\n1 | C-1601 | 2 brass full port valve | 4 | each | 124.00\n2 | C-1602 | 2 brass full port valve | 4 | each | 124.00\n\nThanks,\nShipping Desk\n\nSource note: duplicate_source_block\n\nline_number | customer_item_number | description | quantity | unit | unit_price\n1 | C-1601 | 2 brass full port valve | 4 | each | 124.00\n2 | C-1602 | 2 brass full port valve | 4 | each | 124.00",
+    "integrity_check": true
+  },
+  "ai_prepared_order": {
+    "order_information": {
+      "customer": {
+        "value": "Ironwood Controls",
+        "source_ref": "O017.eml:body",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "Customer: Ironwood Controls"
+      },
+      "customer_account_id": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "bill_to": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "ship_to": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "po_number": {
+        "value": ": IW-4433",
+        "source_ref": "O017.eml:body",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "PO #: IW-4433"
+      },
+      "order_date": {
+        "value": "2026-08-09",
+        "source_ref": "O017.eml:body",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "Order Date: 2026-08-09"
+      },
+      "requested_delivery_date": {
+        "value": "2026-08-14",
+        "source_ref": "O017.eml:body",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "Requested Delivery: 2026-08-14"
+      }
+    },
+    "line_items": [
+      {
+        "customer_item_number": "C-1601",
+        "raw_description": "2 brass full port valve",
+        "matched_sku": "BV-205",
+        "matched_catalog_description": "2in brass full-port ball valve",
+        "quantity": 4.0,
+        "unit": "each",
+        "source_price": 124.0,
+        "catalog_price": 124.0,
+        "price_difference": 0.0,
+        "price_validation": "PRICE MATCH",
+        "confidence": "MEDIUM",
+        "review_reason": "fuzzy description match",
+        "alternative_matches": [
+          [
+            "BV-210",
+            0.609
+          ],
+          [
+            "PV-200",
+            0.512
+          ],
+          [
+            "SV-200",
+            0.512
+          ]
+        ],
+        "status": "REVIEW REQUIRED"
+      },
+      {
+        "customer_item_number": "C-1602",
+        "raw_description": "2 brass full port valve",
+        "matched_sku": "BV-205",
+        "matched_catalog_description": "2in brass full-port ball valve",
+        "quantity": 4.0,
+        "unit": "each",
+        "source_price": 124.0,
+        "catalog_price": 124.0,
+        "price_difference": 0.0,
+        "price_validation": "PRICE MATCH",
+        "confidence": "MEDIUM",
+        "review_reason": "fuzzy description match",
+        "alternative_matches": [
+          [
+            "BV-210",
+            0.609
+          ],
+          [
+            "PV-200",
+            0.512
+          ],
+          [
+            "SV-200",
+            0.512
+          ]
+        ],
+        "status": "REVIEW REQUIRED"
+      }
+    ],
+    "order_validation": {
+      "completeness_status": "INCOMPLETE",
+      "unresolved_fields": [],
+      "conflicts": [
+        "fuzzy description match",
+        "fuzzy description match"
+      ],
+      "review_flags": [
+        "FULFILLMENT_NOT_PROVIDED"
+      ],
+      "final_ai_status": "REVIEW REQUIRED",
+      "fulfillment_status": "NOT_PROVIDED"
+    }
+  },
+  "order_status": "REVIEW REQUIRED",
+  "completeness_status": "INCOMPLETE",
+  "review_flags": [
+    "FULFILLMENT_NOT_PROVIDED"
+  ],
+  "line_rows": [
+    {
+      "order_id": ": IW-4433",
+      "line_number": "1",
+      "customer_item_number": "C-1601",
+      "raw_source": "1 | C-1601 | 2 brass full port valve | 4 | each | 124.00\n1 | C-1601 | 2 brass full port valve | 4 | each | 124.00",
+      "extracted_value": {
+        "customer_item_number": "C-1601",
+        "raw_description": "2 brass full port valve",
+        "quantity": 4.0,
+        "unit": "each",
+        "sku_hint": null
+      },
+      "proposed_sku": "BV-205",
+      "matched_description": "2in brass full-port ball valve",
+      "confidence": "MEDIUM",
+      "review_reason": "fuzzy description match",
+      "alternative_matches": [
+        [
+          "BV-210",
+          0.609
+        ],
+        [
+          "PV-200",
+          0.512
+        ],
+        [
+          "SV-200",
+          0.512
+        ]
+      ],
+      "issues": [],
+      "status": "REVIEW REQUIRED",
+      "source_unit_price": 124.0,
+      "catalog_unit_price": 124.0,
+      "price_difference": 0.0,
+      "price_validation": "PRICE MATCH",
+      "review_flags": []
+    },
+    {
+      "order_id": ": IW-4433",
+      "line_number": "2",
+      "customer_item_number": "C-1602",
+      "raw_source": "2 | C-1602 | 2 brass full port valve | 4 | each | 124.00\n2 | C-1602 | 2 brass full port valve | 4 | each | 124.00",
+      "extracted_value": {
+        "customer_item_number": "C-1602",
+        "raw_description": "2 brass full port valve",
+        "quantity": 4.0,
+        "unit": "each",
+        "sku_hint": null
+      },
+      "proposed_sku": "BV-205",
+      "matched_description": "2in brass full-port ball valve",
+      "confidence": "MEDIUM",
+      "review_reason": "fuzzy description match",
+      "alternative_matches": [
+        [
+          "BV-210",
+          0.609
+        ],
+        [
+          "PV-200",
+          0.512
+        ],
+        [
+          "SV-200",
+          0.512
+        ]
+      ],
+      "issues": [],
+      "status": "REVIEW REQUIRED",
+      "source_unit_price": 124.0,
+      "catalog_unit_price": 124.0,
+      "price_difference": 0.0,
+      "price_validation": "PRICE MATCH",
+      "review_flags": []
+    }
+  ],
+  "envelope": {
+    "customer": {
+      "value": "Ironwood Controls",
+      "source_ref": "O017.eml:body",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "Customer: Ironwood Controls"
+    },
+    "customer_account_id": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "bill_to": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "ship_to": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "po_number": {
+      "value": ": IW-4433",
+      "source_ref": "O017.eml:body",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "PO #: IW-4433"
+    },
+    "order_date": {
+      "value": "2026-08-09",
+      "source_ref": "O017.eml:body",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "Order Date: 2026-08-09"
+    },
+    "requested_delivery_date": {
+      "value": "2026-08-14",
+      "source_ref": "O017.eml:body",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "Requested Delivery: 2026-08-14"
+    },
+    "unresolved_fields": [],
+    "fulfillment_status": "NOT_PROVIDED"
+  }
+}

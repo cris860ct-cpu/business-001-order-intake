@@ -1,0 +1,242 @@
+{
+  "order_id": "O014",
+  "original_source": {
+    "source_type": "xlsx",
+    "source_path": "/workspace/business-001-order-intake/raw_sources/014c5/O014.xlsx",
+    "text": "Customer: Atlantic Build\nPO #: AB-9099\nOrder Date: 2026-08-07\nRequested Delivery: 2026-08-13\nline_number | customer_item_number | description | quantity | unit | unit_price\n1 | C-1301 | nitrile gloves medium | 6 | box | 11.80\n2 | C-1302 | nitrile gloves large | 6 | box | 11.80",
+    "integrity_check": true
+  },
+  "ai_prepared_order": {
+    "order_information": {
+      "customer": {
+        "value": "Atlantic Build",
+        "source_ref": "Order:row1",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "Customer: Atlantic Build"
+      },
+      "customer_account_id": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "bill_to": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "ship_to": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "po_number": {
+        "value": ": AB-9099",
+        "source_ref": "Order:row1",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "PO #: AB-9099"
+      },
+      "order_date": {
+        "value": "2026-08-07",
+        "source_ref": "Order:row2",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "Order Date: 2026-08-07"
+      },
+      "requested_delivery_date": {
+        "value": "2026-08-13",
+        "source_ref": "Order:row2",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "Requested Delivery: 2026-08-13"
+      }
+    },
+    "line_items": [
+      {
+        "customer_item_number": "C-1301",
+        "raw_description": "nitrile gloves medium",
+        "matched_sku": "GL-M",
+        "matched_catalog_description": "nitrile gloves medium",
+        "quantity": 6.0,
+        "unit": "box",
+        "source_price": 11.8,
+        "catalog_price": 11.8,
+        "price_difference": 0.0,
+        "price_validation": "PRICE MATCH",
+        "confidence": "HIGH",
+        "review_reason": null,
+        "alternative_matches": [],
+        "status": "READY"
+      },
+      {
+        "customer_item_number": "C-1302",
+        "raw_description": "nitrile gloves large",
+        "matched_sku": "GL-L",
+        "matched_catalog_description": "nitrile gloves large",
+        "quantity": 6.0,
+        "unit": "box",
+        "source_price": 11.8,
+        "catalog_price": 11.8,
+        "price_difference": 0.0,
+        "price_validation": "PRICE MATCH",
+        "confidence": "HIGH",
+        "review_reason": null,
+        "alternative_matches": [],
+        "status": "READY"
+      }
+    ],
+    "order_validation": {
+      "completeness_status": "COMPLETE",
+      "unresolved_fields": [],
+      "conflicts": [],
+      "review_flags": [
+        "FULFILLMENT_NOT_PROVIDED"
+      ],
+      "final_ai_status": "READY",
+      "fulfillment_status": "NOT_PROVIDED"
+    }
+  },
+  "order_status": "READY",
+  "completeness_status": "COMPLETE",
+  "review_flags": [
+    "FULFILLMENT_NOT_PROVIDED"
+  ],
+  "line_rows": [
+    {
+      "order_id": ": AB-9099",
+      "line_number": "1",
+      "customer_item_number": "C-1301",
+      "raw_source": "1 | C-1301 | nitrile gloves medium | 6 | box | 11.80",
+      "extracted_value": {
+        "customer_item_number": "C-1301",
+        "raw_description": "nitrile gloves medium",
+        "quantity": 6.0,
+        "unit": "box",
+        "sku_hint": null
+      },
+      "proposed_sku": "GL-M",
+      "matched_description": "nitrile gloves medium",
+      "confidence": "HIGH",
+      "review_reason": null,
+      "alternative_matches": [
+        [
+          "GL-L",
+          0.426
+        ],
+        [
+          "BV-205",
+          0.0
+        ],
+        [
+          "BV-210",
+          0.0
+        ]
+      ],
+      "issues": [],
+      "status": "READY",
+      "source_unit_price": 11.8,
+      "catalog_unit_price": 11.8,
+      "price_difference": 0.0,
+      "price_validation": "PRICE MATCH",
+      "review_flags": []
+    },
+    {
+      "order_id": ": AB-9099",
+      "line_number": "2",
+      "customer_item_number": "C-1302",
+      "raw_source": "2 | C-1302 | nitrile gloves large | 6 | box | 11.80",
+      "extracted_value": {
+        "customer_item_number": "C-1302",
+        "raw_description": "nitrile gloves large",
+        "quantity": 6.0,
+        "unit": "box",
+        "sku_hint": null
+      },
+      "proposed_sku": "GL-L",
+      "matched_description": "nitrile gloves large",
+      "confidence": "HIGH",
+      "review_reason": null,
+      "alternative_matches": [
+        [
+          "GL-M",
+          0.426
+        ],
+        [
+          "BV-205",
+          0.0
+        ],
+        [
+          "BV-210",
+          0.0
+        ]
+      ],
+      "issues": [],
+      "status": "READY",
+      "source_unit_price": 11.8,
+      "catalog_unit_price": 11.8,
+      "price_difference": 0.0,
+      "price_validation": "PRICE MATCH",
+      "review_flags": []
+    }
+  ],
+  "envelope": {
+    "customer": {
+      "value": "Atlantic Build",
+      "source_ref": "Order:row1",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "Customer: Atlantic Build"
+    },
+    "customer_account_id": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "bill_to": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "ship_to": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "po_number": {
+      "value": ": AB-9099",
+      "source_ref": "Order:row1",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "PO #: AB-9099"
+    },
+    "order_date": {
+      "value": "2026-08-07",
+      "source_ref": "Order:row2",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "Order Date: 2026-08-07"
+    },
+    "requested_delivery_date": {
+      "value": "2026-08-13",
+      "source_ref": "Order:row2",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "Requested Delivery: 2026-08-13"
+    },
+    "unresolved_fields": [],
+    "fulfillment_status": "NOT_PROVIDED"
+  }
+}

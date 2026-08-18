@@ -1,0 +1,242 @@
+{
+  "order_id": "O003",
+  "original_source": {
+    "source_type": "pdf",
+    "source_path": "/workspace/business-001-order-intake/raw_sources/014c5/O003.pdf",
+    "text": "Nova Labs Wholesale Order\nCustomer: Riverbend Services\nPO #: RB-7721\nOrder Date: 2026-08-02\nRequested Delivery: 2026-08-07\n\n1 | C-201 | 6205 sealed bearing | 8 | each | 7.80\n2 | C-202 | blue threadlocker 10 ml | 5 | each | 8.90\n\nDisclaimer: quantities subject to final count\nPlease review shipping window",
+    "integrity_check": true
+  },
+  "ai_prepared_order": {
+    "order_information": {
+      "customer": {
+        "value": "Riverbend Services",
+        "source_ref": "O003.pdf:page1",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "Customer: Riverbend Services"
+      },
+      "customer_account_id": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "bill_to": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "ship_to": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "po_number": {
+        "value": ": RB-7721",
+        "source_ref": "O003.pdf:page1",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "PO #: RB-7721"
+      },
+      "order_date": {
+        "value": "2026-08-02",
+        "source_ref": "O003.pdf:page1",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "Order Date: 2026-08-02"
+      },
+      "requested_delivery_date": {
+        "value": "2026-08-07",
+        "source_ref": "O003.pdf:page1",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "Requested Delivery: 2026-08-07"
+      }
+    },
+    "line_items": [
+      {
+        "customer_item_number": "C-201",
+        "raw_description": "6205 sealed bearing",
+        "matched_sku": "BR-6205",
+        "matched_catalog_description": "6205 sealed ball bearing",
+        "quantity": 8.0,
+        "unit": "each",
+        "source_price": 7.8,
+        "catalog_price": 7.8,
+        "price_difference": 0.0,
+        "price_validation": "PRICE MATCH",
+        "confidence": "HIGH",
+        "review_reason": null,
+        "alternative_matches": [],
+        "status": "READY"
+      },
+      {
+        "customer_item_number": "C-202",
+        "raw_description": "blue threadlocker 10 ml",
+        "matched_sku": "LS-01",
+        "matched_catalog_description": "blue threadlocker 10 ml",
+        "quantity": 5.0,
+        "unit": "each",
+        "source_price": 8.9,
+        "catalog_price": 8.9,
+        "price_difference": 0.0,
+        "price_validation": "PRICE MATCH",
+        "confidence": "HIGH",
+        "review_reason": null,
+        "alternative_matches": [],
+        "status": "READY"
+      }
+    ],
+    "order_validation": {
+      "completeness_status": "COMPLETE",
+      "unresolved_fields": [],
+      "conflicts": [],
+      "review_flags": [
+        "FULFILLMENT_NOT_PROVIDED"
+      ],
+      "final_ai_status": "READY",
+      "fulfillment_status": "NOT_PROVIDED"
+    }
+  },
+  "order_status": "READY",
+  "completeness_status": "COMPLETE",
+  "review_flags": [
+    "FULFILLMENT_NOT_PROVIDED"
+  ],
+  "line_rows": [
+    {
+      "order_id": ": RB-7721",
+      "line_number": "1",
+      "customer_item_number": "C-201",
+      "raw_source": "1 | C-201 | 6205 sealed bearing | 8 | each | 7.80",
+      "extracted_value": {
+        "customer_item_number": "C-201",
+        "raw_description": "6205 sealed bearing",
+        "quantity": 8.0,
+        "unit": "each",
+        "sku_hint": null
+      },
+      "proposed_sku": "BR-6205",
+      "matched_description": "6205 sealed ball bearing",
+      "confidence": "HIGH",
+      "review_reason": null,
+      "alternative_matches": [
+        [
+          "BR-6206",
+          0.438
+        ],
+        [
+          "BR-6205-2RS",
+          0.438
+        ],
+        [
+          "BV-205",
+          0.0
+        ]
+      ],
+      "issues": [],
+      "status": "READY",
+      "source_unit_price": 7.8,
+      "catalog_unit_price": 7.8,
+      "price_difference": 0.0,
+      "price_validation": "PRICE MATCH",
+      "review_flags": []
+    },
+    {
+      "order_id": ": RB-7721",
+      "line_number": "2",
+      "customer_item_number": "C-202",
+      "raw_source": "2 | C-202 | blue threadlocker 10 ml | 5 | each | 8.90",
+      "extracted_value": {
+        "customer_item_number": "C-202",
+        "raw_description": "blue threadlocker 10 ml",
+        "quantity": 5.0,
+        "unit": "each",
+        "sku_hint": null
+      },
+      "proposed_sku": "LS-01",
+      "matched_description": "blue threadlocker 10 ml",
+      "confidence": "HIGH",
+      "review_reason": null,
+      "alternative_matches": [
+        [
+          "LS-02",
+          0.915
+        ],
+        [
+          "AF-10",
+          0.189
+        ],
+        [
+          "GN-16",
+          0.103
+        ]
+      ],
+      "issues": [],
+      "status": "READY",
+      "source_unit_price": 8.9,
+      "catalog_unit_price": 8.9,
+      "price_difference": 0.0,
+      "price_validation": "PRICE MATCH",
+      "review_flags": []
+    }
+  ],
+  "envelope": {
+    "customer": {
+      "value": "Riverbend Services",
+      "source_ref": "O003.pdf:page1",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "Customer: Riverbend Services"
+    },
+    "customer_account_id": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "bill_to": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "ship_to": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "po_number": {
+      "value": ": RB-7721",
+      "source_ref": "O003.pdf:page1",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "PO #: RB-7721"
+    },
+    "order_date": {
+      "value": "2026-08-02",
+      "source_ref": "O003.pdf:page1",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "Order Date: 2026-08-02"
+    },
+    "requested_delivery_date": {
+      "value": "2026-08-07",
+      "source_ref": "O003.pdf:page1",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "Requested Delivery: 2026-08-07"
+    },
+    "unresolved_fields": [],
+    "fulfillment_status": "NOT_PROVIDED"
+  }
+}

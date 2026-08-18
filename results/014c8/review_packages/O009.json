@@ -1,0 +1,203 @@
+{
+  "order_id": "O009",
+  "original_source": {
+    "source_type": "pdf",
+    "source_path": "/workspace/business-001-order-intake/raw_sources/014c5/O009.pdf",
+    "text": "Nova Labs Wholesale Order\nCustomer: Allen Works\nPO #: AW-3008\nOrder Date: 2026-08-05\nRequested Delivery: 2026-08-11\n\n1 | C-801 | 2in full port brass valve | 4 | each | 124.00\n\nSource note: candidate_matches=BV-205;BV-210;GV-200;CV-200;SV-200",
+    "integrity_check": true
+  },
+  "ai_prepared_order": {
+    "order_information": {
+      "customer": {
+        "value": "Allen Works",
+        "source_ref": "O009.pdf:page1",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "Customer: Allen Works"
+      },
+      "customer_account_id": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "bill_to": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "ship_to": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "po_number": {
+        "value": ": AW-3008",
+        "source_ref": "O009.pdf:page1",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "PO #: AW-3008"
+      },
+      "order_date": {
+        "value": "2026-08-05",
+        "source_ref": "O009.pdf:page1",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "Order Date: 2026-08-05"
+      },
+      "requested_delivery_date": {
+        "value": "2026-08-11",
+        "source_ref": "O009.pdf:page1",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "Requested Delivery: 2026-08-11"
+      }
+    },
+    "line_items": [
+      {
+        "customer_item_number": "C-801",
+        "raw_description": "2in full port brass valve",
+        "matched_sku": "BV-205",
+        "matched_catalog_description": "2in brass full-port ball valve",
+        "quantity": 4.0,
+        "unit": "each",
+        "source_price": 124.0,
+        "catalog_price": 124.0,
+        "price_difference": 0.0,
+        "price_validation": "PRICE MATCH",
+        "confidence": "MEDIUM",
+        "review_reason": "fuzzy description match",
+        "alternative_matches": [
+          [
+            "BV-210",
+            0.644
+          ],
+          [
+            "PV-200",
+            0.559
+          ],
+          [
+            "SV-200",
+            0.559
+          ]
+        ],
+        "status": "REVIEW REQUIRED"
+      }
+    ],
+    "order_validation": {
+      "completeness_status": "INCOMPLETE",
+      "unresolved_fields": [],
+      "conflicts": [
+        "fuzzy description match"
+      ],
+      "review_flags": [
+        "FULFILLMENT_NOT_PROVIDED"
+      ],
+      "final_ai_status": "REVIEW REQUIRED",
+      "fulfillment_status": "NOT_PROVIDED"
+    }
+  },
+  "order_status": "REVIEW REQUIRED",
+  "completeness_status": "INCOMPLETE",
+  "review_flags": [
+    "FULFILLMENT_NOT_PROVIDED"
+  ],
+  "line_rows": [
+    {
+      "order_id": ": AW-3008",
+      "line_number": "1",
+      "customer_item_number": "C-801",
+      "raw_source": "1 | C-801 | 2in full port brass valve | 4 | each | 124.00",
+      "extracted_value": {
+        "customer_item_number": "C-801",
+        "raw_description": "2in full port brass valve",
+        "quantity": 4.0,
+        "unit": "each",
+        "sku_hint": null
+      },
+      "proposed_sku": "BV-205",
+      "matched_description": "2in brass full-port ball valve",
+      "confidence": "MEDIUM",
+      "review_reason": "fuzzy description match",
+      "alternative_matches": [
+        [
+          "BV-210",
+          0.644
+        ],
+        [
+          "PV-200",
+          0.559
+        ],
+        [
+          "SV-200",
+          0.559
+        ]
+      ],
+      "issues": [],
+      "status": "REVIEW REQUIRED",
+      "source_unit_price": 124.0,
+      "catalog_unit_price": 124.0,
+      "price_difference": 0.0,
+      "price_validation": "PRICE MATCH",
+      "review_flags": []
+    }
+  ],
+  "envelope": {
+    "customer": {
+      "value": "Allen Works",
+      "source_ref": "O009.pdf:page1",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "Customer: Allen Works"
+    },
+    "customer_account_id": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "bill_to": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "ship_to": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "po_number": {
+      "value": ": AW-3008",
+      "source_ref": "O009.pdf:page1",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "PO #: AW-3008"
+    },
+    "order_date": {
+      "value": "2026-08-05",
+      "source_ref": "O009.pdf:page1",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "Order Date: 2026-08-05"
+    },
+    "requested_delivery_date": {
+      "value": "2026-08-11",
+      "source_ref": "O009.pdf:page1",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "Requested Delivery: 2026-08-11"
+    },
+    "unresolved_fields": [],
+    "fulfillment_status": "NOT_PROVIDED"
+  }
+}

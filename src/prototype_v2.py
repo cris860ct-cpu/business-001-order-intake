@@ -290,6 +290,8 @@ TOKEN_RE = re.compile(r"(?:\d+\.\d+|\d+/\d+|\d+(?:\.\d+)?(?:-[a-z0-9]+)*|[a-z]+(
 NUMERIC_TOKEN_RE = re.compile(
     r"\b(?:(?P<fraction>\d+/\d+)|(?P<dim>\d+(?:\.\d+)?\s*[xX]\s*\d+(?:\.\d+)?)|(?P<measure>\d+(?:\.\d+)?)\s*(?P<unit>in|ft|yd|ml|oz|awg)\b|(?P<code>\d{4}(?:-2rs)?|\d{2}-\d{2}|\d{3}-\d{2,4}|\d+-\d+(?:-\d+)?)|(?P<plain>\d+(?:\.\d+)?))\b"
 )
+FRACTION_WITH_UNIT_RE = re.compile(r"\b(?P<fraction>\d+/\d+)\s*(?P<unit>in|ft|yd|ml|oz|awg)\b", re.IGNORECASE)
+DEGREE_RE = re.compile(r"\b(?P<value>\d+)\s*degree\b", re.IGNORECASE)
 
 
 def singularize(token: str) -> str:
@@ -340,7 +342,27 @@ def tokenize(text: str) -> List[str]:
 def extract_numeric_signatures(text: str) -> Tuple[str, ...]:
     normalized = normalize(text)
     signatures: List[str] = []
+    consumed_spans: List[Tuple[int, int]] = []
+
+    for match in FRACTION_WITH_UNIT_RE.finditer(normalized):
+        fraction = match.group('fraction')
+        unit = UNIT_ALIASES.get(match.group('unit'), match.group('unit'))
+        signatures.append(f"measure:{fraction}:{unit}")
+        consumed_spans.append(match.span())
+
+    for match in DEGREE_RE.finditer(normalized):
+        signatures.append(f"deg:{match.group('value')}")
+        consumed_spans.append(match.span())
+
+    def _overlaps(span: Tuple[int, int]) -> bool:
+        for a, b in consumed_spans:
+            if span[0] < b and a < span[1]:
+                return True
+        return False
+
     for match in NUMERIC_TOKEN_RE.finditer(normalized):
+        if _overlaps(match.span()):
+            continue
         if match.group("fraction"):
             signatures.append(f"frac:{match.group('fraction')}")
         elif match.group("dim"):
@@ -374,13 +396,16 @@ def numeric_key(signature: str) -> Tuple[str, str, Optional[str]]:
         return ("value", value, None)
     if signature.startswith("frac:"):
         _, value = signature.split(":", 1)
-        return ("frac", value, None)
+        return ("value", value, None)
     if signature.startswith("dim:"):
         _, value = signature.split(":", 1)
         return ("dim", value, None)
     if signature.startswith("code:"):
         _, value = signature.split(":", 1)
         return ("code", value, None)
+    if signature.startswith("deg:"):
+        _, value = signature.split(":", 1)
+        return ("deg", value, None)
     return ("other", signature, None)
 
 
@@ -393,6 +418,9 @@ def numeric_signatures_match(a: str, b: str) -> bool:
     if ka[0] == kb[0] == "value" and ka[1] == kb[1]:
         return True
     # Allow bare values to match measured values when the number is the same.
+    if ka[0] == "value" and kb[0] == "value" and ka[1] == kb[1]:
+        return True
+    # Fractions and measured fractions should match by numeric text.
     if ka[0] == "value" and kb[0] == "value" and ka[1] == kb[1]:
         return True
     return False
@@ -690,7 +718,10 @@ class CatalogMatcher:
         # Ambiguity / safety flags.
         family_candidates = [row for row in candidates if row[0] and row[0].sku in self.family_skus.get(detect_family(tokenize(best_item.description), normalize(best_item.description)), [])]
         ambiguous_family = len([row for row in candidates if row[1] >= best_score - 0.005]) > 1
-        missing_critical_size = best_missing > 0 and line_family not in {"generic", "part_number"}
+        best_profile = next(profile for profile in self.profiles if profile.item.sku == best_item.sku)
+        critical_numeric_signatures = [sig for sig in best_profile.numeric_signatures if numeric_key(sig)[0] not in {"deg"}]
+        _, critical_missing, _ = self._numeric_score(line_numbers, critical_numeric_signatures)
+        missing_critical_size = critical_missing > 0 and line_family not in {"generic", "part_number"}
         has_substitution_phrase = bool(re.search(r"\bsubstitut|if unavailable|equivalent\b", line.combined_text().lower()))
         has_history_reference = bool(re.search(r"\bsame style|job \d+|history reference\b", line.combined_text().lower()))
         has_duplicate_hint = bool(re.search(r"\bduplicate|repeated header|duplicate line\b", line.combined_text().lower()))

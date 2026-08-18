@@ -1,0 +1,177 @@
+{
+  "order_id": "O010",
+  "original_source": {
+    "source_type": "pdf",
+    "source_path": "/workspace/business-001-order-intake/raw_sources/014c5/O010.pdf",
+    "text": "Nova Labs Wholesale Order\nCustomer: Lakefront Fabrication\nPO #: LF-3122\nOrder Date: 2026-08-05\nRequested Delivery: 2026-08-12\n\n1 | C-901 | BV-2050 | 2 | each | 124.00\n\nSource note: candidate_matches=BV-205",
+    "integrity_check": true
+  },
+  "ai_prepared_order": {
+    "order_information": {
+      "customer": {
+        "value": "Lakefront Fabrication",
+        "source_ref": "O010.pdf:page1",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "Customer: Lakefront Fabrication"
+      },
+      "customer_account_id": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "bill_to": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "ship_to": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "po_number": {
+        "value": ": LF-3122",
+        "source_ref": "O010.pdf:page1",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "PO #: LF-3122"
+      },
+      "order_date": {
+        "value": "2026-08-05",
+        "source_ref": "O010.pdf:page1",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "Order Date: 2026-08-05"
+      },
+      "requested_delivery_date": {
+        "value": "2026-08-12",
+        "source_ref": "O010.pdf:page1",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "Requested Delivery: 2026-08-12"
+      }
+    },
+    "line_items": [
+      {
+        "customer_item_number": "C-901",
+        "raw_description": "BV-2050",
+        "matched_sku": "BV-205",
+        "matched_catalog_description": "2in brass full-port ball valve",
+        "quantity": 2.0,
+        "unit": "each",
+        "source_price": 124.0,
+        "catalog_price": 124.0,
+        "price_difference": 0.0,
+        "price_validation": "PRICE MATCH",
+        "confidence": "MEDIUM",
+        "review_reason": "near-SKU typo",
+        "alternative_matches": [],
+        "status": "REVIEW REQUIRED"
+      }
+    ],
+    "order_validation": {
+      "completeness_status": "INCOMPLETE",
+      "unresolved_fields": [],
+      "conflicts": [
+        "near-SKU typo"
+      ],
+      "review_flags": [
+        "FULFILLMENT_NOT_PROVIDED"
+      ],
+      "final_ai_status": "REVIEW REQUIRED",
+      "fulfillment_status": "NOT_PROVIDED"
+    }
+  },
+  "order_status": "REVIEW REQUIRED",
+  "completeness_status": "INCOMPLETE",
+  "review_flags": [
+    "FULFILLMENT_NOT_PROVIDED"
+  ],
+  "line_rows": [
+    {
+      "order_id": ": LF-3122",
+      "line_number": "1",
+      "customer_item_number": "C-901",
+      "raw_source": "1 | C-901 | BV-2050 | 2 | each | 124.00",
+      "extracted_value": {
+        "customer_item_number": "C-901",
+        "raw_description": "BV-2050",
+        "quantity": 2.0,
+        "unit": "each",
+        "sku_hint": "BV-2050"
+      },
+      "proposed_sku": "BV-205",
+      "matched_description": "2in brass full-port ball valve",
+      "confidence": "MEDIUM",
+      "review_reason": "near-SKU typo",
+      "alternative_matches": [],
+      "issues": [],
+      "status": "REVIEW REQUIRED",
+      "source_unit_price": 124.0,
+      "catalog_unit_price": 124.0,
+      "price_difference": 0.0,
+      "price_validation": "PRICE MATCH",
+      "review_flags": []
+    }
+  ],
+  "envelope": {
+    "customer": {
+      "value": "Lakefront Fabrication",
+      "source_ref": "O010.pdf:page1",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "Customer: Lakefront Fabrication"
+    },
+    "customer_account_id": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "bill_to": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "ship_to": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "po_number": {
+      "value": ": LF-3122",
+      "source_ref": "O010.pdf:page1",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "PO #: LF-3122"
+    },
+    "order_date": {
+      "value": "2026-08-05",
+      "source_ref": "O010.pdf:page1",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "Order Date: 2026-08-05"
+    },
+    "requested_delivery_date": {
+      "value": "2026-08-12",
+      "source_ref": "O010.pdf:page1",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "Requested Delivery: 2026-08-12"
+    },
+    "unresolved_fields": [],
+    "fulfillment_status": "NOT_PROVIDED"
+  }
+}

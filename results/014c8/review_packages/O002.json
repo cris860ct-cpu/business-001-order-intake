@@ -1,0 +1,242 @@
+{
+  "order_id": "O002",
+  "original_source": {
+    "source_type": "pdf",
+    "source_path": "/workspace/business-001-order-intake/raw_sources/014c5/O002.pdf",
+    "text": "Nova Labs Wholesale Order\nCustomer: Northstar Mechanical\nPO #: NM-9912\nOrder Date: 2026-08-01\nRequested Delivery: 2026-08-06\n\n1 | C-101 | 1.5 brass ball valve | 3 | each | 89.00\n2 | C-102 | 2 brass union | 3 | each | 14.20",
+    "integrity_check": true
+  },
+  "ai_prepared_order": {
+    "order_information": {
+      "customer": {
+        "value": "Northstar Mechanical",
+        "source_ref": "O002.pdf:page1",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "Customer: Northstar Mechanical"
+      },
+      "customer_account_id": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "bill_to": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "ship_to": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "po_number": {
+        "value": ": NM-9912",
+        "source_ref": "O002.pdf:page1",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "PO #: NM-9912"
+      },
+      "order_date": {
+        "value": "2026-08-01",
+        "source_ref": "O002.pdf:page1",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "Order Date: 2026-08-01"
+      },
+      "requested_delivery_date": {
+        "value": "2026-08-06",
+        "source_ref": "O002.pdf:page1",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "Requested Delivery: 2026-08-06"
+      }
+    },
+    "line_items": [
+      {
+        "customer_item_number": "C-101",
+        "raw_description": "1.5 brass ball valve",
+        "matched_sku": "BV-150",
+        "matched_catalog_description": "1.5in brass ball valve",
+        "quantity": 3.0,
+        "unit": "each",
+        "source_price": 89.0,
+        "catalog_price": 89.0,
+        "price_difference": 0.0,
+        "price_validation": "PRICE MATCH",
+        "confidence": "HIGH",
+        "review_reason": null,
+        "alternative_matches": [],
+        "status": "READY"
+      },
+      {
+        "customer_item_number": "C-102",
+        "raw_description": "2 brass union",
+        "matched_sku": "UN-200",
+        "matched_catalog_description": "2in brass union",
+        "quantity": 3.0,
+        "unit": "each",
+        "source_price": 14.2,
+        "catalog_price": 14.2,
+        "price_difference": 0.0,
+        "price_validation": "PRICE MATCH",
+        "confidence": "HIGH",
+        "review_reason": null,
+        "alternative_matches": [],
+        "status": "READY"
+      }
+    ],
+    "order_validation": {
+      "completeness_status": "COMPLETE",
+      "unresolved_fields": [],
+      "conflicts": [],
+      "review_flags": [
+        "FULFILLMENT_NOT_PROVIDED"
+      ],
+      "final_ai_status": "READY",
+      "fulfillment_status": "NOT_PROVIDED"
+    }
+  },
+  "order_status": "READY",
+  "completeness_status": "COMPLETE",
+  "review_flags": [
+    "FULFILLMENT_NOT_PROVIDED"
+  ],
+  "line_rows": [
+    {
+      "order_id": ": NM-9912",
+      "line_number": "1",
+      "customer_item_number": "C-101",
+      "raw_source": "1 | C-101 | 1.5 brass ball valve | 3 | each | 89.00",
+      "extracted_value": {
+        "customer_item_number": "C-101",
+        "raw_description": "1.5 brass ball valve",
+        "quantity": 3.0,
+        "unit": "each",
+        "sku_hint": null
+      },
+      "proposed_sku": "BV-150",
+      "matched_description": "1.5in brass ball valve",
+      "confidence": "HIGH",
+      "review_reason": null,
+      "alternative_matches": [
+        [
+          "BV-205",
+          0.687
+        ],
+        [
+          "BV-300",
+          0.631
+        ],
+        [
+          "BV-100",
+          0.626
+        ]
+      ],
+      "issues": [],
+      "status": "READY",
+      "source_unit_price": 89.0,
+      "catalog_unit_price": 89.0,
+      "price_difference": 0.0,
+      "price_validation": "PRICE MATCH",
+      "review_flags": []
+    },
+    {
+      "order_id": ": NM-9912",
+      "line_number": "2",
+      "customer_item_number": "C-102",
+      "raw_source": "2 | C-102 | 2 brass union | 3 | each | 14.20",
+      "extracted_value": {
+        "customer_item_number": "C-102",
+        "raw_description": "2 brass union",
+        "quantity": 3.0,
+        "unit": "each",
+        "sku_hint": null
+      },
+      "proposed_sku": "UN-200",
+      "matched_description": "2in brass union",
+      "confidence": "HIGH",
+      "review_reason": null,
+      "alternative_matches": [
+        [
+          "CO-200",
+          0.679
+        ],
+        [
+          "TE-200",
+          0.679
+        ],
+        [
+          "FL-200",
+          0.679
+        ]
+      ],
+      "issues": [],
+      "status": "READY",
+      "source_unit_price": 14.2,
+      "catalog_unit_price": 14.2,
+      "price_difference": 0.0,
+      "price_validation": "PRICE MATCH",
+      "review_flags": []
+    }
+  ],
+  "envelope": {
+    "customer": {
+      "value": "Northstar Mechanical",
+      "source_ref": "O002.pdf:page1",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "Customer: Northstar Mechanical"
+    },
+    "customer_account_id": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "bill_to": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "ship_to": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "po_number": {
+      "value": ": NM-9912",
+      "source_ref": "O002.pdf:page1",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "PO #: NM-9912"
+    },
+    "order_date": {
+      "value": "2026-08-01",
+      "source_ref": "O002.pdf:page1",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "Order Date: 2026-08-01"
+    },
+    "requested_delivery_date": {
+      "value": "2026-08-06",
+      "source_ref": "O002.pdf:page1",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "Requested Delivery: 2026-08-06"
+    },
+    "unresolved_fields": [],
+    "fulfillment_status": "NOT_PROVIDED"
+  }
+}

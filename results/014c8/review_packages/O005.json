@@ -1,0 +1,242 @@
+{
+  "order_id": "O005",
+  "original_source": {
+    "source_type": "email",
+    "source_path": "/workspace/business-001-order-intake/raw_sources/014c5/O005.eml",
+    "text": "Customer: Ironclad Tooling\nPO #: IT-5509\nOrder Date: 2026-08-03\nRequested Delivery: 2026-08-09\n\n1 | C-401 | 10-24 x 2 stainless screws | 2 | box | 19.00\n2 | C-402 | 5/16 flat washers | 4 | box | 6.20\n\nThanks,\nShipping Desk\n\nDisclaimer: quantities subject to final count.\n",
+    "integrity_check": true
+  },
+  "ai_prepared_order": {
+    "order_information": {
+      "customer": {
+        "value": "Ironclad Tooling",
+        "source_ref": "O005.eml:body",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "Customer: Ironclad Tooling"
+      },
+      "customer_account_id": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "bill_to": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "ship_to": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "po_number": {
+        "value": ": IT-5509",
+        "source_ref": "O005.eml:body",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "PO #: IT-5509"
+      },
+      "order_date": {
+        "value": "2026-08-03",
+        "source_ref": "O005.eml:body",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "Order Date: 2026-08-03"
+      },
+      "requested_delivery_date": {
+        "value": "2026-08-09",
+        "source_ref": "O005.eml:body",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "Requested Delivery: 2026-08-09"
+      }
+    },
+    "line_items": [
+      {
+        "customer_item_number": "C-401",
+        "raw_description": "10-24 x 2 stainless screws",
+        "matched_sku": "SC-102",
+        "matched_catalog_description": "10-24 x 2in stainless screw",
+        "quantity": 2.0,
+        "unit": "box",
+        "source_price": 19.0,
+        "catalog_price": 19.0,
+        "price_difference": 0.0,
+        "price_validation": "PRICE MATCH",
+        "confidence": "HIGH",
+        "review_reason": null,
+        "alternative_matches": [],
+        "status": "READY"
+      },
+      {
+        "customer_item_number": "C-402",
+        "raw_description": "5/16 flat washers",
+        "matched_sku": "NW-516",
+        "matched_catalog_description": "5/16in flat washer",
+        "quantity": 4.0,
+        "unit": "box",
+        "source_price": 6.2,
+        "catalog_price": 6.2,
+        "price_difference": 0.0,
+        "price_validation": "PRICE MATCH",
+        "confidence": "HIGH",
+        "review_reason": null,
+        "alternative_matches": [],
+        "status": "READY"
+      }
+    ],
+    "order_validation": {
+      "completeness_status": "COMPLETE",
+      "unresolved_fields": [],
+      "conflicts": [],
+      "review_flags": [
+        "FULFILLMENT_NOT_PROVIDED"
+      ],
+      "final_ai_status": "READY",
+      "fulfillment_status": "NOT_PROVIDED"
+    }
+  },
+  "order_status": "READY",
+  "completeness_status": "COMPLETE",
+  "review_flags": [
+    "FULFILLMENT_NOT_PROVIDED"
+  ],
+  "line_rows": [
+    {
+      "order_id": ": IT-5509",
+      "line_number": "1",
+      "customer_item_number": "C-401",
+      "raw_source": "1 | C-401 | 10-24 x 2 stainless screws | 2 | box | 19.00",
+      "extracted_value": {
+        "customer_item_number": "C-401",
+        "raw_description": "10-24 x 2 stainless screws",
+        "quantity": 2.0,
+        "unit": "box",
+        "sku_hint": null
+      },
+      "proposed_sku": "SC-102",
+      "matched_description": "10-24 x 2in stainless screw",
+      "confidence": "HIGH",
+      "review_reason": null,
+      "alternative_matches": [
+        [
+          "SV-200",
+          0.375
+        ],
+        [
+          "UN-200",
+          0.123
+        ],
+        [
+          "CO-200",
+          0.123
+        ]
+      ],
+      "issues": [],
+      "status": "READY",
+      "source_unit_price": 19.0,
+      "catalog_unit_price": 19.0,
+      "price_difference": 0.0,
+      "price_validation": "PRICE MATCH",
+      "review_flags": []
+    },
+    {
+      "order_id": ": IT-5509",
+      "line_number": "2",
+      "customer_item_number": "C-402",
+      "raw_source": "2 | C-402 | 5/16 flat washers | 4 | box | 6.20",
+      "extracted_value": {
+        "customer_item_number": "C-402",
+        "raw_description": "5/16 flat washers",
+        "quantity": 4.0,
+        "unit": "box",
+        "sku_hint": null
+      },
+      "proposed_sku": "NW-516",
+      "matched_description": "5/16in flat washer",
+      "confidence": "HIGH",
+      "review_reason": null,
+      "alternative_matches": [
+        [
+          "BC-516",
+          0.549
+        ],
+        [
+          "SC-102",
+          0.131
+        ],
+        [
+          "BV-205",
+          0.0
+        ]
+      ],
+      "issues": [],
+      "status": "READY",
+      "source_unit_price": 6.2,
+      "catalog_unit_price": 6.2,
+      "price_difference": 0.0,
+      "price_validation": "PRICE MATCH",
+      "review_flags": []
+    }
+  ],
+  "envelope": {
+    "customer": {
+      "value": "Ironclad Tooling",
+      "source_ref": "O005.eml:body",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "Customer: Ironclad Tooling"
+    },
+    "customer_account_id": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "bill_to": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "ship_to": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "po_number": {
+      "value": ": IT-5509",
+      "source_ref": "O005.eml:body",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "PO #: IT-5509"
+    },
+    "order_date": {
+      "value": "2026-08-03",
+      "source_ref": "O005.eml:body",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "Order Date: 2026-08-03"
+    },
+    "requested_delivery_date": {
+      "value": "2026-08-09",
+      "source_ref": "O005.eml:body",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "Requested Delivery: 2026-08-09"
+    },
+    "unresolved_fields": [],
+    "fulfillment_status": "NOT_PROVIDED"
+  }
+}

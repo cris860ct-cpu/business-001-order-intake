@@ -1,0 +1,242 @@
+{
+  "order_id": "O004",
+  "original_source": {
+    "source_type": "email",
+    "source_path": "/workspace/business-001-order-intake/raw_sources/014c5/O004.eml",
+    "text": "Customer: Summit Process\nPO #: SP-1180\nOrder Date: 2026-08-02\nRequested Delivery: 2026-08-08\n\n1 | C-301 | 2in layflat hose | 100 | ft | 4.25\n2 | C-302 | 2 brass elbow | 10 | each | 11.50\n\nThanks,\nShipping Desk\n",
+    "integrity_check": true
+  },
+  "ai_prepared_order": {
+    "order_information": {
+      "customer": {
+        "value": "Summit Process",
+        "source_ref": "O004.eml:body",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "Customer: Summit Process"
+      },
+      "customer_account_id": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "bill_to": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "ship_to": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "po_number": {
+        "value": ": SP-1180",
+        "source_ref": "O004.eml:body",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "PO #: SP-1180"
+      },
+      "order_date": {
+        "value": "2026-08-02",
+        "source_ref": "O004.eml:body",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "Order Date: 2026-08-02"
+      },
+      "requested_delivery_date": {
+        "value": "2026-08-08",
+        "source_ref": "O004.eml:body",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "Requested Delivery: 2026-08-08"
+      }
+    },
+    "line_items": [
+      {
+        "customer_item_number": "C-301",
+        "raw_description": "2in layflat hose",
+        "matched_sku": "HT-200",
+        "matched_catalog_description": "2in layflat discharge hose",
+        "quantity": 100.0,
+        "unit": "ft",
+        "source_price": 4.25,
+        "catalog_price": 4.25,
+        "price_difference": 0.0,
+        "price_validation": "PRICE MATCH",
+        "confidence": "HIGH",
+        "review_reason": null,
+        "alternative_matches": [],
+        "status": "READY"
+      },
+      {
+        "customer_item_number": "C-302",
+        "raw_description": "2 brass elbow",
+        "matched_sku": "EL-200",
+        "matched_catalog_description": "2in brass 90 degree elbow",
+        "quantity": 10.0,
+        "unit": "each",
+        "source_price": 11.5,
+        "catalog_price": 11.5,
+        "price_difference": 0.0,
+        "price_validation": "PRICE MATCH",
+        "confidence": "HIGH",
+        "review_reason": null,
+        "alternative_matches": [],
+        "status": "READY"
+      }
+    ],
+    "order_validation": {
+      "completeness_status": "COMPLETE",
+      "unresolved_fields": [],
+      "conflicts": [],
+      "review_flags": [
+        "FULFILLMENT_NOT_PROVIDED"
+      ],
+      "final_ai_status": "READY",
+      "fulfillment_status": "NOT_PROVIDED"
+    }
+  },
+  "order_status": "READY",
+  "completeness_status": "COMPLETE",
+  "review_flags": [
+    "FULFILLMENT_NOT_PROVIDED"
+  ],
+  "line_rows": [
+    {
+      "order_id": ": SP-1180",
+      "line_number": "1",
+      "customer_item_number": "C-301",
+      "raw_source": "1 | C-301 | 2in layflat hose | 100 | ft | 4.25",
+      "extracted_value": {
+        "customer_item_number": "C-301",
+        "raw_description": "2in layflat hose",
+        "quantity": 100.0,
+        "unit": "ft",
+        "sku_hint": null
+      },
+      "proposed_sku": "HT-200",
+      "matched_description": "2in layflat discharge hose",
+      "confidence": "HIGH",
+      "review_reason": null,
+      "alternative_matches": [
+        [
+          "HT-150",
+          0.742
+        ],
+        [
+          "HT-100",
+          0.742
+        ],
+        [
+          "UN-200",
+          0.24
+        ]
+      ],
+      "issues": [],
+      "status": "READY",
+      "source_unit_price": 4.25,
+      "catalog_unit_price": 4.25,
+      "price_difference": 0.0,
+      "price_validation": "PRICE MATCH",
+      "review_flags": []
+    },
+    {
+      "order_id": ": SP-1180",
+      "line_number": "2",
+      "customer_item_number": "C-302",
+      "raw_source": "2 | C-302 | 2 brass elbow | 10 | each | 11.50",
+      "extracted_value": {
+        "customer_item_number": "C-302",
+        "raw_description": "2 brass elbow",
+        "quantity": 10.0,
+        "unit": "each",
+        "sku_hint": null
+      },
+      "proposed_sku": "EL-200",
+      "matched_description": "2in brass 90 degree elbow",
+      "confidence": "HIGH",
+      "review_reason": null,
+      "alternative_matches": [
+        [
+          "UN-200",
+          0.684
+        ],
+        [
+          "CO-200",
+          0.684
+        ],
+        [
+          "TE-200",
+          0.684
+        ]
+      ],
+      "issues": [],
+      "status": "READY",
+      "source_unit_price": 11.5,
+      "catalog_unit_price": 11.5,
+      "price_difference": 0.0,
+      "price_validation": "PRICE MATCH",
+      "review_flags": []
+    }
+  ],
+  "envelope": {
+    "customer": {
+      "value": "Summit Process",
+      "source_ref": "O004.eml:body",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "Customer: Summit Process"
+    },
+    "customer_account_id": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "bill_to": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "ship_to": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "po_number": {
+      "value": ": SP-1180",
+      "source_ref": "O004.eml:body",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "PO #: SP-1180"
+    },
+    "order_date": {
+      "value": "2026-08-02",
+      "source_ref": "O004.eml:body",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "Order Date: 2026-08-02"
+    },
+    "requested_delivery_date": {
+      "value": "2026-08-08",
+      "source_ref": "O004.eml:body",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "Requested Delivery: 2026-08-08"
+    },
+    "unresolved_fields": [],
+    "fulfillment_status": "NOT_PROVIDED"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "order_level_accuracy": 1.0,
+  "exact_sku_accuracy": 1.0,
+  "catalog_match_accuracy": 1.0,
+  "exception_detection_precision": 1.0,
+  "exception_detection_recall": 1.0,
+  "false_confidence_rate": 0.0,
+  "hallucination_rate": 0.0,
+  "false_review_rate": 0.0,
+  "missed_exception_rate": 0.0,
+  "percent_auto_ready": 0.6,
+  "percent_requiring_review": 0.25,
+  "wrong_sku_ready": 0,
+  "wrong_quantity_ready": 0,
+  "pred_ready": 12,
+  "pred_review": 5,
+  "pred_exception": 3,
+  "actual_ready_orders": 12,
+  "actual_review_orders": 5,
+  "actual_exception_orders": 3,
+  "header_field_coverage": {
+    "customer": 0.85,
+    "po_number": 0.85,
+    "order_date": 0.85,
+    "requested_delivery_date": 0.85
+  },
+  "price_visibility_rate": 1.0,
+  "price_validation_accuracy": 1.0,
+  "incomplete_orders_incorrectly_marked_ready": 0
+}

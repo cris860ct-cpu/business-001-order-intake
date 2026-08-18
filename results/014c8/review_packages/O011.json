@@ -1,0 +1,242 @@
+{
+  "order_id": "O011",
+  "original_source": {
+    "source_type": "xlsx",
+    "source_path": "/workspace/business-001-order-intake/raw_sources/014c5/O011.xlsx",
+    "text": "Customer: Harborline Field\nPO #: HF-7811\nOrder Date: 2026-08-06\nRequested Delivery: 2026-08-10\nunit | line_number | customer_item_number | description | quantity | unit_price\n1 | C-1001 | 12/3 SOOW cable | 50 | ft | 2.35\n2 | C-1002 | 14/3 SOOW cable | 75 | ft | 1.95",
+    "integrity_check": true
+  },
+  "ai_prepared_order": {
+    "order_information": {
+      "customer": {
+        "value": "Harborline Field",
+        "source_ref": "Order:row1",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "Customer: Harborline Field"
+      },
+      "customer_account_id": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "bill_to": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "ship_to": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "po_number": {
+        "value": ": HF-7811",
+        "source_ref": "Order:row1",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "PO #: HF-7811"
+      },
+      "order_date": {
+        "value": "2026-08-06",
+        "source_ref": "Order:row2",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "Order Date: 2026-08-06"
+      },
+      "requested_delivery_date": {
+        "value": "2026-08-10",
+        "source_ref": "Order:row2",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "Requested Delivery: 2026-08-10"
+      }
+    },
+    "line_items": [
+      {
+        "customer_item_number": "C-1001",
+        "raw_description": "12/3 SOOW cable",
+        "matched_sku": "CB-123",
+        "matched_catalog_description": "12/3 SOOW cable",
+        "quantity": 50.0,
+        "unit": "ft",
+        "source_price": 2.35,
+        "catalog_price": 2.35,
+        "price_difference": 0.0,
+        "price_validation": "PRICE MATCH",
+        "confidence": "HIGH",
+        "review_reason": null,
+        "alternative_matches": [],
+        "status": "READY"
+      },
+      {
+        "customer_item_number": "C-1002",
+        "raw_description": "14/3 SOOW cable",
+        "matched_sku": "CB-143",
+        "matched_catalog_description": "14/3 SOOW cable",
+        "quantity": 75.0,
+        "unit": "ft",
+        "source_price": 1.95,
+        "catalog_price": 1.95,
+        "price_difference": 0.0,
+        "price_validation": "PRICE MATCH",
+        "confidence": "HIGH",
+        "review_reason": null,
+        "alternative_matches": [],
+        "status": "READY"
+      }
+    ],
+    "order_validation": {
+      "completeness_status": "COMPLETE",
+      "unresolved_fields": [],
+      "conflicts": [],
+      "review_flags": [
+        "FULFILLMENT_NOT_PROVIDED"
+      ],
+      "final_ai_status": "READY",
+      "fulfillment_status": "NOT_PROVIDED"
+    }
+  },
+  "order_status": "READY",
+  "completeness_status": "COMPLETE",
+  "review_flags": [
+    "FULFILLMENT_NOT_PROVIDED"
+  ],
+  "line_rows": [
+    {
+      "order_id": ": HF-7811",
+      "line_number": "1",
+      "customer_item_number": "C-1001",
+      "raw_source": "1 | C-1001 | 12/3 SOOW cable | 50 | ft | 2.35",
+      "extracted_value": {
+        "customer_item_number": "C-1001",
+        "raw_description": "12/3 SOOW cable",
+        "quantity": 50.0,
+        "unit": "ft",
+        "sku_hint": null
+      },
+      "proposed_sku": "CB-123",
+      "matched_description": "12/3 SOOW cable",
+      "confidence": "HIGH",
+      "review_reason": null,
+      "alternative_matches": [
+        [
+          "CB-143",
+          0.476
+        ],
+        [
+          "BV-205",
+          0.0
+        ],
+        [
+          "BV-210",
+          0.0
+        ]
+      ],
+      "issues": [],
+      "status": "READY",
+      "source_unit_price": 2.35,
+      "catalog_unit_price": 2.35,
+      "price_difference": 0.0,
+      "price_validation": "PRICE MATCH",
+      "review_flags": []
+    },
+    {
+      "order_id": ": HF-7811",
+      "line_number": "2",
+      "customer_item_number": "C-1002",
+      "raw_source": "2 | C-1002 | 14/3 SOOW cable | 75 | ft | 1.95",
+      "extracted_value": {
+        "customer_item_number": "C-1002",
+        "raw_description": "14/3 SOOW cable",
+        "quantity": 75.0,
+        "unit": "ft",
+        "sku_hint": null
+      },
+      "proposed_sku": "CB-143",
+      "matched_description": "14/3 SOOW cable",
+      "confidence": "HIGH",
+      "review_reason": null,
+      "alternative_matches": [
+        [
+          "CB-123",
+          0.476
+        ],
+        [
+          "BV-205",
+          0.0
+        ],
+        [
+          "BV-210",
+          0.0
+        ]
+      ],
+      "issues": [],
+      "status": "READY",
+      "source_unit_price": 1.95,
+      "catalog_unit_price": 1.95,
+      "price_difference": 0.0,
+      "price_validation": "PRICE MATCH",
+      "review_flags": []
+    }
+  ],
+  "envelope": {
+    "customer": {
+      "value": "Harborline Field",
+      "source_ref": "Order:row1",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "Customer: Harborline Field"
+    },
+    "customer_account_id": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "bill_to": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "ship_to": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "po_number": {
+      "value": ": HF-7811",
+      "source_ref": "Order:row1",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "PO #: HF-7811"
+    },
+    "order_date": {
+      "value": "2026-08-06",
+      "source_ref": "Order:row2",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "Order Date: 2026-08-06"
+    },
+    "requested_delivery_date": {
+      "value": "2026-08-10",
+      "source_ref": "Order:row2",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "Requested Delivery: 2026-08-10"
+    },
+    "unresolved_fields": [],
+    "fulfillment_status": "NOT_PROVIDED"
+  }
+}

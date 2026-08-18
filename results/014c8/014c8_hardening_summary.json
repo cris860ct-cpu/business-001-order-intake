@@ -1,0 +1,16 @@
+{
+  "orders": 20,
+  "integrity_checks_passed": true,
+  "ready_orders": 12,
+  "review_orders": 5,
+  "exception_orders": 3,
+  "header_fields": {
+    "customer": 0.85,
+    "po_number": 0.85,
+    "order_date": 0.85,
+    "requested_delivery_date": 0.85
+  },
+  "price_visibility_rate": 1.0,
+  "price_validation_accuracy": 1.0,
+  "incomplete_orders_incorrectly_marked_ready": 0
+}

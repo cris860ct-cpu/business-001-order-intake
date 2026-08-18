@@ -1,0 +1,214 @@
+{
+  "order_id": "O029",
+  "original_source": {
+    "source_type": "email",
+    "source_path": "/workspace/business-001-order-intake/raw_sources/014c5/O029.eml",
+    "text": "Customer: Delta Machine\nPO #: DM-5155\nOrder Date: 2026-08-15\nRequested Delivery: 2026-08-20\n\n1 | C-2801 | 2 brass ball valve | 4 | each | 124.00\nSource note: email_qty=4\n\nAttachment quantity expected below\nSource note: attachment_qty=6\n\nline_number | customer_item_number | description | quantity | unit | unit_price\n1 | C-2801 | 2 brass ball valve | 6 | each | 124.00",
+    "integrity_check": true
+  },
+  "ai_prepared_order": {
+    "order_information": {
+      "customer": {
+        "value": "Delta Machine",
+        "source_ref": "O029.eml:body",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "Customer: Delta Machine"
+      },
+      "customer_account_id": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "bill_to": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "ship_to": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "po_number": {
+        "value": ": DM-5155",
+        "source_ref": "O029.eml:body",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "PO #: DM-5155"
+      },
+      "order_date": {
+        "value": "2026-08-15",
+        "source_ref": "O029.eml:body",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "Order Date: 2026-08-15"
+      },
+      "requested_delivery_date": {
+        "value": "2026-08-20",
+        "source_ref": "O029.eml:body",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "Requested Delivery: 2026-08-20"
+      }
+    },
+    "line_items": [
+      {
+        "customer_item_number": "C-2801",
+        "raw_description": "2 brass ball valve",
+        "matched_sku": "BV-205",
+        "matched_catalog_description": "2in brass full-port ball valve",
+        "quantity": null,
+        "unit": "each",
+        "source_price": 124.0,
+        "catalog_price": 124.0,
+        "price_difference": 0.0,
+        "price_validation": "PRICE MATCH",
+        "confidence": "MEDIUM",
+        "review_reason": "fuzzy description match",
+        "alternative_matches": [
+          [
+            "BV-210",
+            0.892
+          ],
+          [
+            "PV-200",
+            0.827
+          ],
+          [
+            "SV-200",
+            0.827
+          ]
+        ],
+        "status": "REVIEW REQUIRED"
+      }
+    ],
+    "order_validation": {
+      "completeness_status": "INCOMPLETE",
+      "unresolved_fields": [],
+      "conflicts": [
+        "fuzzy description match"
+      ],
+      "review_flags": [
+        "FULFILLMENT_NOT_PROVIDED"
+      ],
+      "final_ai_status": "REVIEW REQUIRED",
+      "fulfillment_status": "NOT_PROVIDED"
+    }
+  },
+  "order_status": "REVIEW REQUIRED",
+  "completeness_status": "INCOMPLETE",
+  "review_flags": [
+    "FULFILLMENT_NOT_PROVIDED"
+  ],
+  "line_rows": [
+    {
+      "order_id": ": DM-5155",
+      "line_number": "1",
+      "customer_item_number": "C-2801",
+      "raw_source": "1 | C-2801 | 2 brass ball valve | 4 | each | 124.00\n1 | C-2801 | 2 brass ball valve | 6 | each | 124.00",
+      "extracted_value": {
+        "customer_item_number": "C-2801",
+        "raw_description": "2 brass ball valve",
+        "quantity": null,
+        "unit": "each",
+        "sku_hint": null
+      },
+      "proposed_sku": "BV-205",
+      "matched_description": "2in brass full-port ball valve",
+      "confidence": "MEDIUM",
+      "review_reason": "fuzzy description match",
+      "alternative_matches": [
+        [
+          "BV-210",
+          0.892
+        ],
+        [
+          "PV-200",
+          0.827
+        ],
+        [
+          "SV-200",
+          0.827
+        ]
+      ],
+      "issues": [
+        {
+          "code": "quantity_conflict",
+          "message": "quantity conflict or partial source quantity",
+          "severity": "high"
+        },
+        {
+          "code": "source_conflict",
+          "message": "quantity=4.0;quantity=6.0",
+          "severity": "high"
+        }
+      ],
+      "status": "REVIEW REQUIRED",
+      "source_unit_price": 124.0,
+      "catalog_unit_price": 124.0,
+      "price_difference": 0.0,
+      "price_validation": "PRICE MATCH",
+      "review_flags": []
+    }
+  ],
+  "envelope": {
+    "customer": {
+      "value": "Delta Machine",
+      "source_ref": "O029.eml:body",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "Customer: Delta Machine"
+    },
+    "customer_account_id": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "bill_to": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "ship_to": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "po_number": {
+      "value": ": DM-5155",
+      "source_ref": "O029.eml:body",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "PO #: DM-5155"
+    },
+    "order_date": {
+      "value": "2026-08-15",
+      "source_ref": "O029.eml:body",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "Order Date: 2026-08-15"
+    },
+    "requested_delivery_date": {
+      "value": "2026-08-20",
+      "source_ref": "O029.eml:body",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "Requested Delivery: 2026-08-20"
+    },
+    "unresolved_fields": [],
+    "fulfillment_status": "NOT_PROVIDED"
+  }
+}

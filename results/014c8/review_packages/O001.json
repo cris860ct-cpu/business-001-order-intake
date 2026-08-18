@@ -1,0 +1,242 @@
+{
+  "order_id": "O001",
+  "original_source": {
+    "source_type": "pdf",
+    "source_path": "/workspace/business-001-order-intake/raw_sources/014c5/O001.pdf",
+    "text": "Nova Labs Wholesale Order\nCustomer: Apex Fabrication\nPO #: AF-240801\nOrder Date: 2026-08-01\nRequested Delivery: 2026-08-05\n\n1 | C-001 | 2in brass full-port valve | 6 | each | 124.00\n2 | C-002 | 4.5 grinding disc 36 grit | 24 | each | 2.10\n\nPrinted from order desk\nPage 1 of 1\nFooter noise: verify against packing slip",
+    "integrity_check": true
+  },
+  "ai_prepared_order": {
+    "order_information": {
+      "customer": {
+        "value": "Apex Fabrication",
+        "source_ref": "O001.pdf:page1",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "Customer: Apex Fabrication"
+      },
+      "customer_account_id": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "bill_to": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "ship_to": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "po_number": {
+        "value": ": AF-240801",
+        "source_ref": "O001.pdf:page1",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "PO #: AF-240801"
+      },
+      "order_date": {
+        "value": "2026-08-01",
+        "source_ref": "O001.pdf:page1",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "Order Date: 2026-08-01"
+      },
+      "requested_delivery_date": {
+        "value": "2026-08-05",
+        "source_ref": "O001.pdf:page1",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "Requested Delivery: 2026-08-05"
+      }
+    },
+    "line_items": [
+      {
+        "customer_item_number": "C-001",
+        "raw_description": "2in brass full-port valve",
+        "matched_sku": "BV-205",
+        "matched_catalog_description": "2in brass full-port ball valve",
+        "quantity": 6.0,
+        "unit": "each",
+        "source_price": 124.0,
+        "catalog_price": 124.0,
+        "price_difference": 0.0,
+        "price_validation": "PRICE MATCH",
+        "confidence": "HIGH",
+        "review_reason": null,
+        "alternative_matches": [],
+        "status": "READY"
+      },
+      {
+        "customer_item_number": "C-002",
+        "raw_description": "4.5 grinding disc 36 grit",
+        "matched_sku": "GD-36",
+        "matched_catalog_description": "4.5in grinding disc 36 grit",
+        "quantity": 24.0,
+        "unit": "each",
+        "source_price": 2.1,
+        "catalog_price": 2.1,
+        "price_difference": 0.0,
+        "price_validation": "PRICE MATCH",
+        "confidence": "HIGH",
+        "review_reason": null,
+        "alternative_matches": [],
+        "status": "READY"
+      }
+    ],
+    "order_validation": {
+      "completeness_status": "COMPLETE",
+      "unresolved_fields": [],
+      "conflicts": [],
+      "review_flags": [
+        "FULFILLMENT_NOT_PROVIDED"
+      ],
+      "final_ai_status": "READY",
+      "fulfillment_status": "NOT_PROVIDED"
+    }
+  },
+  "order_status": "READY",
+  "completeness_status": "COMPLETE",
+  "review_flags": [
+    "FULFILLMENT_NOT_PROVIDED"
+  ],
+  "line_rows": [
+    {
+      "order_id": ": AF-240801",
+      "line_number": "1",
+      "customer_item_number": "C-001",
+      "raw_source": "1 | C-001 | 2in brass full-port valve | 6 | each | 124.00",
+      "extracted_value": {
+        "customer_item_number": "C-001",
+        "raw_description": "2in brass full-port valve",
+        "quantity": 6.0,
+        "unit": "each",
+        "sku_hint": null
+      },
+      "proposed_sku": "BV-205",
+      "matched_description": "2in brass full-port ball valve",
+      "confidence": "HIGH",
+      "review_reason": null,
+      "alternative_matches": [
+        [
+          "BV-210",
+          0.644
+        ],
+        [
+          "PV-200",
+          0.559
+        ],
+        [
+          "SV-200",
+          0.559
+        ]
+      ],
+      "issues": [],
+      "status": "READY",
+      "source_unit_price": 124.0,
+      "catalog_unit_price": 124.0,
+      "price_difference": 0.0,
+      "price_validation": "PRICE MATCH",
+      "review_flags": []
+    },
+    {
+      "order_id": ": AF-240801",
+      "line_number": "2",
+      "customer_item_number": "C-002",
+      "raw_source": "2 | C-002 | 4.5 grinding disc 36 grit | 24 | each | 2.10",
+      "extracted_value": {
+        "customer_item_number": "C-002",
+        "raw_description": "4.5 grinding disc 36 grit",
+        "quantity": 24.0,
+        "unit": "each",
+        "sku_hint": null
+      },
+      "proposed_sku": "GD-36",
+      "matched_description": "4.5in grinding disc 36 grit",
+      "confidence": "HIGH",
+      "review_reason": null,
+      "alternative_matches": [
+        [
+          "FD-80",
+          0.511
+        ],
+        [
+          "BV-205",
+          0.0
+        ],
+        [
+          "BV-210",
+          0.0
+        ]
+      ],
+      "issues": [],
+      "status": "READY",
+      "source_unit_price": 2.1,
+      "catalog_unit_price": 2.1,
+      "price_difference": 0.0,
+      "price_validation": "PRICE MATCH",
+      "review_flags": []
+    }
+  ],
+  "envelope": {
+    "customer": {
+      "value": "Apex Fabrication",
+      "source_ref": "O001.pdf:page1",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "Customer: Apex Fabrication"
+    },
+    "customer_account_id": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "bill_to": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "ship_to": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "po_number": {
+      "value": ": AF-240801",
+      "source_ref": "O001.pdf:page1",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "PO #: AF-240801"
+    },
+    "order_date": {
+      "value": "2026-08-01",
+      "source_ref": "O001.pdf:page1",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "Order Date: 2026-08-01"
+    },
+    "requested_delivery_date": {
+      "value": "2026-08-05",
+      "source_ref": "O001.pdf:page1",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "Requested Delivery: 2026-08-05"
+    },
+    "unresolved_fields": [],
+    "fulfillment_status": "NOT_PROVIDED"
+  }
+}

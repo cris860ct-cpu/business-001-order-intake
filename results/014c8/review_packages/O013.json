@@ -1,0 +1,242 @@
+{
+  "order_id": "O013",
+  "original_source": {
+    "source_type": "xlsx",
+    "source_path": "/workspace/business-001-order-intake/raw_sources/014c5/O013.xlsx",
+    "text": "Customer: Forge Supply\nPO #: FS-2809\nOrder Date: 2026-08-07\nRequested Delivery: 2026-08-12\nline_number | customer_item_number | description | quantity | unit | unit_price | remarks\n1 | C-1201 | 2in x 100 yd packaging tape | 8 | roll | 5.30\n2 | C-1202 | 2in x 4in label roll 500 labels | 4 | roll | 18.00",
+    "integrity_check": true
+  },
+  "ai_prepared_order": {
+    "order_information": {
+      "customer": {
+        "value": "Forge Supply",
+        "source_ref": "Order:row1",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "Customer: Forge Supply"
+      },
+      "customer_account_id": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "bill_to": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "ship_to": {
+        "value": null,
+        "source_ref": null,
+        "confidence": 0.0,
+        "validation_status": "NOT_PROVIDED",
+        "raw_text": null
+      },
+      "po_number": {
+        "value": ": FS-2809",
+        "source_ref": "Order:row1",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "PO #: FS-2809"
+      },
+      "order_date": {
+        "value": "2026-08-07",
+        "source_ref": "Order:row2",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "Order Date: 2026-08-07"
+      },
+      "requested_delivery_date": {
+        "value": "2026-08-12",
+        "source_ref": "Order:row2",
+        "confidence": 1.0,
+        "validation_status": "VALID",
+        "raw_text": "Requested Delivery: 2026-08-12"
+      }
+    },
+    "line_items": [
+      {
+        "customer_item_number": "C-1201",
+        "raw_description": "2in x 100 yd packaging tape",
+        "matched_sku": "TB-200",
+        "matched_catalog_description": "2in x 100 yd packaging tape",
+        "quantity": 8.0,
+        "unit": "roll",
+        "source_price": 5.3,
+        "catalog_price": 5.3,
+        "price_difference": 0.0,
+        "price_validation": "PRICE MATCH",
+        "confidence": "HIGH",
+        "review_reason": null,
+        "alternative_matches": [],
+        "status": "READY"
+      },
+      {
+        "customer_item_number": "C-1202",
+        "raw_description": "2in x 4in label roll 500 labels",
+        "matched_sku": "LB-24",
+        "matched_catalog_description": "2in x 4in label roll 500 labels",
+        "quantity": 4.0,
+        "unit": "roll",
+        "source_price": 18.0,
+        "catalog_price": 18.0,
+        "price_difference": 0.0,
+        "price_validation": "PRICE MATCH",
+        "confidence": "HIGH",
+        "review_reason": null,
+        "alternative_matches": [],
+        "status": "READY"
+      }
+    ],
+    "order_validation": {
+      "completeness_status": "COMPLETE",
+      "unresolved_fields": [],
+      "conflicts": [],
+      "review_flags": [
+        "FULFILLMENT_NOT_PROVIDED"
+      ],
+      "final_ai_status": "READY",
+      "fulfillment_status": "NOT_PROVIDED"
+    }
+  },
+  "order_status": "READY",
+  "completeness_status": "COMPLETE",
+  "review_flags": [
+    "FULFILLMENT_NOT_PROVIDED"
+  ],
+  "line_rows": [
+    {
+      "order_id": ": FS-2809",
+      "line_number": "1",
+      "customer_item_number": "C-1201",
+      "raw_source": "1 | C-1201 | 2in x 100 yd packaging tape | 8 | roll | 5.30",
+      "extracted_value": {
+        "customer_item_number": "C-1201",
+        "raw_description": "2in x 100 yd packaging tape",
+        "quantity": 8.0,
+        "unit": "roll",
+        "sku_hint": null
+      },
+      "proposed_sku": "TB-200",
+      "matched_description": "2in x 100 yd packaging tape",
+      "confidence": "HIGH",
+      "review_reason": null,
+      "alternative_matches": [
+        [
+          "UN-200",
+          0.205
+        ],
+        [
+          "CO-200",
+          0.205
+        ],
+        [
+          "TE-200",
+          0.205
+        ]
+      ],
+      "issues": [],
+      "status": "READY",
+      "source_unit_price": 5.3,
+      "catalog_unit_price": 5.3,
+      "price_difference": 0.0,
+      "price_validation": "PRICE MATCH",
+      "review_flags": []
+    },
+    {
+      "order_id": ": FS-2809",
+      "line_number": "2",
+      "customer_item_number": "C-1202",
+      "raw_source": "2 | C-1202 | 2in x 4in label roll 500 labels | 4 | roll | 18.00",
+      "extracted_value": {
+        "customer_item_number": "C-1202",
+        "raw_description": "2in x 4in label roll 500 labels",
+        "quantity": 4.0,
+        "unit": "roll",
+        "sku_hint": null
+      },
+      "proposed_sku": "LB-24",
+      "matched_description": "2in x 4in label roll 500 labels",
+      "confidence": "HIGH",
+      "review_reason": null,
+      "alternative_matches": [
+        [
+          "UN-200",
+          0.183
+        ],
+        [
+          "CO-200",
+          0.183
+        ],
+        [
+          "TE-200",
+          0.183
+        ]
+      ],
+      "issues": [],
+      "status": "READY",
+      "source_unit_price": 18.0,
+      "catalog_unit_price": 18.0,
+      "price_difference": 0.0,
+      "price_validation": "PRICE MATCH",
+      "review_flags": []
+    }
+  ],
+  "envelope": {
+    "customer": {
+      "value": "Forge Supply",
+      "source_ref": "Order:row1",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "Customer: Forge Supply"
+    },
+    "customer_account_id": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "bill_to": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "ship_to": {
+      "value": null,
+      "source_ref": null,
+      "confidence": 0.0,
+      "validation_status": "NOT_PROVIDED",
+      "raw_text": null
+    },
+    "po_number": {
+      "value": ": FS-2809",
+      "source_ref": "Order:row1",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "PO #: FS-2809"
+    },
+    "order_date": {
+      "value": "2026-08-07",
+      "source_ref": "Order:row2",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "Order Date: 2026-08-07"
+    },
+    "requested_delivery_date": {
+      "value": "2026-08-12",
+      "source_ref": "Order:row2",
+      "confidence": 1.0,
+      "validation_status": "VALID",
+      "raw_text": "Requested Delivery: 2026-08-12"
+    },
+    "unresolved_fields": [],
+    "fulfillment_status": "NOT_PROVIDED"
+  }
+}
