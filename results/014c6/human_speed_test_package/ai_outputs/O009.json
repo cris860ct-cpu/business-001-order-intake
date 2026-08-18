@@ -1,0 +1,42 @@
+{
+  "order_id": "O009",
+  "order_status": "REVIEW REQUIRED",
+  "line_rows": [
+    {
+      "order_id": "O009",
+      "line_number": "1",
+      "customer_item_number": "C-801",
+      "raw_source": "1 | C-801 | 2in full port brass valve | 4 | each | 124.00",
+      "extracted_value": {
+        "customer_item_number": "C-801",
+        "raw_description": "2in full port brass valve",
+        "quantity": 4.0,
+        "unit": "each",
+        "sku_hint": null
+      },
+      "proposed_sku": "BV-205",
+      "matched_description": "2in brass full-port ball valve",
+      "confidence": "MEDIUM",
+      "review_reason": "fuzzy description match",
+      "alternative_matches": [
+        [
+          "BV-210",
+          0.644
+        ],
+        [
+          "PV-200",
+          0.559
+        ],
+        [
+          "SV-200",
+          0.559
+        ]
+      ],
+      "issues": [],
+      "status": "REVIEW REQUIRED"
+    }
+  ],
+  "parse_status": "OK",
+  "ocr_status": "NOT_REQUIRED",
+  "parse_time_ms": 0.36
+}

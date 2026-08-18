@@ -1,0 +1,75 @@
+{
+  "order_id": "O011",
+  "order_status": "READY",
+  "line_rows": [
+    {
+      "order_id": "O011",
+      "line_number": "1",
+      "customer_item_number": "C-1001",
+      "raw_source": "1 | C-1001 | 12/3 SOOW cable | 50 | ft | 2.35",
+      "extracted_value": {
+        "customer_item_number": "C-1001",
+        "raw_description": "12/3 SOOW cable",
+        "quantity": 50.0,
+        "unit": "ft",
+        "sku_hint": null
+      },
+      "proposed_sku": "CB-123",
+      "matched_description": "12/3 SOOW cable",
+      "confidence": "HIGH",
+      "review_reason": null,
+      "alternative_matches": [
+        [
+          "CB-143",
+          0.476
+        ],
+        [
+          "BV-205",
+          0.0
+        ],
+        [
+          "BV-210",
+          0.0
+        ]
+      ],
+      "issues": [],
+      "status": "READY"
+    },
+    {
+      "order_id": "O011",
+      "line_number": "2",
+      "customer_item_number": "C-1002",
+      "raw_source": "2 | C-1002 | 14/3 SOOW cable | 75 | ft | 1.95",
+      "extracted_value": {
+        "customer_item_number": "C-1002",
+        "raw_description": "14/3 SOOW cable",
+        "quantity": 75.0,
+        "unit": "ft",
+        "sku_hint": null
+      },
+      "proposed_sku": "CB-143",
+      "matched_description": "14/3 SOOW cable",
+      "confidence": "HIGH",
+      "review_reason": null,
+      "alternative_matches": [
+        [
+          "CB-123",
+          0.476
+        ],
+        [
+          "BV-205",
+          0.0
+        ],
+        [
+          "BV-210",
+          0.0
+        ]
+      ],
+      "issues": [],
+      "status": "READY"
+    }
+  ],
+  "parse_status": "OK",
+  "ocr_status": "NOT_REQUIRED",
+  "parse_time_ms": 7.3
+}

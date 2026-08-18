@@ -1,0 +1,51 @@
+{
+  "sample": [
+    "O001",
+    "O002",
+    "O003",
+    "O006",
+    "O007",
+    "O011",
+    "O004",
+    "O005",
+    "O009",
+    "O035"
+  ],
+  "package_root": "results/014c6/human_speed_test_package",
+  "source_docs": [
+    "results/014c6/human_speed_test_package/source_docs/O001.pdf",
+    "results/014c6/human_speed_test_package/source_docs/O002.pdf",
+    "results/014c6/human_speed_test_package/source_docs/O003.pdf",
+    "results/014c6/human_speed_test_package/source_docs/O004.eml",
+    "results/014c6/human_speed_test_package/source_docs/O005.eml",
+    "results/014c6/human_speed_test_package/source_docs/O006.eml",
+    "results/014c6/human_speed_test_package/source_docs/O007.eml",
+    "results/014c6/human_speed_test_package/source_docs/O009.pdf",
+    "results/014c6/human_speed_test_package/source_docs/O011.xlsx",
+    "results/014c6/human_speed_test_package/source_docs/O035.png"
+  ],
+  "manual_sheets": [
+    "results/014c6/human_speed_test_package/manual_sheets/O001.md",
+    "results/014c6/human_speed_test_package/manual_sheets/O002.md",
+    "results/014c6/human_speed_test_package/manual_sheets/O003.md",
+    "results/014c6/human_speed_test_package/manual_sheets/O004.md",
+    "results/014c6/human_speed_test_package/manual_sheets/O005.md",
+    "results/014c6/human_speed_test_package/manual_sheets/O006.md",
+    "results/014c6/human_speed_test_package/manual_sheets/O007.md",
+    "results/014c6/human_speed_test_package/manual_sheets/O009.md",
+    "results/014c6/human_speed_test_package/manual_sheets/O011.md",
+    "results/014c6/human_speed_test_package/manual_sheets/O035.md"
+  ],
+  "ai_outputs": [
+    "results/014c6/human_speed_test_package/ai_outputs/O001.json",
+    "results/014c6/human_speed_test_package/ai_outputs/O002.json",
+    "results/014c6/human_speed_test_package/ai_outputs/O003.json",
+    "results/014c6/human_speed_test_package/ai_outputs/O004.json",
+    "results/014c6/human_speed_test_package/ai_outputs/O005.json",
+    "results/014c6/human_speed_test_package/ai_outputs/O006.json",
+    "results/014c6/human_speed_test_package/ai_outputs/O007.json",
+    "results/014c6/human_speed_test_package/ai_outputs/O009.json",
+    "results/014c6/human_speed_test_package/ai_outputs/O011.json",
+    "results/014c6/human_speed_test_package/ai_outputs/O035.json"
+  ]
+}

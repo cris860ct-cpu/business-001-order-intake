@@ -1,0 +1,13 @@
+{
+  "order_id": "O039",
+  "ocr_status": "OK",
+  "ocr_confidence": 0.976,
+  "ocr_quality_score": 0.9358,
+  "ocr_preprocessing": "gray_upscaled_2x",
+  "ocr_text": "Brightpath Components\nPO BP-7420\nOrder 2026-08-16/Due 2026-08-24\nPartPart7A-19\npapercrease\nlowquality scan",
+  "result": {
+    "order_id": "O039",
+    "order_status": "EXCEPTION",
+    "line_rows": []
+  }
+}

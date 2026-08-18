@@ -1,0 +1,80 @@
+{
+  "order_id": "O011",
+  "ocr_status": "OK",
+  "ocr_confidence": 0.942,
+  "ocr_quality_score": 0.9536,
+  "ocr_preprocessing": "original",
+  "ocr_text": "NovaLabsWholesaleOrder\nCustomer:Harborline Field\nPO#:HF-7811\nOrderDate:2026-08-06\nRequested Delivery:2026-08-10\n1 \u4e28C-1001\u4e28 12/3 S0ow cable\u4e28 50\u4e28 ft\u4e28 2.35\n2\u4e28C-1002\u4e28 14/3 S00w cable\u4e28 75\u4e28ft\u4e281.95",
+  "result": {
+    "order_id": "O011",
+    "order_status": "REVIEW REQUIRED",
+    "line_rows": [
+      {
+        "order_id": "O011",
+        "line_number": "1",
+        "customer_item_number": "C-1001",
+        "raw_source": "1 \u4e28C-1001\u4e28 12/3 S0ow cable\u4e28 50\u4e28 ft\u4e28 2.35",
+        "extracted_value": {
+          "customer_item_number": "C-1001",
+          "raw_description": "12/3 S0ow cable",
+          "quantity": 50.0,
+          "unit": "ft",
+          "sku_hint": null
+        },
+        "proposed_sku": "CB-123",
+        "matched_description": "12/3 SOOW cable",
+        "confidence": "MEDIUM",
+        "review_reason": "fuzzy description match",
+        "alternative_matches": [
+          [
+            "CB-143",
+            0.293
+          ],
+          [
+            "BV-205",
+            -0.04
+          ],
+          [
+            "BV-210",
+            -0.04
+          ]
+        ],
+        "issues": [],
+        "status": "REVIEW REQUIRED"
+      },
+      {
+        "order_id": "O011",
+        "line_number": "2",
+        "customer_item_number": "C-1002",
+        "raw_source": "2\u4e28C-1002\u4e28 14/3 S00w cable\u4e28 75\u4e28ft\u4e281.95",
+        "extracted_value": {
+          "customer_item_number": "C-1002",
+          "raw_description": "14/3 S00w cable",
+          "quantity": 75.0,
+          "unit": "ft",
+          "sku_hint": null
+        },
+        "proposed_sku": "CB-143",
+        "matched_description": "14/3 SOOW cable",
+        "confidence": "MEDIUM",
+        "review_reason": "fuzzy description match",
+        "alternative_matches": [
+          [
+            "CB-123",
+            0.293
+          ],
+          [
+            "BV-205",
+            -0.04
+          ],
+          [
+            "BV-210",
+            -0.04
+          ]
+        ],
+        "issues": [],
+        "status": "REVIEW REQUIRED"
+      }
+    ]
+  }
+}

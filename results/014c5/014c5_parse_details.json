@@ -1,0 +1,142 @@
+{
+  "O001": {
+    "parse_status": "OK",
+    "ocr_status": "NOT_REQUIRED",
+    "line_count": 2,
+    "notes": "",
+    "warnings": []
+  },
+  "O002": {
+    "parse_status": "OK",
+    "ocr_status": "NOT_REQUIRED",
+    "line_count": 2,
+    "notes": "",
+    "warnings": []
+  },
+  "O003": {
+    "parse_status": "OK",
+    "ocr_status": "NOT_REQUIRED",
+    "line_count": 2,
+    "notes": "",
+    "warnings": []
+  },
+  "O004": {
+    "parse_status": "OK",
+    "ocr_status": "NOT_REQUIRED",
+    "line_count": 2,
+    "notes": "",
+    "warnings": []
+  },
+  "O005": {
+    "parse_status": "OK",
+    "ocr_status": "NOT_REQUIRED",
+    "line_count": 2,
+    "notes": "",
+    "warnings": []
+  },
+  "O006": {
+    "parse_status": "OK",
+    "ocr_status": "NOT_REQUIRED",
+    "line_count": 2,
+    "notes": "",
+    "warnings": []
+  },
+  "O007": {
+    "parse_status": "OK",
+    "ocr_status": "NOT_REQUIRED",
+    "line_count": 2,
+    "notes": "",
+    "warnings": []
+  },
+  "O009": {
+    "parse_status": "OK",
+    "ocr_status": "NOT_REQUIRED",
+    "line_count": 1,
+    "notes": "Source note: candidate_matches=BV-205;BV-210;GV-200;CV-200;SV-200",
+    "warnings": []
+  },
+  "O010": {
+    "parse_status": "OK",
+    "ocr_status": "NOT_REQUIRED",
+    "line_count": 1,
+    "notes": "Source note: candidate_matches=BV-205",
+    "warnings": []
+  },
+  "O011": {
+    "parse_status": "OK",
+    "ocr_status": "NOT_REQUIRED",
+    "line_count": 2,
+    "notes": "",
+    "warnings": []
+  },
+  "O012": {
+    "parse_status": "OK",
+    "ocr_status": "NOT_REQUIRED",
+    "line_count": 2,
+    "notes": "",
+    "warnings": []
+  },
+  "O013": {
+    "parse_status": "OK",
+    "ocr_status": "NOT_REQUIRED",
+    "line_count": 2,
+    "notes": "",
+    "warnings": []
+  },
+  "O014": {
+    "parse_status": "OK",
+    "ocr_status": "NOT_REQUIRED",
+    "line_count": 2,
+    "notes": "",
+    "warnings": []
+  },
+  "O015": {
+    "parse_status": "OK",
+    "ocr_status": "NOT_REQUIRED",
+    "line_count": 2,
+    "notes": "",
+    "warnings": []
+  },
+  "O017": {
+    "parse_status": "OK",
+    "ocr_status": "NOT_REQUIRED",
+    "line_count": 2,
+    "notes": "Source note: duplicate_source_block",
+    "warnings": []
+  },
+  "O025": {
+    "parse_status": "OK",
+    "ocr_status": "NOT_REQUIRED",
+    "line_count": 1,
+    "notes": "Need 2in full port brass valve for line 4 same style as job 18 Source note: candidate_matches=BV-205;BV-210;GV-200;CV-200;SV-200",
+    "warnings": []
+  },
+  "O029": {
+    "parse_status": "OK",
+    "ocr_status": "NOT_REQUIRED",
+    "line_count": 1,
+    "notes": "Source note: email_qty=4 Source note: attachment_qty=6",
+    "warnings": []
+  },
+  "O035": {
+    "parse_status": "OCR_BLOCKED",
+    "ocr_status": "OCR_BLOCKED",
+    "line_count": 0,
+    "notes": "OCR BLOCKED",
+    "warnings": []
+  },
+  "O036": {
+    "parse_status": "OCR_BLOCKED",
+    "ocr_status": "OCR_BLOCKED",
+    "line_count": 0,
+    "notes": "OCR BLOCKED",
+    "warnings": []
+  },
+  "O039": {
+    "parse_status": "OCR_BLOCKED",
+    "ocr_status": "OCR_BLOCKED",
+    "line_count": 0,
+    "notes": "OCR BLOCKED",
+    "warnings": []
+  }
+}

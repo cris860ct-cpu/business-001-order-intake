@@ -1,0 +1,80 @@
+{
+  "order_id": "O005",
+  "ocr_status": "OK",
+  "ocr_confidence": 0.9466,
+  "ocr_quality_score": 1.0272,
+  "ocr_preprocessing": "original",
+  "ocr_text": "NovaLabswholesaleOrder\nCustomer: Ironclad Tooling\nPO#\uff1aIT-5509\nOrderDate:2026-08-03\nRequestedDelivery:2026-08-09\n1 \u4e28 C-401 \u4e28 10-24 x 2 stainless screws \u4e28 2\u4e28 box \u4e28 19.00\n2 \u4e28 C-402 \u4e28 5/16 flat washers \u4e28 4 \u4e28 box \u4e28 6.20",
+  "result": {
+    "order_id": "O005",
+    "order_status": "REVIEW REQUIRED",
+    "line_rows": [
+      {
+        "order_id": "O005",
+        "line_number": "1",
+        "customer_item_number": "C-401",
+        "raw_source": "1 \u4e28 C-401 \u4e28 10-24 x 2 stainless screws \u4e28 2\u4e28 box \u4e28 19.00",
+        "extracted_value": {
+          "customer_item_number": "C-401",
+          "raw_description": "10-24 x 2 stainless screws",
+          "quantity": 2.0,
+          "unit": "box",
+          "sku_hint": null
+        },
+        "proposed_sku": "SC-102",
+        "matched_description": "10-24 x 2in stainless screw",
+        "confidence": "MEDIUM",
+        "review_reason": "fuzzy description match",
+        "alternative_matches": [
+          [
+            "SV-200",
+            0.335
+          ],
+          [
+            "UN-200",
+            0.083
+          ],
+          [
+            "CO-200",
+            0.083
+          ]
+        ],
+        "issues": [],
+        "status": "REVIEW REQUIRED"
+      },
+      {
+        "order_id": "O005",
+        "line_number": "2",
+        "customer_item_number": "C-402",
+        "raw_source": "2 \u4e28 C-402 \u4e28 5/16 flat washers \u4e28 4 \u4e28 box \u4e28 6.20",
+        "extracted_value": {
+          "customer_item_number": "C-402",
+          "raw_description": "5/16 flat washers",
+          "quantity": 4.0,
+          "unit": "box",
+          "sku_hint": null
+        },
+        "proposed_sku": "NW-516",
+        "matched_description": "5/16in flat washer",
+        "confidence": "MEDIUM",
+        "review_reason": "fuzzy description match",
+        "alternative_matches": [
+          [
+            "BC-516",
+            0.275
+          ],
+          [
+            "SC-102",
+            0.091
+          ],
+          [
+            "BV-205",
+            -0.04
+          ]
+        ],
+        "issues": [],
+        "status": "REVIEW REQUIRED"
+      }
+    ]
+  }
+}

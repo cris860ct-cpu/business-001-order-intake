@@ -1,0 +1,75 @@
+{
+  "order_id": "O001",
+  "order_status": "READY",
+  "line_rows": [
+    {
+      "order_id": "O001",
+      "line_number": "1",
+      "customer_item_number": "C-001",
+      "raw_source": "1 | C-001 | 2in brass full-port valve | 6 | each | 124.00",
+      "extracted_value": {
+        "customer_item_number": "C-001",
+        "raw_description": "2in brass full-port valve",
+        "quantity": 6.0,
+        "unit": "each",
+        "sku_hint": null
+      },
+      "proposed_sku": "BV-205",
+      "matched_description": "2in brass full-port ball valve",
+      "confidence": "HIGH",
+      "review_reason": null,
+      "alternative_matches": [
+        [
+          "BV-210",
+          0.644
+        ],
+        [
+          "PV-200",
+          0.559
+        ],
+        [
+          "SV-200",
+          0.559
+        ]
+      ],
+      "issues": [],
+      "status": "READY"
+    },
+    {
+      "order_id": "O001",
+      "line_number": "2",
+      "customer_item_number": "C-002",
+      "raw_source": "2 | C-002 | 4.5 grinding disc 36 grit | 24 | each | 2.10",
+      "extracted_value": {
+        "customer_item_number": "C-002",
+        "raw_description": "4.5 grinding disc 36 grit",
+        "quantity": 24.0,
+        "unit": "each",
+        "sku_hint": null
+      },
+      "proposed_sku": "GD-36",
+      "matched_description": "4.5in grinding disc 36 grit",
+      "confidence": "HIGH",
+      "review_reason": null,
+      "alternative_matches": [
+        [
+          "FD-80",
+          0.511
+        ],
+        [
+          "BV-205",
+          0.0
+        ],
+        [
+          "BV-210",
+          0.0
+        ]
+      ],
+      "issues": [],
+      "status": "READY"
+    }
+  ],
+  "parse_status": "OK",
+  "ocr_status": "NOT_REQUIRED",
+  "parse_time_ms": 2.92
+}

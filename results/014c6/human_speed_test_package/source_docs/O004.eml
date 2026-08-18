@@ -1,0 +1,18 @@
+Subject: PO SP-1180
+From: orders@example.com
+To: warehouse@example.com
+Date: Wed, 05 Aug 2026 09:00:00 -0400
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Customer: Summit Process
+PO #: SP-1180
+Order Date: 2026-08-02
+Requested Delivery: 2026-08-08
+
+1 | C-301 | 2in layflat hose | 100 | ft | 4.25
+2 | C-302 | 2 brass elbow | 10 | each | 11.50
+
+Thanks,
+Shipping Desk

@@ -1,0 +1,48 @@
+[
+  {
+    "order_id": "O004",
+    "line_number": "2",
+    "expected_status": "READY",
+    "predicted_status": "REVIEW REQUIRED",
+    "expected_sku": "EL-200",
+    "predicted_sku": "EL-200",
+    "expected_quantity": "10",
+    "predicted_quantity": 10.0,
+    "review_reason": "ambiguous catalog match"
+  },
+  {
+    "order_id": "O005",
+    "line_number": "2",
+    "expected_status": "READY",
+    "predicted_status": "REVIEW REQUIRED",
+    "expected_sku": "NW-516",
+    "predicted_sku": "NW-516",
+    "expected_quantity": "4",
+    "predicted_quantity": 4.0,
+    "review_reason": "ambiguous catalog match"
+  },
+  {
+    "order_id": "O035",
+    "line_number": "1",
+    "expected_status": "EXCEPTION",
+    "predicted_status": "EXCEPTION",
+    "issue_type": "OCR_BLOCKED",
+    "review_reason": "OCR blocked; scan could not be read"
+  },
+  {
+    "order_id": "O036",
+    "line_number": "1",
+    "expected_status": "EXCEPTION",
+    "predicted_status": "EXCEPTION",
+    "issue_type": "OCR_BLOCKED",
+    "review_reason": "OCR blocked; scan could not be read"
+  },
+  {
+    "order_id": "O039",
+    "line_number": "1",
+    "expected_status": "EXCEPTION",
+    "predicted_status": "EXCEPTION",
+    "issue_type": "OCR_BLOCKED",
+    "review_reason": "OCR blocked; scan could not be read"
+  }
+]

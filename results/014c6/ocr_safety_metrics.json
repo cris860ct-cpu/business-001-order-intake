@@ -1,0 +1,7 @@
+{
+  "wrong_sku_ready": 0,
+  "wrong_quantity_ready": 0,
+  "parser_or_ocr_failure_presented_as_ready": 0,
+  "false_confidence_rate": 0.0,
+  "exception_recall": 1.0
+}

@@ -1,0 +1,13 @@
+{
+  "order_id": "O036",
+  "ocr_status": "OK",
+  "ocr_confidence": 0.9134,
+  "ocr_quality_score": 0.9208,
+  "ocr_preprocessing": "original",
+  "ocr_text": "PO RP-9999\nOrder 2026-08-16 /Due 2028-08-23\nC-3501 Zp-9999 2in valve 4eacn\nfaded edge\npaper crease\nlow quatity scan",
+  "result": {
+    "order_id": "O036",
+    "order_status": "EXCEPTION",
+    "line_rows": []
+  }
+}

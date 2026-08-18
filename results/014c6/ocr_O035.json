@@ -1,0 +1,21 @@
+{
+  "order_id": "O035",
+  "ocr_status": "OCR_LOW_CONFIDENCE",
+  "ocr_confidence": 0.0,
+  "ocr_quality_score": 0.0,
+  "ocr_preprocessing": "original",
+  "ocr_text": "",
+  "result": {
+    "order_id": "O035",
+    "order_status": "EXCEPTION",
+    "ocr_status": "OCR_LOW_CONFIDENCE",
+    "ocr_confidence": 0.0,
+    "ocr_quality_score": 0.0,
+    "ocr_preprocessing": "original",
+    "ocr_text": "",
+    "parse_status": "OCR_LOW_CONFIDENCE",
+    "parse_time_ms": null,
+    "line_rows": [],
+    "blocked_reason": "no text detected"
+  }
+}

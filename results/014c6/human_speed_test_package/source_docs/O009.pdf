@@ -1,0 +1,52 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 336 >>
+stream
+BT
+/F1 11 Tf
+72 760 Td
+(Nova Labs Wholesale Order) Tj
+T*
+(Customer: Allen Works) Tj
+T*
+(PO #: AW-3008) Tj
+T*
+(Order Date: 2026-08-05) Tj
+T*
+(Requested Delivery: 2026-08-11) Tj
+T*
+() Tj
+T*
+(1 | C-801 | 2in full port brass valve | 4 | each | 124.00) Tj
+T*
+() Tj
+T*
+(Source note: candidate_matches=BV-205;BV-210;GV-200;CV-200;SV-200) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000628 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+698
+%%EOF

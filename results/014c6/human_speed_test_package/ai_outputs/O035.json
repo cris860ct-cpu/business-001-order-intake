@@ -1,0 +1,8 @@
+{
+  "order_id": "O035",
+  "order_status": "EXCEPTION",
+  "line_rows": [],
+  "parse_status": "OCR_BLOCKED",
+  "ocr_status": "OCR_BLOCKED",
+  "blocked_reason": "OCR_BLOCKED"
+}

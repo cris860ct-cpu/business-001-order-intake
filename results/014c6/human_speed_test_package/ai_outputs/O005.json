@@ -1,0 +1,75 @@
+{
+  "order_id": "O005",
+  "order_status": "REVIEW REQUIRED",
+  "line_rows": [
+    {
+      "order_id": "O005",
+      "line_number": "1",
+      "customer_item_number": "C-401",
+      "raw_source": "1 | C-401 | 10-24 x 2 stainless screws | 2 | box | 19.00",
+      "extracted_value": {
+        "customer_item_number": "C-401",
+        "raw_description": "10-24 x 2 stainless screws",
+        "quantity": 2.0,
+        "unit": "box",
+        "sku_hint": null
+      },
+      "proposed_sku": "SC-102",
+      "matched_description": "10-24 x 2in stainless screw",
+      "confidence": "HIGH",
+      "review_reason": null,
+      "alternative_matches": [
+        [
+          "SV-200",
+          0.375
+        ],
+        [
+          "UN-200",
+          0.123
+        ],
+        [
+          "CO-200",
+          0.123
+        ]
+      ],
+      "issues": [],
+      "status": "READY"
+    },
+    {
+      "order_id": "O005",
+      "line_number": "2",
+      "customer_item_number": "C-402",
+      "raw_source": "2 | C-402 | 5/16 flat washers | 4 | box | 6.20",
+      "extracted_value": {
+        "customer_item_number": "C-402",
+        "raw_description": "5/16 flat washers",
+        "quantity": 4.0,
+        "unit": "box",
+        "sku_hint": null
+      },
+      "proposed_sku": "NW-516",
+      "matched_description": "5/16in flat washer",
+      "confidence": "LOW",
+      "review_reason": "ambiguous catalog match",
+      "alternative_matches": [
+        [
+          "BC-516",
+          0.315
+        ],
+        [
+          "SC-102",
+          0.131
+        ],
+        [
+          "BV-205",
+          0.0
+        ]
+      ],
+      "issues": [],
+      "status": "REVIEW REQUIRED"
+    }
+  ],
+  "parse_status": "OK",
+  "ocr_status": "NOT_REQUIRED",
+  "parse_time_ms": 1.2
+}

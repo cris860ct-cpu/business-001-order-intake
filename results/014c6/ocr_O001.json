@@ -1,0 +1,80 @@
+{
+  "order_id": "O001",
+  "ocr_status": "OK",
+  "ocr_confidence": 0.9403,
+  "ocr_quality_score": 1.0523,
+  "ocr_preprocessing": "gray_upscaled_2x",
+  "ocr_text": "NovaLabs wholesale Order\nCustomer:Apex Fabrication\nPO#:AF-240801\nOrder Date: 2026-08-01\nRequested Delivery:2026-08-05\n1 | C-0o1 \u4e28 2in brass full-port valve \u4e28 6 \u4e28 each \u4e28 124.00\n2 \u4e28C-002| 4.5 grinding disc 36 grit | 24 | each \u4e28 2.10\nPagel of1\nPrinted from order desk",
+  "result": {
+    "order_id": "O001",
+    "order_status": "REVIEW REQUIRED",
+    "line_rows": [
+      {
+        "order_id": "O001",
+        "line_number": "1",
+        "customer_item_number": "C-0o1",
+        "raw_source": "1 | C-0o1 \u4e28 2in brass full-port valve \u4e28 6 \u4e28 each \u4e28 124.00",
+        "extracted_value": {
+          "customer_item_number": "C-0o1",
+          "raw_description": "2in brass full-port valve",
+          "quantity": 6.0,
+          "unit": "each",
+          "sku_hint": null
+        },
+        "proposed_sku": "BV-205",
+        "matched_description": "2in brass full-port ball valve",
+        "confidence": "MEDIUM",
+        "review_reason": "fuzzy description match",
+        "alternative_matches": [
+          [
+            "BV-210",
+            0.604
+          ],
+          [
+            "PV-200",
+            0.519
+          ],
+          [
+            "SV-200",
+            0.519
+          ]
+        ],
+        "issues": [],
+        "status": "REVIEW REQUIRED"
+      },
+      {
+        "order_id": "O001",
+        "line_number": "2",
+        "customer_item_number": "C-002",
+        "raw_source": "2 \u4e28C-002| 4.5 grinding disc 36 grit | 24 | each \u4e28 2.10\nPagel of1\nPrinted from order desk",
+        "extracted_value": {
+          "customer_item_number": "C-002",
+          "raw_description": "4.5 grinding disc 36 grit Pagel of1 Printed from order desk",
+          "quantity": 24.0,
+          "unit": "each",
+          "sku_hint": null
+        },
+        "proposed_sku": "GD-36",
+        "matched_description": "4.5in grinding disc 36 grit",
+        "confidence": "MEDIUM",
+        "review_reason": "fuzzy description match",
+        "alternative_matches": [
+          [
+            "FD-80",
+            0.438
+          ],
+          [
+            "BV-205",
+            -0.04
+          ],
+          [
+            "BV-210",
+            -0.04
+          ]
+        ],
+        "issues": [],
+        "status": "REVIEW REQUIRED"
+      }
+    ]
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "orders": [
+    {
+      "order_id": "O035",
+      "base_order_id": "O035",
+      "source_path": "raw_sources/014c6/O035.png",
+      "style": "existing_hard_scan",
+      "kind": "existing",
+      "expected_status": "EXCEPTION",
+      "reference_text": "Nova Labs Wholesale Order\nCustomer: Pinegate Services\nPO #: PG-6618\nOrder Date: 2026-08-16\nRequested Delivery: 2026-08-23\n\n1 | C-3401 | 2 brass union |  |  | 14.20",
+      "expected_hint_lines": {
+        "1": null
+      },
+      "use_sku_hint": false
+    },
+    {
+      "order_id": "O036",
+      "base_order_id": "O036",
+      "source_path": "raw_sources/014c6/O036.png",
+      "style": "existing_hard_scan",
+      "kind": "existing",
+      "expected_status": "EXCEPTION",
+      "reference_text": "Nova Labs Wholesale Order\nCustomer: Rosedale Parts\nPO #: RP-9999\nOrder Date: 2026-08-16\nRequested Delivery: 2026-08-23\n\n1 | C-3501 | ZP-9999 2in valve | 4 | each | ",
+      "expected_hint_lines": {
+        "1": null
+      },
+      "use_sku_hint": false
+    },
+    {
+      "order_id": "O039",
+      "base_order_id": "O039",
+      "source_path": "raw_sources/014c6/O039.png",
+      "style": "existing_hard_scan",
+      "kind": "existing",
+      "expected_status": "EXCEPTION",
+      "reference_text": "Nova Labs Wholesale Order\nCustomer: Brightpath Components\nPO #: BP-7420\nOrder Date: 2026-08-16\nRequested Delivery: 2026-08-24\n\n1 | C-3801 | Part 7A-19 | 10 | each | ",
+      "expected_hint_lines": {
+        "1": null
+      },
+      "use_sku_hint": false
+    },
+    {
+      "order_id": "O001",
+      "base_order_id": "O001",
+      "source_path": "raw_sources/014c6/O001_clean_footer_noise.png",
+      "style": "clean_footer_noise",
+      "kind": "synthetic",
+      "expected_status": "READY",
+      "reference_text": "Nova Labs Wholesale Order\nCustomer: Apex Fabrication\nPO #: AF-240801\nOrder Date: 2026-08-01\nRequested Delivery: 2026-08-05\n\n1 | C-001 | 2in brass full-port valve | 6 | each | 124.00\n2 | C-002 | 4.5 grinding disc 36 grit | 24 | each | 2.10",
+      "expected_hint_lines": {
+        "1": null,
+        "2": null
+      },
+      "use_sku_hint": false
+    },
+    {
+      "order_id": "O004",
+      "base_order_id": "O004",
+      "source_path": "raw_sources/014c6/O004_skew_shadow.png",
+      "style": "skew_shadow",
+      "kind": "synthetic",
+      "expected_status": "READY",
+      "reference_text": "Nova Labs Wholesale Order\nCustomer: Summit Process\nPO #: SP-1180\nOrder Date: 2026-08-02\nRequested Delivery: 2026-08-08\n\n1 | C-301 | 2 layflat hose | 100 | ft | 4.25\n2 | C-302 | 2 brass elbow | 10 | each | 11.50",
+      "expected_hint_lines": {
+        "1": null,
+        "2": null
+      },
+      "use_sku_hint": false
+    },
+    {
+      "order_id": "O005",
+      "base_order_id": "O005",
+      "source_path": "raw_sources/014c6/O005_grid_table.png",
+      "style": "grid_table",
+      "kind": "synthetic",
+      "expected_status": "READY",
+      "reference_text": "Nova Labs Wholesale Order\nCustomer: Ironclad Tooling\nPO #: IT-5509\nOrder Date: 2026-08-03\nRequested Delivery: 2026-08-09\n\n1 | C-401 | 10-24 x 2 stainless screws | 2 | box | 19.00\n2 | C-402 | 5/16 flat washers | 4 | box | 6.20",
+      "expected_hint_lines": {
+        "1": null,
+        "2": null
+      },
+      "use_sku_hint": false
+    },
+    {
+      "order_id": "O009",
+      "base_order_id": "O009",
+      "source_path": "raw_sources/014c6/O009_fax_like_hint.png",
+      "style": "fax_like_hint",
+      "kind": "synthetic",
+      "expected_status": "REVIEW REQUIRED",
+      "reference_text": "Nova Labs Wholesale Order\nCustomer: Allen Works\nPO #: AW-3008\nOrder Date: 2026-08-05\nRequested Delivery: 2026-08-11\n\n1 | C-801 | BV-205 2in full port brass valve | 4 | each | 124.00",
+      "expected_hint_lines": {
+        "1": "BV-205"
+      },
+      "use_sku_hint": true
+    },
+    {
+      "order_id": "O011",
+      "base_order_id": "O011",
+      "source_path": "raw_sources/014c6/O011_spreadsheet_photo.png",
+      "style": "spreadsheet_photo",
+      "kind": "synthetic",
+      "expected_status": "READY",
+      "reference_text": "Nova Labs Wholesale Order\nCustomer: Harborline Field\nPO #: HF-7811\nOrder Date: 2026-08-06\nRequested Delivery: 2026-08-10\n\n1 | C-1001 | 12/3 SOOW cable | 50 | ft | 2.35\n2 | C-1002 | 14/3 SOOW cable | 75 | ft | 1.95",
+      "expected_hint_lines": {
+        "1": null,
+        "2": null
+      },
+      "use_sku_hint": false
+    },
+    {
+      "order_id": "O013",
+      "base_order_id": "O013",
+      "source_path": "raw_sources/014c6/O013_annotation_hint.png",
+      "style": "annotation_hint",
+      "kind": "synthetic",
+      "expected_status": "READY",
+      "reference_text": "Nova Labs Wholesale Order\nCustomer: Forge Supply\nPO #: FS-2809\nOrder Date: 2026-08-07\nRequested Delivery: 2026-08-12\n\n1 | C-1201 | TB-200 2 tape roll | 8 | roll | 5.30\n2 | C-1202 | 2x4 label roll | 4 | roll | 18.00",
+      "expected_hint_lines": {
+        "1": "TB-200",
+        "2": null
+      },
+      "use_sku_hint": true
+    },
+    {
+      "order_id": "O015",
+      "base_order_id": "O015",
+      "source_path": "raw_sources/014c6/O015_shadow_compression.png",
+      "style": "shadow_compression",
+      "kind": "synthetic",
+      "expected_status": "READY",
+      "reference_text": "Nova Labs Wholesale Order\nCustomer: Keystone Maintenance\nPO #: KM-6621\nOrder Date: 2026-08-08\nRequested Delivery: 2026-08-13\n\n1 | C-1401 | AD-200 2 x 1.5 brass reducer | 5 | each | 9.60\n2 | C-1402 | 2 brass flange | 5 | each | 18.75",
+      "expected_hint_lines": {
+        "1": "AD-200",
+        "2": null
+      },
+      "use_sku_hint": true
+    }
+  ]
+}

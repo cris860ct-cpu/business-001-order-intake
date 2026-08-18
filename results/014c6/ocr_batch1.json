@@ -1,0 +1,83 @@
+{
+  "subset_ids": [
+    "O035",
+    "O036"
+  ],
+  "results": [
+    {
+      "order_id": "O035",
+      "order_status": "EXCEPTION",
+      "ocr_status": "OCR_LOW_CONFIDENCE",
+      "ocr_confidence": 0.0,
+      "ocr_quality_score": 0.0,
+      "ocr_preprocessing": "original",
+      "ocr_text": "",
+      "parse_status": "OCR_LOW_CONFIDENCE",
+      "parse_time_ms": null,
+      "line_rows": [],
+      "blocked_reason": "no text detected"
+    },
+    {
+      "order_id": "O036",
+      "order_status": "READY",
+      "line_rows": [],
+      "ocr_status": "OK",
+      "ocr_confidence": 0.9134,
+      "ocr_quality_score": 0.9208,
+      "ocr_preprocessing": "original",
+      "ocr_text": "PO RP-9999\nOrder 2026-08-16 /Due 2028-08-23\nC-3501 Zp-9999 2in valve 4eacn\nfaded edge\npaper crease\nlow quatity scan",
+      "reference_text": "Nova Labs Wholesale Order\nCustomer: Rosedale Parts\nPO #: RP-9999\nOrder Date: 2026-08-16\nRequested Delivery: 2026-08-23\n\n1 | C-3501 | ZP-9999 2in valve | 4 | each | ",
+      "expected_status": "EXCEPTION"
+    }
+  ],
+  "metrics": {
+    "ocr_character_accuracy": 0.2563,
+    "ocr_token_f1": 0.1739,
+    "header_extraction_accuracy": 0.0,
+    "line_item_extraction_recall": 0.0,
+    "quantity_extraction_accuracy": 0.0,
+    "sku_hint_extraction_accuracy": null,
+    "catalog_match_accuracy": 0.0,
+    "exception_recall": 0.0,
+    "false_confidence_rate": 0.0,
+    "wrong_sku_ready": 0,
+    "wrong_quantity_ready": 0,
+    "parser_or_ocr_failure_presented_as_ready": 0,
+    "percent_auto_ready": 0.5,
+    "percent_review_required": 0.0,
+    "percent_exception": 0.5,
+    "orders_tested": 2,
+    "lines_total": 1,
+    "lines_parsed": 0,
+    "parser_or_ocr_failure_presented_as_ready_rate": 0.0
+  },
+  "failure_table": [
+    {
+      "order_id": "O035",
+      "source_type": "scan",
+      "expected": "EXCEPTION",
+      "actual": "EXCEPTION",
+      "failure_class": "F11 OCR FAILURE",
+      "severity": "medium",
+      "root_cause": "no text detected",
+      "fix_candidate": "improve preprocessing or require human review"
+    },
+    {
+      "order_id": "O036",
+      "source_type": "scan",
+      "expected": "line 1 present",
+      "actual": "line missing",
+      "failure_class": "F2 EXTRACTION FAILURE",
+      "severity": "high",
+      "root_cause": "OCR missed the line or parser could not segment it",
+      "fix_candidate": "improve image preprocessing or OCR segmentation"
+    }
+  ],
+  "safety": {
+    "wrong_sku_ready": 0,
+    "wrong_quantity_ready": 0,
+    "parser_or_ocr_failure_presented_as_ready": 0,
+    "false_confidence_rate": 0.0,
+    "exception_recall": 0.0
+  }
+}

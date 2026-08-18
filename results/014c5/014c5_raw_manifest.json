@@ -1,0 +1,170 @@
+{
+  "orders": [
+    {
+      "order_id": "O001",
+      "source_path": "raw_sources/014c5/O001.pdf",
+      "format": "pdf",
+      "style": "footer_noise",
+      "expected_status": "READY",
+      "attachments": []
+    },
+    {
+      "order_id": "O002",
+      "source_path": "raw_sources/014c5/O002.pdf",
+      "format": "pdf",
+      "style": "multiline_desc",
+      "expected_status": "READY",
+      "attachments": []
+    },
+    {
+      "order_id": "O003",
+      "source_path": "raw_sources/014c5/O003.pdf",
+      "format": "pdf",
+      "style": "footer_disclaimer",
+      "expected_status": "READY",
+      "attachments": []
+    },
+    {
+      "order_id": "O004",
+      "source_path": "raw_sources/014c5/O004.eml",
+      "format": "email",
+      "style": "signature",
+      "expected_status": "READY",
+      "attachments": []
+    },
+    {
+      "order_id": "O005",
+      "source_path": "raw_sources/014c5/O005.eml",
+      "format": "email",
+      "style": "signature_disclaimer",
+      "expected_status": "READY",
+      "attachments": []
+    },
+    {
+      "order_id": "O006",
+      "source_path": "raw_sources/014c5/O006.eml",
+      "format": "email",
+      "style": "forwarded_thread",
+      "expected_status": "READY",
+      "attachments": []
+    },
+    {
+      "order_id": "O007",
+      "source_path": "raw_sources/014c5/O007.eml",
+      "format": "email",
+      "style": "signature_short",
+      "expected_status": "READY",
+      "attachments": []
+    },
+    {
+      "order_id": "O009",
+      "source_path": "raw_sources/014c5/O009.pdf",
+      "format": "pdf",
+      "style": "alias_review",
+      "expected_status": "REVIEW REQUIRED",
+      "attachments": []
+    },
+    {
+      "order_id": "O010",
+      "source_path": "raw_sources/014c5/O010.pdf",
+      "format": "pdf",
+      "style": "sku_typo",
+      "expected_status": "REVIEW REQUIRED",
+      "attachments": []
+    },
+    {
+      "order_id": "O011",
+      "source_path": "raw_sources/014c5/O011.xlsx",
+      "format": "xlsx",
+      "style": "reordered_columns",
+      "expected_status": "READY",
+      "attachments": []
+    },
+    {
+      "order_id": "O012",
+      "source_path": "raw_sources/014c5/O012.xlsx",
+      "format": "xlsx",
+      "style": "merged_header",
+      "expected_status": "READY",
+      "attachments": []
+    },
+    {
+      "order_id": "O013",
+      "source_path": "raw_sources/014c5/O013.xlsx",
+      "format": "xlsx",
+      "style": "extra_notes",
+      "expected_status": "READY",
+      "attachments": []
+    },
+    {
+      "order_id": "O014",
+      "source_path": "raw_sources/014c5/O014.xlsx",
+      "format": "xlsx",
+      "style": "blank_separator",
+      "expected_status": "READY",
+      "attachments": []
+    },
+    {
+      "order_id": "O015",
+      "source_path": "raw_sources/014c5/O015.xlsx",
+      "format": "xlsx",
+      "style": "totals_row",
+      "expected_status": "READY",
+      "attachments": []
+    },
+    {
+      "order_id": "O017",
+      "source_path": "raw_sources/014c5/O017.eml",
+      "format": "email",
+      "style": "duplicate_block",
+      "expected_status": "REVIEW REQUIRED",
+      "attachments": [
+        "O017_attachment.xlsx"
+      ]
+    },
+    {
+      "order_id": "O025",
+      "source_path": "raw_sources/014c5/O025.eml",
+      "format": "email",
+      "style": "history_reference",
+      "expected_status": "REVIEW REQUIRED",
+      "attachments": [
+        "O025_attachment.xlsx"
+      ]
+    },
+    {
+      "order_id": "O029",
+      "source_path": "raw_sources/014c5/O029.eml",
+      "format": "email",
+      "style": "qty_conflict",
+      "expected_status": "REVIEW REQUIRED",
+      "attachments": [
+        "O029_attachment.xlsx"
+      ]
+    },
+    {
+      "order_id": "O035",
+      "source_path": "raw_sources/014c5/O035.png",
+      "format": "scan",
+      "style": "low_quality",
+      "expected_status": "EXCEPTION",
+      "attachments": []
+    },
+    {
+      "order_id": "O036",
+      "source_path": "raw_sources/014c5/O036.png",
+      "format": "scan",
+      "style": "rotated",
+      "expected_status": "EXCEPTION",
+      "attachments": []
+    },
+    {
+      "order_id": "O039",
+      "source_path": "raw_sources/014c5/O039.png",
+      "format": "scan",
+      "style": "part_number_only",
+      "expected_status": "EXCEPTION",
+      "attachments": []
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "order_id": "O013",
+  "ocr_status": "OK",
+  "ocr_confidence": 0.9446,
+  "ocr_quality_score": 1.0407,
+  "ocr_preprocessing": "original",
+  "ocr_text": "NovaLabs wholesale Order\nCustomer: Forge Supply\nPO#:FS-2809\nOrder Date: 2026-08-07\nRequested Delivery: 2026-08-12\n1 \u4e28 C-1201 \u4e28 TB-200 2 tape roll \u4e28 8\u4e28 roll \u4e28 5.30\n2\u4e28 C-1202\u4e28 2x4 label roll \u4e28 4| roll \u4e28 18.00\nexpediteifpossible",
+  "result": {
+    "order_id": "O013",
+    "order_status": "REVIEW REQUIRED",
+    "line_rows": [
+      {
+        "order_id": "O013",
+        "line_number": "1",
+        "customer_item_number": "C-1201",
+        "raw_source": "1 \u4e28 C-1201 \u4e28 TB-200 2 tape roll \u4e28 8\u4e28 roll \u4e28 5.30",
+        "extracted_value": {
+          "customer_item_number": "C-1201",
+          "raw_description": "TB-200 2 tape roll",
+          "quantity": 8.0,
+          "unit": "roll",
+          "sku_hint": "TB-200"
+        },
+        "proposed_sku": "TB-200",
+        "matched_description": "2in x 100 yd packaging tape",
+        "confidence": "HIGH",
+        "review_reason": null,
+        "alternative_matches": [],
+        "issues": [],
+        "status": "READY"
+      },
+      {
+        "order_id": "O013",
+        "line_number": "2",
+        "customer_item_number": "C-1202",
+        "raw_source": "2\u4e28 C-1202\u4e28 2x4 label roll \u4e28 4| roll \u4e28 18.00\nexpediteifpossible",
+        "extracted_value": {
+          "customer_item_number": "C-1202",
+          "raw_description": "2x4 label roll expediteifpossible",
+          "quantity": 4.0,
+          "unit": "roll",
+          "sku_hint": null
+        },
+        "proposed_sku": "LB-24",
+        "matched_description": "2in x 4in label roll 500 labels",
+        "confidence": "MEDIUM",
+        "review_reason": "fuzzy description match",
+        "alternative_matches": [
+          [
+            "AD-200",
+            -0.011
+          ],
+          [
+            "SC-102",
+            -0.02
+          ],
+          [
+            "TB-200",
+            -0.032
+          ]
+        ],
+        "issues": [],
+        "status": "REVIEW REQUIRED"
+      }
+    ]
+  }
+}

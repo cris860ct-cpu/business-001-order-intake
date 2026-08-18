@@ -1,0 +1,18 @@
+Subject: PO WP-2045
+From: orders@example.com
+To: warehouse@example.com
+Date: Wed, 05 Aug 2026 09:00:00 -0400
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Customer: WeldPro
+PO #: WP-2045
+Order Date: 2026-08-04
+Requested Delivery: 2026-08-08
+
+1 | C-601 | 2 bronze gate valve | 1 | each | 132.00
+2 | C-602 | 2 bronze check valve | 1 | each | 109.00
+
+Thanks,
+Shipping Desk

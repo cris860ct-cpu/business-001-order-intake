@@ -1,0 +1,47 @@
+{
+  "order_id": "O004",
+  "ocr_status": "OK",
+  "ocr_confidence": 0.9462,
+  "ocr_quality_score": 1.047,
+  "ocr_preprocessing": "original",
+  "ocr_text": "NovaLabs Wholesale Order\nCustomer: Summit Process\nPO#:SP-1180\nOrder Date: 2026-08-02\nRequested Delivery: 2026-08-08\n1\u4e28 C-301 \u4e28 2 layflat hose \u4e28 100 \u4e28 ft | 4.25\n2 \u2193 c-302 1 2 brass elbow \u2193 10 \u2193 each \u2193 11.50",
+  "result": {
+    "order_id": "O004",
+    "order_status": "REVIEW REQUIRED",
+    "line_rows": [
+      {
+        "order_id": "O004",
+        "line_number": "1",
+        "customer_item_number": "C-301",
+        "raw_source": "1\u4e28 C-301 \u4e28 2 layflat hose \u4e28 100 \u4e28 ft | 4.25\n2 \u2193 c-302 1 2 brass elbow \u2193 10 \u2193 each \u2193 11.50",
+        "extracted_value": {
+          "customer_item_number": "C-301",
+          "raw_description": "2 layflat hose 2 \u2193 c-302 1 2 brass elbow \u2193 10 \u2193 each \u2193 11.50",
+          "quantity": 100.0,
+          "unit": "ft",
+          "sku_hint": null
+        },
+        "proposed_sku": "HT-100",
+        "matched_description": "1in layflat discharge hose",
+        "confidence": "MEDIUM",
+        "review_reason": "fuzzy description match",
+        "alternative_matches": [
+          [
+            "HT-200",
+            0.752
+          ],
+          [
+            "HT-150",
+            0.505
+          ],
+          [
+            "EL-200",
+            0.233
+          ]
+        ],
+        "issues": [],
+        "status": "REVIEW REQUIRED"
+      }
+    ]
+  }
+}

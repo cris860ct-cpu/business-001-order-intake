@@ -1,0 +1,67 @@
+{
+  "order_id": "O015",
+  "ocr_status": "OK",
+  "ocr_confidence": 0.9474,
+  "ocr_quality_score": 1.0479,
+  "ocr_preprocessing": "original",
+  "ocr_text": "Nova Labs wholesale Order\nCustomer:Keystone Maintenance\nPO#:KM-6621\nOrderDate:2026-08-08\nRequested Delivery: 2026-08-13\n1 | C-1401 \u4e28 AD-200 2 x 1.5 brass reducer \u4e28 5 \u4e28 each \u4e28 9.60\n2 \u4e28C-1402 \u4e28 2 brass flange \u4e28 5\u4e28 each \u4e28 18.75",
+  "result": {
+    "order_id": "O015",
+    "order_status": "REVIEW REQUIRED",
+    "line_rows": [
+      {
+        "order_id": "O015",
+        "line_number": "1",
+        "customer_item_number": "C-1401",
+        "raw_source": "1 | C-1401 \u4e28 AD-200 2 x 1.5 brass reducer \u4e28 5 \u4e28 each \u4e28 9.60",
+        "extracted_value": {
+          "customer_item_number": "C-1401",
+          "raw_description": "AD-200 2 x 1.5 brass reducer",
+          "quantity": 5.0,
+          "unit": "each",
+          "sku_hint": "AD-200"
+        },
+        "proposed_sku": "AD-200",
+        "matched_description": "2in x 1.5in brass reducer",
+        "confidence": "HIGH",
+        "review_reason": null,
+        "alternative_matches": [],
+        "issues": [],
+        "status": "READY"
+      },
+      {
+        "order_id": "O015",
+        "line_number": "2",
+        "customer_item_number": "C-1402",
+        "raw_source": "2 \u4e28C-1402 \u4e28 2 brass flange \u4e28 5\u4e28 each \u4e28 18.75",
+        "extracted_value": {
+          "customer_item_number": "C-1402",
+          "raw_description": "2 brass flange",
+          "quantity": 5.0,
+          "unit": "each",
+          "sku_hint": null
+        },
+        "proposed_sku": "FL-200",
+        "matched_description": "2in brass flange",
+        "confidence": "MEDIUM",
+        "review_reason": "fuzzy description match",
+        "alternative_matches": [
+          [
+            "UN-200",
+            0.639
+          ],
+          [
+            "CO-200",
+            0.639
+          ],
+          [
+            "TE-200",
+            0.639
+          ]
+        ],
+        "issues": [],
+        "status": "REVIEW REQUIRED"
+      }
+    ]
+  }
+}

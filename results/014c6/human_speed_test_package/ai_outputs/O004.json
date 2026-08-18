@@ -1,0 +1,75 @@
+{
+  "order_id": "O004",
+  "order_status": "REVIEW REQUIRED",
+  "line_rows": [
+    {
+      "order_id": "O004",
+      "line_number": "1",
+      "customer_item_number": "C-301",
+      "raw_source": "1 | C-301 | 2in layflat hose | 100 | ft | 4.25",
+      "extracted_value": {
+        "customer_item_number": "C-301",
+        "raw_description": "2in layflat hose",
+        "quantity": 100.0,
+        "unit": "ft",
+        "sku_hint": null
+      },
+      "proposed_sku": "HT-200",
+      "matched_description": "2in layflat discharge hose",
+      "confidence": "HIGH",
+      "review_reason": null,
+      "alternative_matches": [
+        [
+          "HT-150",
+          0.742
+        ],
+        [
+          "HT-100",
+          0.742
+        ],
+        [
+          "UN-200",
+          0.24
+        ]
+      ],
+      "issues": [],
+      "status": "READY"
+    },
+    {
+      "order_id": "O004",
+      "line_number": "2",
+      "customer_item_number": "C-302",
+      "raw_source": "2 | C-302 | 2 brass elbow | 10 | each | 11.50",
+      "extracted_value": {
+        "customer_item_number": "C-302",
+        "raw_description": "2 brass elbow",
+        "quantity": 10.0,
+        "unit": "each",
+        "sku_hint": null
+      },
+      "proposed_sku": "EL-200",
+      "matched_description": "2in brass 90 degree elbow",
+      "confidence": "LOW",
+      "review_reason": "ambiguous catalog match",
+      "alternative_matches": [
+        [
+          "UN-200",
+          0.684
+        ],
+        [
+          "CO-200",
+          0.684
+        ],
+        [
+          "TE-200",
+          0.684
+        ]
+      ],
+      "issues": [],
+      "status": "REVIEW REQUIRED"
+    }
+  ],
+  "parse_status": "OK",
+  "ocr_status": "NOT_REQUIRED",
+  "parse_time_ms": 1.37
+}

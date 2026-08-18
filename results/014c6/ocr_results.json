@@ -1,0 +1,504 @@
+[
+  {
+    "order_id": "O035",
+    "ocr_status": "OCR_LOW_CONFIDENCE",
+    "ocr_confidence": 0.0,
+    "ocr_quality_score": 0.0,
+    "ocr_preprocessing": "original",
+    "ocr_text": "",
+    "result": {
+      "order_id": "O035",
+      "order_status": "EXCEPTION",
+      "ocr_status": "OCR_LOW_CONFIDENCE",
+      "ocr_confidence": 0.0,
+      "ocr_quality_score": 0.0,
+      "ocr_preprocessing": "original",
+      "ocr_text": "",
+      "parse_status": "OCR_LOW_CONFIDENCE",
+      "parse_time_ms": null,
+      "line_rows": [],
+      "blocked_reason": "no text detected"
+    }
+  },
+  {
+    "order_id": "O036",
+    "ocr_status": "OK",
+    "ocr_confidence": 0.9134,
+    "ocr_quality_score": 0.9208,
+    "ocr_preprocessing": "original",
+    "ocr_text": "PO RP-9999\nOrder 2026-08-16 /Due 2028-08-23\nC-3501 Zp-9999 2in valve 4eacn\nfaded edge\npaper crease\nlow quatity scan",
+    "result": {
+      "order_id": "O036",
+      "order_status": "EXCEPTION",
+      "line_rows": []
+    }
+  },
+  {
+    "order_id": "O039",
+    "ocr_status": "OK",
+    "ocr_confidence": 0.976,
+    "ocr_quality_score": 0.9358,
+    "ocr_preprocessing": "gray_upscaled_2x",
+    "ocr_text": "Brightpath Components\nPO BP-7420\nOrder 2026-08-16/Due 2026-08-24\nPartPart7A-19\npapercrease\nlowquality scan",
+    "result": {
+      "order_id": "O039",
+      "order_status": "EXCEPTION",
+      "line_rows": []
+    }
+  },
+  {
+    "order_id": "O001",
+    "ocr_status": "OK",
+    "ocr_confidence": 0.9403,
+    "ocr_quality_score": 1.0523,
+    "ocr_preprocessing": "gray_upscaled_2x",
+    "ocr_text": "NovaLabs wholesale Order\nCustomer:Apex Fabrication\nPO#:AF-240801\nOrder Date: 2026-08-01\nRequested Delivery:2026-08-05\n1 | C-0o1 \u4e28 2in brass full-port valve \u4e28 6 \u4e28 each \u4e28 124.00\n2 \u4e28C-002| 4.5 grinding disc 36 grit | 24 | each \u4e28 2.10\nPagel of1\nPrinted from order desk",
+    "result": {
+      "order_id": "O001",
+      "order_status": "REVIEW REQUIRED",
+      "line_rows": [
+        {
+          "order_id": "O001",
+          "line_number": "1",
+          "customer_item_number": "C-0o1",
+          "raw_source": "1 | C-0o1 \u4e28 2in brass full-port valve \u4e28 6 \u4e28 each \u4e28 124.00",
+          "extracted_value": {
+            "customer_item_number": "C-0o1",
+            "raw_description": "2in brass full-port valve",
+            "quantity": 6.0,
+            "unit": "each",
+            "sku_hint": null
+          },
+          "proposed_sku": "BV-205",
+          "matched_description": "2in brass full-port ball valve",
+          "confidence": "MEDIUM",
+          "review_reason": "fuzzy description match",
+          "alternative_matches": [
+            [
+              "BV-210",
+              0.604
+            ],
+            [
+              "PV-200",
+              0.519
+            ],
+            [
+              "SV-200",
+              0.519
+            ]
+          ],
+          "issues": [],
+          "status": "REVIEW REQUIRED"
+        },
+        {
+          "order_id": "O001",
+          "line_number": "2",
+          "customer_item_number": "C-002",
+          "raw_source": "2 \u4e28C-002| 4.5 grinding disc 36 grit | 24 | each \u4e28 2.10\nPagel of1\nPrinted from order desk",
+          "extracted_value": {
+            "customer_item_number": "C-002",
+            "raw_description": "4.5 grinding disc 36 grit Pagel of1 Printed from order desk",
+            "quantity": 24.0,
+            "unit": "each",
+            "sku_hint": null
+          },
+          "proposed_sku": "GD-36",
+          "matched_description": "4.5in grinding disc 36 grit",
+          "confidence": "MEDIUM",
+          "review_reason": "fuzzy description match",
+          "alternative_matches": [
+            [
+              "FD-80",
+              0.438
+            ],
+            [
+              "BV-205",
+              -0.04
+            ],
+            [
+              "BV-210",
+              -0.04
+            ]
+          ],
+          "issues": [],
+          "status": "REVIEW REQUIRED"
+        }
+      ]
+    }
+  },
+  {
+    "order_id": "O004",
+    "ocr_status": "OK",
+    "ocr_confidence": 0.9462,
+    "ocr_quality_score": 1.047,
+    "ocr_preprocessing": "original",
+    "ocr_text": "NovaLabs Wholesale Order\nCustomer: Summit Process\nPO#:SP-1180\nOrder Date: 2026-08-02\nRequested Delivery: 2026-08-08\n1\u4e28 C-301 \u4e28 2 layflat hose \u4e28 100 \u4e28 ft | 4.25\n2 \u2193 c-302 1 2 brass elbow \u2193 10 \u2193 each \u2193 11.50",
+    "result": {
+      "order_id": "O004",
+      "order_status": "REVIEW REQUIRED",
+      "line_rows": [
+        {
+          "order_id": "O004",
+          "line_number": "1",
+          "customer_item_number": "C-301",
+          "raw_source": "1\u4e28 C-301 \u4e28 2 layflat hose \u4e28 100 \u4e28 ft | 4.25\n2 \u2193 c-302 1 2 brass elbow \u2193 10 \u2193 each \u2193 11.50",
+          "extracted_value": {
+            "customer_item_number": "C-301",
+            "raw_description": "2 layflat hose 2 \u2193 c-302 1 2 brass elbow \u2193 10 \u2193 each \u2193 11.50",
+            "quantity": 100.0,
+            "unit": "ft",
+            "sku_hint": null
+          },
+          "proposed_sku": "HT-100",
+          "matched_description": "1in layflat discharge hose",
+          "confidence": "MEDIUM",
+          "review_reason": "fuzzy description match",
+          "alternative_matches": [
+            [
+              "HT-200",
+              0.752
+            ],
+            [
+              "HT-150",
+              0.505
+            ],
+            [
+              "EL-200",
+              0.233
+            ]
+          ],
+          "issues": [],
+          "status": "REVIEW REQUIRED"
+        }
+      ]
+    }
+  },
+  {
+    "order_id": "O005",
+    "ocr_status": "OK",
+    "ocr_confidence": 0.9466,
+    "ocr_quality_score": 1.0272,
+    "ocr_preprocessing": "original",
+    "ocr_text": "NovaLabswholesaleOrder\nCustomer: Ironclad Tooling\nPO#\uff1aIT-5509\nOrderDate:2026-08-03\nRequestedDelivery:2026-08-09\n1 \u4e28 C-401 \u4e28 10-24 x 2 stainless screws \u4e28 2\u4e28 box \u4e28 19.00\n2 \u4e28 C-402 \u4e28 5/16 flat washers \u4e28 4 \u4e28 box \u4e28 6.20",
+    "result": {
+      "order_id": "O005",
+      "order_status": "REVIEW REQUIRED",
+      "line_rows": [
+        {
+          "order_id": "O005",
+          "line_number": "1",
+          "customer_item_number": "C-401",
+          "raw_source": "1 \u4e28 C-401 \u4e28 10-24 x 2 stainless screws \u4e28 2\u4e28 box \u4e28 19.00",
+          "extracted_value": {
+            "customer_item_number": "C-401",
+            "raw_description": "10-24 x 2 stainless screws",
+            "quantity": 2.0,
+            "unit": "box",
+            "sku_hint": null
+          },
+          "proposed_sku": "SC-102",
+          "matched_description": "10-24 x 2in stainless screw",
+          "confidence": "MEDIUM",
+          "review_reason": "fuzzy description match",
+          "alternative_matches": [
+            [
+              "SV-200",
+              0.335
+            ],
+            [
+              "UN-200",
+              0.083
+            ],
+            [
+              "CO-200",
+              0.083
+            ]
+          ],
+          "issues": [],
+          "status": "REVIEW REQUIRED"
+        },
+        {
+          "order_id": "O005",
+          "line_number": "2",
+          "customer_item_number": "C-402",
+          "raw_source": "2 \u4e28 C-402 \u4e28 5/16 flat washers \u4e28 4 \u4e28 box \u4e28 6.20",
+          "extracted_value": {
+            "customer_item_number": "C-402",
+            "raw_description": "5/16 flat washers",
+            "quantity": 4.0,
+            "unit": "box",
+            "sku_hint": null
+          },
+          "proposed_sku": "NW-516",
+          "matched_description": "5/16in flat washer",
+          "confidence": "MEDIUM",
+          "review_reason": "fuzzy description match",
+          "alternative_matches": [
+            [
+              "BC-516",
+              0.275
+            ],
+            [
+              "SC-102",
+              0.091
+            ],
+            [
+              "BV-205",
+              -0.04
+            ]
+          ],
+          "issues": [],
+          "status": "REVIEW REQUIRED"
+        }
+      ]
+    }
+  },
+  {
+    "order_id": "O009",
+    "ocr_status": "OK",
+    "ocr_confidence": 0.9531,
+    "ocr_quality_score": 1.0175,
+    "ocr_preprocessing": "original",
+    "ocr_text": "NovaLabsWholesaleOrder\nCustomer: Allen works\nPO#\uff1aAW-3008\nOrder Date: 2026-08-05\nRequested Delivery: 2026-08-11\n1 | C-801 \u4e28 BV-205 2in full port brass valve \u4e28 4 \u4e28 each \u4e28 124.00\nfax transmission 08/15 09:22",
+    "result": {
+      "order_id": "O009",
+      "order_status": "READY",
+      "line_rows": [
+        {
+          "order_id": "O009",
+          "line_number": "1",
+          "customer_item_number": "C-801",
+          "raw_source": "1 | C-801 \u4e28 BV-205 2in full port brass valve \u4e28 4 \u4e28 each \u4e28 124.00\nfax transmission 08/15 09:22",
+          "extracted_value": {
+            "customer_item_number": "C-801",
+            "raw_description": "BV-205 2in full port brass valve fax transmission 08/15 09:22",
+            "quantity": 4.0,
+            "unit": "each",
+            "sku_hint": "BV-205"
+          },
+          "proposed_sku": "BV-205",
+          "matched_description": "2in brass full-port ball valve",
+          "confidence": "HIGH",
+          "review_reason": null,
+          "alternative_matches": [],
+          "issues": [],
+          "status": "READY"
+        }
+      ]
+    }
+  },
+  {
+    "order_id": "O011",
+    "ocr_status": "OK",
+    "ocr_confidence": 0.942,
+    "ocr_quality_score": 0.9536,
+    "ocr_preprocessing": "original",
+    "ocr_text": "NovaLabsWholesaleOrder\nCustomer:Harborline Field\nPO#:HF-7811\nOrderDate:2026-08-06\nRequested Delivery:2026-08-10\n1 \u4e28C-1001\u4e28 12/3 S0ow cable\u4e28 50\u4e28 ft\u4e28 2.35\n2\u4e28C-1002\u4e28 14/3 S00w cable\u4e28 75\u4e28ft\u4e281.95",
+    "result": {
+      "order_id": "O011",
+      "order_status": "REVIEW REQUIRED",
+      "line_rows": [
+        {
+          "order_id": "O011",
+          "line_number": "1",
+          "customer_item_number": "C-1001",
+          "raw_source": "1 \u4e28C-1001\u4e28 12/3 S0ow cable\u4e28 50\u4e28 ft\u4e28 2.35",
+          "extracted_value": {
+            "customer_item_number": "C-1001",
+            "raw_description": "12/3 S0ow cable",
+            "quantity": 50.0,
+            "unit": "ft",
+            "sku_hint": null
+          },
+          "proposed_sku": "CB-123",
+          "matched_description": "12/3 SOOW cable",
+          "confidence": "MEDIUM",
+          "review_reason": "fuzzy description match",
+          "alternative_matches": [
+            [
+              "CB-143",
+              0.293
+            ],
+            [
+              "BV-205",
+              -0.04
+            ],
+            [
+              "BV-210",
+              -0.04
+            ]
+          ],
+          "issues": [],
+          "status": "REVIEW REQUIRED"
+        },
+        {
+          "order_id": "O011",
+          "line_number": "2",
+          "customer_item_number": "C-1002",
+          "raw_source": "2\u4e28C-1002\u4e28 14/3 S00w cable\u4e28 75\u4e28ft\u4e281.95",
+          "extracted_value": {
+            "customer_item_number": "C-1002",
+            "raw_description": "14/3 S00w cable",
+            "quantity": 75.0,
+            "unit": "ft",
+            "sku_hint": null
+          },
+          "proposed_sku": "CB-143",
+          "matched_description": "14/3 SOOW cable",
+          "confidence": "MEDIUM",
+          "review_reason": "fuzzy description match",
+          "alternative_matches": [
+            [
+              "CB-123",
+              0.293
+            ],
+            [
+              "BV-205",
+              -0.04
+            ],
+            [
+              "BV-210",
+              -0.04
+            ]
+          ],
+          "issues": [],
+          "status": "REVIEW REQUIRED"
+        }
+      ]
+    }
+  },
+  {
+    "order_id": "O013",
+    "ocr_status": "OK",
+    "ocr_confidence": 0.9446,
+    "ocr_quality_score": 1.0407,
+    "ocr_preprocessing": "original",
+    "ocr_text": "NovaLabs wholesale Order\nCustomer: Forge Supply\nPO#:FS-2809\nOrder Date: 2026-08-07\nRequested Delivery: 2026-08-12\n1 \u4e28 C-1201 \u4e28 TB-200 2 tape roll \u4e28 8\u4e28 roll \u4e28 5.30\n2\u4e28 C-1202\u4e28 2x4 label roll \u4e28 4| roll \u4e28 18.00\nexpediteifpossible",
+    "result": {
+      "order_id": "O013",
+      "order_status": "REVIEW REQUIRED",
+      "line_rows": [
+        {
+          "order_id": "O013",
+          "line_number": "1",
+          "customer_item_number": "C-1201",
+          "raw_source": "1 \u4e28 C-1201 \u4e28 TB-200 2 tape roll \u4e28 8\u4e28 roll \u4e28 5.30",
+          "extracted_value": {
+            "customer_item_number": "C-1201",
+            "raw_description": "TB-200 2 tape roll",
+            "quantity": 8.0,
+            "unit": "roll",
+            "sku_hint": "TB-200"
+          },
+          "proposed_sku": "TB-200",
+          "matched_description": "2in x 100 yd packaging tape",
+          "confidence": "HIGH",
+          "review_reason": null,
+          "alternative_matches": [],
+          "issues": [],
+          "status": "READY"
+        },
+        {
+          "order_id": "O013",
+          "line_number": "2",
+          "customer_item_number": "C-1202",
+          "raw_source": "2\u4e28 C-1202\u4e28 2x4 label roll \u4e28 4| roll \u4e28 18.00\nexpediteifpossible",
+          "extracted_value": {
+            "customer_item_number": "C-1202",
+            "raw_description": "2x4 label roll expediteifpossible",
+            "quantity": 4.0,
+            "unit": "roll",
+            "sku_hint": null
+          },
+          "proposed_sku": "LB-24",
+          "matched_description": "2in x 4in label roll 500 labels",
+          "confidence": "MEDIUM",
+          "review_reason": "fuzzy description match",
+          "alternative_matches": [
+            [
+              "AD-200",
+              -0.011
+            ],
+            [
+              "SC-102",
+              -0.02
+            ],
+            [
+              "TB-200",
+              -0.032
+            ]
+          ],
+          "issues": [],
+          "status": "REVIEW REQUIRED"
+        }
+      ]
+    }
+  },
+  {
+    "order_id": "O015",
+    "ocr_status": "OK",
+    "ocr_confidence": 0.9474,
+    "ocr_quality_score": 1.0479,
+    "ocr_preprocessing": "original",
+    "ocr_text": "Nova Labs wholesale Order\nCustomer:Keystone Maintenance\nPO#:KM-6621\nOrderDate:2026-08-08\nRequested Delivery: 2026-08-13\n1 | C-1401 \u4e28 AD-200 2 x 1.5 brass reducer \u4e28 5 \u4e28 each \u4e28 9.60\n2 \u4e28C-1402 \u4e28 2 brass flange \u4e28 5\u4e28 each \u4e28 18.75",
+    "result": {
+      "order_id": "O015",
+      "order_status": "REVIEW REQUIRED",
+      "line_rows": [
+        {
+          "order_id": "O015",
+          "line_number": "1",
+          "customer_item_number": "C-1401",
+          "raw_source": "1 | C-1401 \u4e28 AD-200 2 x 1.5 brass reducer \u4e28 5 \u4e28 each \u4e28 9.60",
+          "extracted_value": {
+            "customer_item_number": "C-1401",
+            "raw_description": "AD-200 2 x 1.5 brass reducer",
+            "quantity": 5.0,
+            "unit": "each",
+            "sku_hint": "AD-200"
+          },
+          "proposed_sku": "AD-200",
+          "matched_description": "2in x 1.5in brass reducer",
+          "confidence": "HIGH",
+          "review_reason": null,
+          "alternative_matches": [],
+          "issues": [],
+          "status": "READY"
+        },
+        {
+          "order_id": "O015",
+          "line_number": "2",
+          "customer_item_number": "C-1402",
+          "raw_source": "2 \u4e28C-1402 \u4e28 2 brass flange \u4e28 5\u4e28 each \u4e28 18.75",
+          "extracted_value": {
+            "customer_item_number": "C-1402",
+            "raw_description": "2 brass flange",
+            "quantity": 5.0,
+            "unit": "each",
+            "sku_hint": null
+          },
+          "proposed_sku": "FL-200",
+          "matched_description": "2in brass flange",
+          "confidence": "MEDIUM",
+          "review_reason": "fuzzy description match",
+          "alternative_matches": [
+            [
+              "UN-200",
+              0.639
+            ],
+            [
+              "CO-200",
+              0.639
+            ],
+            [
+              "TE-200",
+              0.639
+            ]
+          ],
+          "issues": [],
+          "status": "REVIEW REQUIRED"
+        }
+      ]
+    }
+  }
+]

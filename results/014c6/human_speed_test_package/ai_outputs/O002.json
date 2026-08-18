@@ -1,0 +1,75 @@
+{
+  "order_id": "O002",
+  "order_status": "READY",
+  "line_rows": [
+    {
+      "order_id": "O002",
+      "line_number": "1",
+      "customer_item_number": "C-101",
+      "raw_source": "1 | C-101 | 1.5 brass ball valve | 3 | each | 89.00",
+      "extracted_value": {
+        "customer_item_number": "C-101",
+        "raw_description": "1.5 brass ball valve",
+        "quantity": 3.0,
+        "unit": "each",
+        "sku_hint": null
+      },
+      "proposed_sku": "BV-150",
+      "matched_description": "1.5in brass ball valve",
+      "confidence": "HIGH",
+      "review_reason": null,
+      "alternative_matches": [
+        [
+          "BV-205",
+          0.687
+        ],
+        [
+          "BV-300",
+          0.631
+        ],
+        [
+          "BV-100",
+          0.626
+        ]
+      ],
+      "issues": [],
+      "status": "READY"
+    },
+    {
+      "order_id": "O002",
+      "line_number": "2",
+      "customer_item_number": "C-102",
+      "raw_source": "2 | C-102 | 2 brass union | 3 | each | 14.20",
+      "extracted_value": {
+        "customer_item_number": "C-102",
+        "raw_description": "2 brass union",
+        "quantity": 3.0,
+        "unit": "each",
+        "sku_hint": null
+      },
+      "proposed_sku": "UN-200",
+      "matched_description": "2in brass union",
+      "confidence": "HIGH",
+      "review_reason": null,
+      "alternative_matches": [
+        [
+          "CO-200",
+          0.679
+        ],
+        [
+          "TE-200",
+          0.679
+        ],
+        [
+          "FL-200",
+          0.679
+        ]
+      ],
+      "issues": [],
+      "status": "READY"
+    }
+  ],
+  "parse_status": "OK",
+  "ocr_status": "NOT_REQUIRED",
+  "parse_time_ms": 0.38
+}

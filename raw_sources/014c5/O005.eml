@@ -1,0 +1,20 @@
+Subject: PO IT-5509
+From: orders@example.com
+To: warehouse@example.com
+Date: Wed, 05 Aug 2026 09:00:00 -0400
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Customer: Ironclad Tooling
+PO #: IT-5509
+Order Date: 2026-08-03
+Requested Delivery: 2026-08-09
+
+1 | C-401 | 10-24 x 2 stainless screws | 2 | box | 19.00
+2 | C-402 | 5/16 flat washers | 4 | box | 6.20
+
+Thanks,
+Shipping Desk
+
+Disclaimer: quantities subject to final count.

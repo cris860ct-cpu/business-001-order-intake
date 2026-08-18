@@ -1,0 +1,75 @@
+{
+  "order_id": "O006",
+  "order_status": "READY",
+  "line_rows": [
+    {
+      "order_id": "O006",
+      "line_number": "1",
+      "customer_item_number": "C-501",
+      "raw_source": "1 | C-501 | 1 HP sump pump | 2 | each | 214.00",
+      "extracted_value": {
+        "customer_item_number": "C-501",
+        "raw_description": "1 HP sump pump",
+        "quantity": 2.0,
+        "unit": "each",
+        "sku_hint": null
+      },
+      "proposed_sku": "PM-1HP",
+      "matched_description": "1 HP sump pump",
+      "confidence": "HIGH",
+      "review_reason": null,
+      "alternative_matches": [
+        [
+          "PM-2HP",
+          0.563
+        ],
+        [
+          "BV-100",
+          0.247
+        ],
+        [
+          "HT-100",
+          0.23
+        ]
+      ],
+      "issues": [],
+      "status": "READY"
+    },
+    {
+      "order_id": "O006",
+      "line_number": "2",
+      "customer_item_number": "C-502",
+      "raw_source": "2 | C-502 | gasket sealant 16 oz | 3 | each | 14.60",
+      "extracted_value": {
+        "customer_item_number": "C-502",
+        "raw_description": "gasket sealant 16 oz",
+        "quantity": 3.0,
+        "unit": "each",
+        "sku_hint": null
+      },
+      "proposed_sku": "GN-16",
+      "matched_description": "gasket sealant 16 oz",
+      "confidence": "HIGH",
+      "review_reason": null,
+      "alternative_matches": [
+        [
+          "LS-01",
+          0.131
+        ],
+        [
+          "LS-02",
+          0.131
+        ],
+        [
+          "BV-205",
+          0.0
+        ]
+      ],
+      "issues": [],
+      "status": "READY"
+    }
+  ],
+  "parse_status": "OK",
+  "ocr_status": "NOT_REQUIRED",
+  "parse_time_ms": 1.2
+}

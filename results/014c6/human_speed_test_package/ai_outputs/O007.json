@@ -1,0 +1,75 @@
+{
+  "order_id": "O007",
+  "order_status": "READY",
+  "line_rows": [
+    {
+      "order_id": "O007",
+      "line_number": "1",
+      "customer_item_number": "C-601",
+      "raw_source": "1 | C-601 | 2 bronze gate valve | 1 | each | 132.00",
+      "extracted_value": {
+        "customer_item_number": "C-601",
+        "raw_description": "2 bronze gate valve",
+        "quantity": 1.0,
+        "unit": "each",
+        "sku_hint": null
+      },
+      "proposed_sku": "GV-200",
+      "matched_description": "2in bronze gate valve",
+      "confidence": "HIGH",
+      "review_reason": null,
+      "alternative_matches": [
+        [
+          "GV-300",
+          0.719
+        ],
+        [
+          "CV-200",
+          0.472
+        ],
+        [
+          "PV-200",
+          0.274
+        ]
+      ],
+      "issues": [],
+      "status": "READY"
+    },
+    {
+      "order_id": "O007",
+      "line_number": "2",
+      "customer_item_number": "C-602",
+      "raw_source": "2 | C-602 | 2 bronze check valve | 1 | each | 109.00",
+      "extracted_value": {
+        "customer_item_number": "C-602",
+        "raw_description": "2 bronze check valve",
+        "quantity": 1.0,
+        "unit": "each",
+        "sku_hint": null
+      },
+      "proposed_sku": "CV-200",
+      "matched_description": "2in bronze check valve",
+      "confidence": "HIGH",
+      "review_reason": null,
+      "alternative_matches": [
+        [
+          "CV-300",
+          0.719
+        ],
+        [
+          "GV-200",
+          0.472
+        ],
+        [
+          "PV-200",
+          0.274
+        ]
+      ],
+      "issues": [],
+      "status": "READY"
+    }
+  ],
+  "parse_status": "OK",
+  "ocr_status": "NOT_REQUIRED",
+  "parse_time_ms": 1.14
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "order_id": "O004",
+    "source_type": "scan",
+    "expected": "line 2 present",
+    "actual": "line missing",
+    "failure_class": "F2 EXTRACTION FAILURE",
+    "severity": "high",
+    "root_cause": "OCR missed the line or parser could not segment it",
+    "fix_candidate": "improve image preprocessing or OCR segmentation"
+  },
+  {
+    "order_id": "O035",
+    "source_type": "scan",
+    "expected": "EXCEPTION",
+    "actual": "EXCEPTION",
+    "failure_class": "F11 OCR FAILURE",
+    "severity": "medium",
+    "root_cause": "OCR low confidence",
+    "fix_candidate": "improve preprocessing or require human review"
+  },
+  {
+    "order_id": "O036",
+    "source_type": "scan",
+    "expected": "line 1 present",
+    "actual": "line missing",
+    "failure_class": "F2 EXTRACTION FAILURE",
+    "severity": "high",
+    "root_cause": "OCR missed the line or parser could not segment it",
+    "fix_candidate": "improve image preprocessing or OCR segmentation"
+  },
+  {
+    "order_id": "O039",
+    "source_type": "scan",
+    "expected": "line 1 present",
+    "actual": "line missing",
+    "failure_class": "F2 EXTRACTION FAILURE",
+    "severity": "high",
+    "root_cause": "OCR missed the line or parser could not segment it",
+    "fix_candidate": "improve image preprocessing or OCR segmentation"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "orders_tested": 10,
+  "ocr_character_accuracy": 0.7078,
+  "ocr_token_f1": 0.457,
+  "header_extraction_accuracy": 0.4,
+  "line_item_extraction_recall": 0.65,
+  "catalog_match_accuracy": 0.7,
+  "exception_recall": 1.0,
+  "percent_auto_ready": 0.1,
+  "percent_review_required": 0.6,
+  "percent_exception": 0.3
+}
